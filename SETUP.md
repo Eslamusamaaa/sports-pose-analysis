@@ -52,7 +52,7 @@ OSNet re-ID weights `osnet_ain_x1_0_msmt17.pth` → `app/backend/reid/` (see `do
 ## 3. Reproduce the swimming model
 
 ```powershell
-# 3.1 data: SwimXYZ (CC-BY 4.0, https://zenodo.org/records/8399376), ~6.6 GB, md5-checked
+# 3.1 data: SwimXYZ (CC-BY 4.0, https://zenodo.org/records/8399376; paper DOI 10.1145/3623264.3624440), ~6.6 GB, md5-checked
 mkdir data/swimxyz/raw ; copy swimming/download.sh and swimming/manifest.txt into it ; run `bash download.sh` there (Git Bash)
 
 # 3.2 SwimXYZ → MMAction2 PoseDataset (COCO-17, 30 fps, 60-frame windows), one pickle per stroke

@@ -168,6 +168,17 @@ Expect roughly an hour, dominated by downloads and installs (an estimate, not a 
 **Where to pick up** — see [`docs/STATUS.md`](docs/STATUS.md) and [`docs/KARATE_APPROACHES.md`](docs/KARATE_APPROACHES.md): the open work is the annotation tool,
 Kyokushin MoCap → 2D training for karate, real-video evaluation for swimming, and held-out-performer evaluation before any karate claim.
 
+## Datasets and references
+
+**SwimXYZ** (used to train the swimming model)
+- Data (Zenodo, CC-BY 4.0): <https://zenodo.org/records/8399376> — annotations for 3.4 M synthetic frames with ground-truth 2D/3D joints, plus 240 swimming motion sequences in SMPL format. Only the `*_labels.zip` files were used (2D BODY_25 joints), not the rendered videos.
+- Paper: G. Fiche, V. Sevestre, C. Gonzalez-Barral, S. Leglaive, R. Séguier, 2023 — DOI [10.1145/3623264.3624440](https://doi.org/10.1145/3623264.3624440) (linked from the Zenodo record).
+- Please cite the paper if you reuse the dataset or this model.
+
+**Karate** — no downloadable labelled video dataset exists; the verified sources (Kyokushin MoCap CC0, Karate Stances 2026, Punch_DL) and gated ones (MS-KARD, Karate Technical Action, Kumite 35K+) are listed with links in [`docs/DATASET_RESEARCH.md`](docs/DATASET_RESEARCH.md).
+
+The SwimXYZ files are not stored locally or in this repo; `swimming/download.sh` re-downloads them (md5-checked).
+
 ## What is deliberately NOT in this repo
 - Input videos (match footage, swimming clips) — rights unclear; see `docs/DATASET_RESEARCH.md` §8.
 - `data/jobs/` artefacts (~53 GB of OpenPose overlay videos, regenerable), venvs, `node_modules`, OpenPose / llama.cpp binaries.
