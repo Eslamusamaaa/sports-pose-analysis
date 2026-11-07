@@ -135,6 +135,39 @@ All paths in the code are relative to the repository root or configurable throug
 
 Swimming data: **SwimXYZ** — <https://zenodo.org/records/8399376> (CC-BY 4.0). `swimming/download.sh` + `swimming/manifest.txt` fetch the four `*_labels.zip` (~6.6 GB) with md5 sums.
 
+## Continuing from a fresh clone
+
+What a fresh `git clone` gives you, what you still have to do, and what is missing.
+
+**Verified on a clean clone** (26 MB, 129 files):
+- the backend config loads with no machine-specific paths (everything resolves relative to the repo or `app/.env`);
+- the trained swimming checkpoint is found automatically (`swim_model_ready: True`), so the Swimming page needs no training;
+- no `.env`, secrets or videos are tracked.
+
+Not verified: a full run of the web app (needs a GPU and the heavy installs below). Also remember `opencv-python` must be installed (it is in `backend/requirements.txt`).
+
+**Steps after cloning** (details and commands in [`SETUP.md`](SETUP.md)):
+1. `app/scripts/download_external.ps1` — clones `mmaction2-main` and `openpose-master`, downloads RTMPose / RTMDet / YOLO11 weights, installs the pose libraries.
+2. `pip install -r app/backend/requirements.txt`.
+3. `app/scripts/setup_mmaction_env.ps1` — Python 3.11 venv with torch 2.1, mmcv 2.1 and MMAction2.
+4. `app/scripts/download_models.ps1` — BODY_25 weights and the NTU60 / HMDB / UCF / K400 checkpoints.
+5. `app/scripts/setup_openpose_gpu.ps1` — GPU OpenPose 1.7.0 build (418 MB).
+
+Expect roughly an hour, dominated by downloads and installs (an estimate, not a measurement).
+
+**What you must bring or regenerate:**
+
+| Missing | Why | What to do |
+|---|---|---|
+| Match / swimming videos | rights unclear, not tracked | use your own footage |
+| Old `data/jobs/` results (tens of GB) | regenerable | re-run the analysis (about 18 min of GPU per long match) |
+| OSNet re-ID weights | manual download, optional | `osnet_ain_x1_0_msmt17.pth` into `app/backend/reid/`; the app runs without it |
+| SwimXYZ dataset (6.6 GB) | only needed to retrain | `swimming/download.sh`, then the steps in `SETUP.md` §3 |
+| VLM binaries and GGUF models (~10 GB) | only needed for the VLM experiment | `karate_vlm/download_models.sh` |
+
+**Where to pick up** — see [`docs/STATUS.md`](docs/STATUS.md) and [`docs/KARATE_APPROACHES.md`](docs/KARATE_APPROACHES.md): the open work is the annotation tool,
+Kyokushin MoCap → 2D training for karate, real-video evaluation for swimming, and held-out-performer evaluation before any karate claim.
+
 ## What is deliberately NOT in this repo
 - Input videos (match footage, swimming clips) — rights unclear; see `docs/DATASET_RESEARCH.md` §8.
 - `data/jobs/` artefacts (~53 GB of OpenPose overlay videos, regenerable), venvs, `node_modules`, OpenPose / llama.cpp binaries.
