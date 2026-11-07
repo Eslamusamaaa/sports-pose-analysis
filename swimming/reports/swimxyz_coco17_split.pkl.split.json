@@ -1,0 +1,37 @@
+{
+  "val_frac": 0.2,
+  "train_windows": 16647,
+  "val_windows": 4197,
+  "groups": 8192,
+  "largest_group_windows": 1100,
+  "train": {
+    "backstroke": 4101,
+    "breaststroke": 4177,
+    "butterfly": 4222,
+    "freestyle": 4147,
+    "swimmer:Skin_0,25_Muscle_2": 4150,
+    "swimmer:Skin_0,25_Muscle_8": 4179,
+    "swimmer:Skin_0,75_Muscle_2": 4157,
+    "swimmer:Skin_0,75_Muscle_8": 4161,
+    "view:Aerial": 3343,
+    "view:Front": 4145,
+    "view:Side_above_water": 4064,
+    "view:Side_underwater": 2370,
+    "view:Side_water_level": 2725
+  },
+  "val": {
+    "backstroke": 1056,
+    "breaststroke": 1047,
+    "butterfly": 1057,
+    "freestyle": 1037,
+    "swimmer:Skin_0,25_Muscle_2": 1041,
+    "swimmer:Skin_0,25_Muscle_8": 1032,
+    "swimmer:Skin_0,75_Muscle_2": 1058,
+    "swimmer:Skin_0,75_Muscle_8": 1066,
+    "view:Aerial": 776,
+    "view:Front": 1096,
+    "view:Side_above_water": 1061,
+    "view:Side_underwater": 564,
+    "view:Side_water_level": 700
+  }
+}

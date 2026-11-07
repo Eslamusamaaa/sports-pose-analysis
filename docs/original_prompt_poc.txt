@@ -1,0 +1,837 @@
+You are working in a parent directory that already contains two GitHub repositories:
+
+1. OpenPose
+2. MMAction2
+
+I want you to build a NEW web application in a separate folder inside this parent directory.
+
+IMPORTANT:
+
+* Do NOT modify the original OpenPose repository unless absolutely required.
+* Do NOT modify the original MMAction2 repository unless absolutely required.
+* Treat both repositories as external/local dependencies.
+* Create a completely separate application folder.
+* The application must connect the web frontend to a backend that runs the computer vision pipeline.
+
+==================================================
+
+# MAIN GOAL
+
+==================================================
+
+Build a working web application where I can:
+
+1. Open the website.
+2. Upload a real video.
+3. Send the video to the backend.
+4. Run OpenPose on the uploaded video.
+5. See the OpenPose skeleton visualization/result in the browser.
+6. Extract and save the OpenPose BODY_25 keypoints.
+7. Run MMAction2 skeleton-based action recognition.
+8. See the MMAction2 prediction/result in the browser.
+9. See useful metadata, logs, processing status, and output files.
+
+The initial goal is a Proof of Concept.
+
+DO NOT build a production-grade system yet.
+
+DO NOT train a Karate model yet.
+
+The immediate goal is to prove that:
+
+Browser
+→ Backend
+→ OpenPose
+→ Skeleton
+→ MMAction2
+→ Results
+→ Browser
+
+works end-to-end.
+
+==================================================
+
+# APPLICATION STRUCTURE
+
+==================================================
+
+Create a new folder:
+
+karate-ai-web/
+
+Do NOT put the application code inside OpenPose or MMAction2.
+
+Suggested structure:
+
+karate-ai-web/
+
+```
+backend/
+    app/
+    services/
+    pipelines/
+    utils/
+    main.py
+    requirements.txt
+
+frontend/
+
+data/
+    uploads/
+    openpose/
+    skeletons/
+    mmaction/
+    results/
+
+scripts/
+
+outputs/
+
+README.md
+```
+
+You may improve this structure if you have a better architecture, but keep OpenPose and MMAction2 outside the application.
+
+==================================================
+
+# FIRST TASK — INSPECT THE ENVIRONMENT
+
+==================================================
+
+Before writing the application, inspect:
+
+* OS
+* Python version
+* CUDA version
+* GPU
+* PyTorch version
+* OpenPose installation/build status
+* OpenPose executable path
+* BODY_25 model availability
+* MMAction2 installation
+* MMAction2 version
+* MMEngine version
+* MMCV version
+* MMPose/MMDetection availability if required
+* FFmpeg availability
+
+Find the actual paths of:
+
+OpenPose
+MMAction2
+
+Do NOT assume their paths.
+
+If something is missing, report it clearly and install only what is necessary.
+
+At this stage, do not modify the original repositories.
+
+==================================================
+
+# WEB STACK
+
+==================================================
+
+Build a simple but clean web application.
+
+Backend:
+
+* Python
+* FastAPI
+
+Frontend:
+
+* React
+* Vite
+* TypeScript
+
+Use a simple modern UI.
+
+Do NOT spend excessive time on visual design.
+
+The UI should focus on demonstrating the AI pipeline.
+
+==================================================
+
+# FRONTEND
+
+==================================================
+
+Create a dashboard with:
+
+## Upload section
+
+Allow the user to:
+
+* Select a video
+* Display the selected filename
+* Display video size
+* Upload/start processing
+
+Example:
+
+[ Select Video ]
+
+selected:
+karate.mp4
+
+[ Analyze Video ]
+
+==================================================
+
+# PROCESSING STATUS
+
+==================================================
+
+After upload, display a pipeline status:
+
+1. Uploading
+2. Running OpenPose
+3. Extracting BODY_25 skeleton
+4. Preparing MMAction2 input
+5. Running MMAction2
+6. Completed
+
+Show the current stage clearly.
+
+For example:
+
+✓ Video uploaded
+
+✓ OpenPose completed
+
+✓ Skeleton extracted
+
+⏳ MMAction2 running
+
+○ Final result
+
+==================================================
+
+# OPENPOSE RESULT
+
+==================================================
+
+After OpenPose finishes, show a section:
+
+## OpenPose Result
+
+Display:
+
+1. Original video
+2. Processed video with skeleton overlay
+
+If possible, allow the user to switch between:
+
+[ Original ]
+[ OpenPose Skeleton ]
+
+The OpenPose output should be generated from the uploaded video.
+
+Use BODY_25.
+
+Also provide:
+
+* Number of frames processed
+* Number of detected people
+* Average detected people per frame
+* Processing time
+* JSON output location
+
+Also provide a button:
+
+[ View Skeleton JSON ]
+
+The UI does not need to display the entire JSON by default.
+
+Instead show a summarized structure.
+
+==================================================
+
+# SKELETON DATA
+
+==================================================
+
+OpenPose outputs BODY_25 keypoints.
+
+Inspect the actual OpenPose JSON format.
+
+Do NOT assume the format.
+
+Create a backend service that parses the OpenPose JSON.
+
+Extract:
+
+* person id
+* frame number
+* keypoint coordinates
+* confidence scores
+
+Preserve the original OpenPose JSON.
+
+Do not destroy or overwrite it.
+
+==================================================
+
+# MMACTION2
+
+==================================================
+
+After OpenPose finishes, prepare the skeleton data for MMAction2.
+
+IMPORTANT:
+
+Do NOT assume that BODY_25 is directly compatible with the selected pretrained MMAction2 model.
+
+Inspect the selected MMAction2 model/config/checkpoint.
+
+Determine:
+
+* Number of keypoints expected
+* Coordinate format
+* Tensor shape
+* Dataset
+* Label map
+* Number of classes
+
+For example, determine whether the model expects:
+
+M × T × V × C
+
+where:
+
+M = persons
+T = frames
+V = keypoints
+C = coordinates
+
+If a conversion is required, implement it in:
+
+backend/app/services/skeleton_converter.py
+
+Document the conversion.
+
+If the selected checkpoint is incompatible with BODY_25, DO NOT silently fake compatibility.
+
+Either:
+
+A) select a compatible model
+
+OR
+
+B) implement a clearly documented keypoint mapping
+
+and explain the limitations.
+
+==================================================
+
+# MMACTION2 INFERENCE
+
+==================================================
+
+Use a pretrained skeleton-based action recognition model.
+
+Prefer ST-GCN if it is practical.
+
+The application should run inference on the skeleton extracted from OpenPose.
+
+The result should include:
+
+* Top-1 prediction
+* Top-5 predictions
+* confidence/probability
+* label name
+* model name
+* dataset used to train the checkpoint
+
+Example UI:
+
+## MMAction2 Result
+
+Top Prediction:
+
+Action: Walking
+Confidence: 0.72
+
+Top 5:
+
+1. Walking — 0.72
+2. Running — 0.11
+3. ...
+4. ...
+5. ...
+
+IMPORTANT:
+
+The pretrained model is NOT a Karate-specific model.
+
+Do NOT label the prediction as a confirmed Karate action.
+
+If the model was trained on NTU RGB+D, Kinetics, or another dataset, clearly show that in the UI.
+
+Example:
+
+Model:
+ST-GCN
+
+Dataset:
+NTU RGB+D
+
+Status:
+OUT-OF-DOMAIN KARATE TEST
+
+==================================================
+
+# REAL KARATE VIDEO
+
+==================================================
+
+I will provide a real Karate video.
+
+The application must allow me to upload it from the browser.
+
+The pipeline should process it automatically:
+
+uploaded video
+↓
+OpenPose
+↓
+BODY_25 JSON
+↓
+Skeleton conversion
+↓
+MMAction2
+↓
+Prediction
+↓
+Frontend result
+
+If the pretrained MMAction2 model produces poor or unrelated predictions, that is acceptable.
+
+The purpose of this phase is to validate the pipeline.
+
+==================================================
+
+# BACKEND API
+
+==================================================
+
+Create clean API endpoints.
+
+At minimum:
+
+POST /api/analyze
+
+Upload a video and start analysis.
+
+GET /api/jobs/{job_id}
+
+Return processing status.
+
+GET /api/jobs/{job_id}/result
+
+Return final results.
+
+GET /api/jobs/{job_id}/openpose-video
+
+Return the processed OpenPose video.
+
+GET /api/jobs/{job_id}/skeleton
+
+Return skeleton information.
+
+GET /api/jobs/{job_id}/predictions
+
+Return MMAction2 predictions.
+
+Use a job_id for every analysis.
+
+Example:
+
+POST /api/analyze
+
+Response:
+
+{
+"job_id": "abc123",
+"status": "queued"
+}
+
+Then:
+
+GET /api/jobs/abc123
+
+returns:
+
+{
+"status": "running",
+"stage": "openpose"
+}
+
+Eventually:
+
+{
+"status": "completed",
+"stage": "completed"
+}
+
+==================================================
+
+# PIPELINE SERVICE
+
+==================================================
+
+Create a clear pipeline service.
+
+For example:
+
+backend/app/pipelines/video_analysis.py
+
+Conceptually:
+
+analyze_video(video_path):
+
+```
+validate_video()
+
+run_openpose()
+
+parse_openpose_json()
+
+convert_skeleton()
+
+run_mmaction2()
+
+save_results()
+
+return results
+```
+
+Keep each stage separate.
+
+For example:
+
+backend/app/services/
+
+```
+openpose_service.py
+skeleton_service.py
+mmaction_service.py
+video_service.py
+```
+
+Do not put everything in one huge Python file.
+
+==================================================
+
+# PROCESS EXECUTION
+
+==================================================
+
+OpenPose and MMAction2 may require command-line execution.
+
+Use Python subprocess safely.
+
+Do not hardcode random paths.
+
+Create configuration variables such as:
+
+OPENPOSE_DIR=
+OPENPOSE_BIN=
+OPENPOSE_MODEL_DIR=
+MMACTION2_DIR=
+CHECKPOINT_PATH=
+LABEL_MAP_PATH=
+DEVICE=cuda:0
+
+Use a .env file.
+
+Create:
+
+.env.example
+
+Do NOT commit real secrets.
+
+==================================================
+
+# GPU
+
+==================================================
+
+Prefer CUDA/GPU when available.
+
+Detect GPU automatically.
+
+If CUDA is unavailable, provide a CPU fallback where practical.
+
+Do not silently run an extremely slow CPU pipeline.
+
+Report which device is being used.
+
+==================================================
+
+# VIDEO OUTPUT
+
+==================================================
+
+The application should preserve:
+
+1. Original uploaded video
+2. OpenPose processed video
+3. Skeleton JSON
+4. MMAction2 result JSON
+
+Use a job-specific directory:
+
+data/
+jobs/
+<job_id>/
+
+```
+        input.mp4
+
+        openpose/
+            json/
+            output_video.avi
+
+        skeleton/
+            skeleton.json
+
+        mmaction/
+            prediction.json
+
+        result.json
+```
+
+This makes debugging much easier.
+
+==================================================
+
+# FRONTEND RESULT PAGE
+
+==================================================
+
+After processing, show:
+
+---
+
+## VIDEO ANALYSIS
+
+Original Video
+[ video player ]
+
+OpenPose Result
+[ video player with skeleton ]
+
+---
+
+## OPENPOSE
+
+People detected: X
+Frames processed: X
+Processing time: X seconds
+
+BODY_25:
+25 keypoints
+
+[ View Skeleton Data ]
+
+---
+
+## MMACTION2
+
+Model:
+ST-GCN
+
+Dataset:
+XXXX
+
+Prediction:
+
+Action: XXXX
+Confidence: XX%
+
+Top 5:
+
+1. XXXX
+2. XXXX
+3. XXXX
+4. XXXX
+5. XXXX
+
+---
+
+Pipeline:
+
+✓ Upload
+✓ OpenPose
+✓ Skeleton extraction
+✓ MMAction2
+✓ Completed
+
+==================================================
+
+# ERROR HANDLING
+
+==================================================
+
+If OpenPose fails:
+
+Show:
+
+OpenPose failed
+
+and the actual backend error/log.
+
+If skeleton conversion fails:
+
+Show:
+
+Skeleton conversion failed
+
+If MMAction2 fails:
+
+Do NOT mark the entire application as broken.
+
+Show:
+
+OpenPose completed successfully.
+
+MMAction2 failed.
+
+This is important because I want to debug each stage independently.
+
+==================================================
+
+# LOGGING
+
+==================================================
+
+Create useful logs.
+
+For every job, log:
+
+* upload started
+* upload completed
+* OpenPose command
+* OpenPose started
+* OpenPose completed
+* number of JSON frames
+* number of people
+* skeleton conversion started
+* skeleton conversion completed
+* MMAction2 started
+* MMAction2 completed
+* prediction result
+* errors
+
+Do not hide errors.
+
+==================================================
+
+# DEVELOPMENT EXPERIENCE
+
+==================================================
+
+Create simple commands to run the application.
+
+For example:
+
+Backend:
+
+cd backend
+uvicorn app.main:app --reload
+
+Frontend:
+
+cd frontend
+npm install
+npm run dev
+
+Document the exact commands in README.md.
+
+If a different setup is required, document the actual commands.
+
+==================================================
+
+# IMPORTANT: DO NOT TRAIN YET
+
+==================================================
+
+Do NOT create a Karate training pipeline yet.
+
+Do NOT create Punch/Kick/Block training yet.
+
+Do NOT collect or label a dataset yet.
+
+The goal is only:
+
+REAL VIDEO
+→ OPENPOSE
+→ BODY_25
+→ SKELETON
+→ MMACTION2 PRETRAINED MODEL
+→ PREDICTION
+→ WEB UI
+
+==================================================
+
+# IMPORTANT: VERIFY EVERYTHING
+
+==================================================
+
+Do not simply write code and assume it works.
+
+Actually run the application.
+
+Actually upload/process a test video.
+
+Actually run OpenPose.
+
+Actually generate the skeleton.
+
+Actually run MMAction2 if technically compatible.
+
+Fix errors.
+
+Verify the frontend can retrieve and display the generated outputs.
+
+If something cannot work because of model/keypoint incompatibility, stop at that exact stage and explain the technical reason.
+
+Do not fake successful results.
+
+==================================================
+
+# FINAL DELIVERABLE
+
+==================================================
+
+At the end provide:
+
+1. Final project structure
+2. Exact commands to run backend
+3. Exact commands to run frontend
+4. Environment variables
+5. OpenPose command used
+6. MMAction2 command used
+7. Model/checkpoint used
+8. Dataset used by the checkpoint
+9. Keypoint format
+10. Any BODY_25 → model keypoint conversion
+11. Example API request
+12. Example API response
+13. Test video result
+14. What worked
+15. What failed
+16. Known limitations
+17. Exact next step required to make it recognize Karate actions such as:
+
+    * Punch
+    * Kick
+    * Block
+
+Most importantly:
+
+DO NOT claim that the system recognizes Karate correctly unless it has been trained/evaluated on a Karate dataset.
+
+The current milestone is simply proving the complete web-connected pipeline.

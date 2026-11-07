@@ -1,0 +1,32 @@
+{
+  "windows": 5279,
+  "stats": {
+    "butterfly": 5279,
+    "view:Aerial": 1026,
+    "dropped_out_of_frame": 3359,
+    "view:Front": 1338,
+    "view:Side_above_water": 1300,
+    "view:Side_underwater": 723,
+    "view:Side_water_level": 892
+  },
+  "sequences": 2880,
+  "distinct_motions": 2880,
+  "shared_motion_groups": 0,
+  "example_shared": [],
+  "window_frames": 60,
+  "stride_frames": 45,
+  "fps": 30,
+  "img_shape": [
+    1080,
+    1920
+  ],
+  "classes": [
+    "freestyle",
+    "backstroke",
+    "breaststroke",
+    "butterfly"
+  ],
+  "strokes_converted": [
+    "butterfly"
+  ]
+}

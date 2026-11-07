@@ -1,0 +1,283 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>محركات الـ Pose للكاراتيه</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Noto+Kufi+Arabic:wght@600;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#f3f5f8; --paper:#ffffff; --ink:#18202c; --muted:#5a6578; --line:#d9dee7; --soft:#e9edf3;
+  --mat:#1f4fa3; --mat-soft:#e3ebf8;
+  --yolo:#0f7b6c; --rtm:#7a4cc2; --op:#b4532a;
+  --ok:#1d7a3e; --ok-soft:#e2f2e7; --warn:#9a6a00; --warn-soft:#fbf0d6; --bad:#b23a32; --bad-soft:#f8e2df;
+  --p1:#2563c9; --p2:#d9771f;
+  --display:"Noto Kufi Arabic","IBM Plex Sans Arabic",Tahoma,sans-serif;
+  --body:"IBM Plex Sans Arabic",Tahoma,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#11161e; --paper:#18202b; --ink:#e6ebf2; --muted:#9aa6b8; --line:#2b3544; --soft:#212b38;
+    --mat:#7aa6f0; --mat-soft:#1c2a44;
+    --yolo:#4cc3b0; --rtm:#b99af0; --op:#ec9a72;
+    --ok:#6fd096; --ok-soft:#173326; --warn:#e9c063; --warn-soft:#352b12; --bad:#f08a80; --bad-soft:#3a1e1c;
+    --p1:#7aa6f0; --p2:#f2a65e;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#11161e; --paper:#18202b; --ink:#e6ebf2; --muted:#9aa6b8; --line:#2b3544; --soft:#212b38;
+  --mat:#7aa6f0; --mat-soft:#1c2a44;
+  --yolo:#4cc3b0; --rtm:#b99af0; --op:#ec9a72;
+  --ok:#6fd096; --ok-soft:#173326; --warn:#e9c063; --warn-soft:#352b12; --bad:#f08a80; --bad-soft:#3a1e1c;
+  --p1:#7aa6f0; --p2:#f2a65e;
+}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.75}
+.page{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:40px 64px;display:grid;gap:48px}
+h1,h2,h3{font-family:var(--display);line-height:1.4;text-wrap:balance;margin:0}
+h1{font-size:clamp(28px,4.4vw,42px);font-weight:800}
+h2{font-size:24px;font-weight:800}
+h3{font-size:19px;font-weight:600}
+p{margin:0}
+.lead{color:var(--muted);max-width:64ch;font-size:17px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--mat);text-transform:uppercase}
+.en{font-family:var(--mono);direction:ltr;unicode-bidi:isolate;font-size:.92em}
+header{display:grid;gap:14px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--muted);font-size:14px}
+.facts b{color:var(--ink);font-weight:600}
+section{display:grid;gap:18px}
+.sec-head{display:grid;gap:6px}
+.sec-head p{color:var(--muted);max-width:68ch}
+
+/* shared pipeline */
+.flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:10px}
+.stage{flex:1 1 150px;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:4px;align-content:start}
+.stage.diff{border-color:var(--mat);background:var(--mat-soft)}
+.stage .k{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.stage strong{font-weight:600;font-size:15px}
+.stage span{font-size:13.5px;color:var(--muted);line-height:1.6}
+.arrow{align-self:center;color:var(--muted);font-size:18px}
+.legend{display:flex;flex-wrap:wrap;gap:16px;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-inline-end:6px;border:1px solid var(--line);background:var(--paper)}
+.legend i.d{background:var(--mat-soft);border-color:var(--mat)}
+
+/* engines */
+.engines{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.engine{background:var(--paper);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:12px;padding:20px;display:grid;gap:14px;align-content:start}
+.engine.yolo{--c:var(--yolo)} .engine.rtm{--c:var(--rtm)} .engine.op{--c:var(--op)}
+.engine .tag{font-family:var(--mono);font-size:12px;color:var(--c);direction:ltr;text-align:right}
+.engine .kind{display:inline-block;font-size:13px;font-weight:600;color:var(--c);background:var(--soft);border-radius:999px;padding:2px 10px;justify-self:start}
+.engine ol{margin:0;padding-inline-start:20px;display:grid;gap:8px;font-size:15px}
+.engine ol li::marker{font-family:var(--mono);color:var(--c)}
+.added{font-size:11.5px;font-weight:600;color:var(--warn);background:var(--warn-soft);border-radius:4px;padding:0 6px;margin-inline-start:4px;white-space:nowrap}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pc div{display:grid;gap:6px;align-content:start}
+.pc h4{margin:0;font-size:13px;font-weight:600}
+.pc .pro h4{color:var(--ok)} .pc .con h4{color:var(--bad)}
+.pc ul{margin:0;padding-inline-start:18px;font-size:14px;color:var(--muted);display:grid;gap:4px}
+.time{font-size:14px;color:var(--muted);border-top:1px dashed var(--line);padding-top:10px}
+.time b{color:var(--ink);font-family:var(--mono);font-weight:500}
+
+/* tables */
+.tw{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:14.5px}
+th,td{padding:11px 14px;text-align:right;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+thead th{font-weight:600;background:var(--soft);font-size:13.5px}
+thead th.yolo{color:var(--yolo)} thead th.rtm{color:var(--rtm)} thead th.op{color:var(--op)}
+tbody th{font-weight:500;color:var(--muted);width:24%}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums;direction:ltr;unicode-bidi:isolate}
+.y{color:var(--ok);font-weight:600} .n{color:var(--bad);font-weight:600}
+.best{background:var(--ok-soft)}
+.low{background:var(--warn-soft)}
+td.pair{white-space:nowrap}
+.foot{font-size:13px;color:var(--muted);max-width:80ch}
+.p1{color:var(--p1)} .p2{color:var(--p2)}
+
+/* notes */
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.note{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:8px;align-content:start}
+.note p{font-size:15px;color:var(--muted)}
+.rec{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.rec-row{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:16px 20px;border-bottom:1px solid var(--line);align-items:start}
+.rec-row:last-child{border-bottom:0}
+.rec-row .who{font-weight:600}
+.rec-row .who.yolo{color:var(--yolo)} .rec-row .who.rtm{color:var(--rtm)} .rec-row .who.op{color:var(--op)}
+.rec-row p{font-size:15px}
+.verdict{font-size:12px;font-weight:600;border-radius:999px;padding:1px 9px;margin-inline-start:6px}
+.verdict.go{background:var(--ok-soft);color:var(--ok)} .verdict.alt{background:var(--warn-soft);color:var(--warn)} .verdict.no{background:var(--bad-soft);color:var(--bad)}
+@media (max-width:560px){
+  .pc{grid-template-columns:1fr}
+  .rec-row{grid-template-columns:1fr;gap:6px}
+  .arrow{display:none}
+  .stage{flex-basis:100%}
+}
+</style>
+
+<div class="page" dir="rtl" lang="ar">
+
+<header>
+  <span class="eyebrow">karate-ai · pose engines</span>
+  <h1>تلات محركات Pose على نفس الماتشات</h1>
+  <p class="lead">إزاي كل محرك بيطلّع هيكل اللاعبين، وإيه اللي بيحصل بعده لحد ما الحركة تتصنّف، ومقارنة بينهم بأرقام 15 تحليل (5 فيديوهات × 3 محركات) واتراجعوا بالعين على 720 لقطة.</p>
+  <div class="facts">
+    <span>الفيديوهات: <b>5</b> (فعلياً 3 ماتشات مختلفة)</span>
+    <span>المراجعة: <b>48 لقطة</b> لكل فيديو</span>
+    <span>كارت الشاشة: <b>4 جيجا</b></span>
+    <span>موديل الحركة: <b class="en">ST-GCN NTU60</b></span>
+  </div>
+</header>
+
+<section>
+  <div class="sec-head">
+    <h2>الطريق المشترك</h2>
+    <p>المحركات بتختلف في أول مرحلة بس. كل محرك بيكتب النتيجة بنفس الشكل (JSON بصيغة <span class="en">BODY_25</span>)، فكل اللي بعد كده نفس الكود بالظبط للتلاتة.</p>
+  </div>
+  <div class="flow">
+    <div class="stage diff"><span class="k">1</span><strong>استخراج الـ pose</strong><span>مفاصل وصناديق لكل شخص في كل فريم. مختلف لكل محرك.</span></div>
+    <div class="arrow" aria-hidden="true">←</div>
+    <div class="stage"><span class="k">2</span><strong>بصمة الشكل</strong><span><span class="en">OSNet-AIN</span>: 512 رقم لكل شخص من صورة صندوقه.</span></div>
+    <div class="arrow" aria-hidden="true">←</div>
+    <div class="stage"><span class="k">3</span><strong>التتبع</strong><span><span class="en">ByteTrack</span>: رقم لكل شخص من فريم للي بعده.</span></div>
+    <div class="arrow" aria-hidden="true">←</div>
+    <div class="stage"><span class="k">4</span><strong>تحديد اللاعبين</strong><span>تقطيع التتبع وقت الالتحام، وتجميع الناس بالشكل، واختيار الأكتر ظهوراً وحركة.</span></div>
+    <div class="arrow" aria-hidden="true">←</div>
+    <div class="stage"><span class="k">5</span><strong>المتابعة وسد الفجوات</strong><span>Player 1 و2 فريم بفريم، والفجوة لحد ثانية بتتملى بالاستيفاء.</span></div>
+    <div class="arrow" aria-hidden="true">←</div>
+    <div class="stage"><span class="k">6</span><strong>الرسم والتصنيف</strong><span>الفيديو بالأسامي، و<span class="en">COCO-17</span> للاعبين بيروح لـ <span class="en">MMAction2</span>.</span></div>
+  </div>
+  <div class="legend"><span><i class="d"></i>مختلف لكل محرك</span><span><i></i>نفس الكود للتلاتة</span></div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <h2>كل محرك خطوة بخطوة</h2>
+    <p>الخطوات اللي عليها <span class="added">اتضافت</span> مش جزء من المحرك الأصلي، واحنا ضفناها عشان التلاتة يوصلوا لنفس الشكل.</p>
+  </div>
+  <div class="engines">
+
+    <article class="engine yolo">
+      <div class="tag">yolo11m-pose.pt</div>
+      <h3>YOLO11-pose</h3>
+      <span class="kind">مرحلة واحدة · one-stage</span>
+      <ol>
+        <li>الفريم كله بيدخل الموديل مرة واحدة، وبيطلع منه الصندوق و<b>17 مفصل</b> ودرجة الثقة لكل شخص.</li>
+        <li>أي شخص ثقته أقل من <span class="num">0.3</span> بيتشال.</li>
+        <li><span class="en">ByteTrack</span> شغال جوه نفس الاستدعاء <span class="en">(model.track)</span>، فكل شخص بيطلع برقم تتبع على طول.</li>
+        <li><span class="en">OSNet</span> بيقص كل صندوق ويطلّع بصمة الشكل.</li>
+        <li>الـ 17 مفصل بيتحطوا في <span class="en">BODY_25</span>، وخانات القدم بتفضل فاضية.</li>
+      </ol>
+      <div class="pc">
+        <div class="pro"><h4>مميزات</h4><ul><li>الأسرع</li><li>التتبع جزء منه ومتدرب مع الكشف</li><li>الوقت ثابت مهما زاد عدد الناس</li><li>أعلى تغطية للاعبين</li></ul></div>
+        <div class="con"><h4>عيوب</h4><ul><li>مفيش مفاصل قدم</li><li>الشخص البعيد بياخد pixels أقل، لأن الصورة كلها بتتشاف بدقة واحدة</li></ul></div>
+      </div>
+      <div class="time">وقت الماتش: <b>8–11 دقيقة</b> · خفيف على كارت الشاشة</div>
+    </article>
+
+    <article class="engine rtm">
+      <div class="tag">RTMDet-m 640 + RTMPose-m Halpe26 256×192</div>
+      <h3>RTMPose + RTMDet</h3>
+      <span class="kind">من فوق لتحت · top-down</span>
+      <ol>
+        <li><span class="en">RTMDet</span> بيكشف الأشخاص. بياخد اللي ثقته أكتر من <span class="num">0.3</span>، وبحد أقصى <b>8 أشخاص</b>.</li>
+        <li>كل شخص لوحده: صندوقه بيتقص ويتكبّر لـ <span class="num">256×192</span>، و<span class="en">RTMPose</span> يطلّع <b>26 مفصل</b> منهم 6 للقدم.</li>
+        <li><span class="en">ByteTrack</span> على صناديق RTMDet، وهو نفس tracker بتاع YOLO. <span class="added">اتضافت</span></li>
+        <li><span class="en">OSNet</span> على الصناديق.</li>
+        <li>الـ 17 مفصل والقدم بيتحطوا في <span class="en">BODY_25</span>.</li>
+      </ol>
+      <div class="pc">
+        <div class="pro"><h4>مميزات</h4><ul><li>كل شخص بيتشاف بدقته الخاصة، فنظرياً المفاصل أدق</li><li>فيه مفاصل قدم</li><li>الكاشف متخصص في الأشخاص</li></ul></div>
+        <div class="con"><h4>عيوب</h4><ul><li>الأبطأ، والوقت بيزيد مع عدد الناس</li><li>التتبع مش جزء منه</li><li>أقصى 8 أشخاص في الفريم</li></ul></div>
+      </div>
+      <div class="time">وقت الماتش: <b>12–18 دقيقة</b> · متوسط على كارت الشاشة</div>
+    </article>
+
+    <article class="engine op">
+      <div class="tag">OpenPose BODY_25 · net −1×256</div>
+      <h3>OpenPose</h3>
+      <span class="kind">من تحت لفوق · bottom-up</span>
+      <ol>
+        <li>الصورة كلها بتدخل الشبكة، وبتطلع خريطة حرارة لكل مفصل، وأسهم <span class="en">(PAFs)</span> بتوصّل المفاصل ببعض.</li>
+        <li>المفاصل بتتجمّع لأشخاص من الأسهم، <b>من غير كاشف ولا صندوق</b>. النتيجة 25 مفصل لكل شخص، منها القدم.</li>
+        <li>الصندوق بيتحسب من المفاصل الظاهرة، مع هامش. <span class="added">اتضافت</span></li>
+        <li><span class="en">OSNet</span> كخطوة لوحدها بعد الاستخراج، وبتاخد حوالي 3 دقايق. <span class="added">اتضافت</span></li>
+        <li><span class="en">ByteTrack</span> على الصناديق المحسوبة. <span class="added">اتضافت</span></li>
+      </ol>
+      <div class="pc">
+        <div class="pro"><h4>مميزات</h4><ul><li>الصيغة الأصلية للمشروع، وفيه القدم</li><li>الوقت شبه ثابت مع عدد الناس</li></ul></div>
+        <div class="con"><h4>عيوب</h4><ul><li>مفيش صندوق حقيقي، فلو المفاصل جت ناقصة الصندوق بيبوظ</li><li>ضعيف مع الناس القريبين من الكاميرا</li><li>بيلخبط المفاصل وقت الالتحام</li><li>الأتقل، ومرتبط بقفلات اللابتوب</li></ul></div>
+      </div>
+      <div class="time">وقت الماتش: <b>11–16 دقيقة</b> · تقيل على كارت الشاشة</div>
+    </article>
+
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <h2>المقارنة جنب بعض</h2>
+  </div>
+  <div class="tw">
+    <table>
+      <thead><tr><th></th><th class="yolo">YOLO11m-pose</th><th class="rtm">RTMDet-m + RTMPose-m</th><th class="op">OpenPose BODY_25</th></tr></thead>
+      <tbody>
+        <tr><th>طريقة الشغل</th><td>كل حاجة مرة واحدة</td><td>كاشف، وبعدين pose لكل شخص</td><td>مفاصل الصورة كلها، وبعدين تجميع</td></tr>
+        <tr><th>عدد المفاصل</th><td class="num">17</td><td class="num">26</td><td class="num">25</td></tr>
+        <tr><th>مفاصل القدم</th><td class="n">لأ</td><td class="y">أيوه</td><td class="y">أيوه</td></tr>
+        <tr><th>صندوق حقيقي</th><td class="y">أيوه</td><td class="y">أيوه (من RTMDet)</td><td class="n">لأ، محسوب من المفاصل</td></tr>
+        <tr><th>التتبع</th><td>جواه</td><td>اتضاف</td><td>اتضاف</td></tr>
+        <tr><th>بصمة الشكل OSNet</th><td>أثناء الاستخراج</td><td>أثناء الاستخراج</td><td>خطوة لوحدها بعد الاستخراج</td></tr>
+        <tr><th>الوقت مع عدد الناس</th><td>ثابت تقريباً</td><td class="low">بيزيد (لحد 8 أشخاص)</td><td>ثابت تقريباً</td></tr>
+        <tr><th>وقت الماتش (2–2:40 دقيقة)</th><td class="best">8–11 دقيقة</td><td>12–18 دقيقة</td><td>11–16 دقيقة</td></tr>
+        <tr><th>الحمل على كارت الشاشة</th><td class="best">خفيف</td><td>متوسط</td><td class="low">تقيل</td></tr>
+        <tr><th>اسم على شخص غلط</th><td class="num y">0</td><td class="num y">0</td><td><span class="num y">0</span> بعد إصلاح ثانية 63 في Match 2</td></tr>
+        <tr><th>تبديل Player 1 و2</th><td class="num y">0</td><td class="num y">0</td><td class="num y">0</td></tr>
+        <tr><th>متوسط التغطية <span class="p1">P1</span> / <span class="p2">P2</span></th><td class="best pair"><span class="num">79.6% / 85.6%</span></td><td class="pair"><span class="num">82.5% / 79.4%</span></td><td class="pair"><span class="num">75.3% / 80.3%</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <h2>التغطية في كل فيديو</h2>
+    <p>نسبة الفريمات اللي اللاعب متابع فيها، بعد سد الفجوات. الخانات الصفرا أقل من 65%.</p>
+  </div>
+  <div class="tw">
+    <table>
+      <thead><tr><th>الفيديو</th><th>الفريمات</th><th class="yolo">YOLO11 <span class="p1">P1</span> / <span class="p2">P2</span></th><th class="rtm">RTMPose <span class="p1">P1</span> / <span class="p2">P2</span></th><th class="op">OpenPose <span class="p1">P1</span> / <span class="p2">P2</span></th></tr></thead>
+      <tbody>
+        <tr><th>Copy of ماتش 1 بلقاس</th><td class="num">4345</td><td class="num">71.6 / 76.1</td><td class="num">74.4 / 78.6</td><td class="num">69.6 / 75.0</td></tr>
+        <tr><th>Match 1</th><td class="num">3328</td><td class="num">71.8 / 100</td><td class="num">79.3 / 91.9</td><td class="num">73.1 / 84.8</td></tr>
+        <tr><th>Match 2</th><td class="num">3221</td><td class="num">74.5 / 89.8</td><td class="num low">90.3 / 60.5</td><td class="num low">56.6 / 84.7</td></tr>
+        <tr><th>Match 3 (1)</th><td class="num">4865</td><td class="num">97.1 / 91.4</td><td class="num">92.8 / 91.6</td><td class="num">94.8 / 86.2</td></tr>
+        <tr><th>ماتش 1 مع بلقاس</th><td class="num">3642</td><td class="num">83.0 / 70.7</td><td class="num">75.9 / 74.3</td><td class="num">82.4 / 70.6</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="foot">ترقيم Player 1 و2 بيتحدد من نشاط كل لاعب على الماتش كله، فممكن نفس الشخص يبقى P1 في محرك وP2 في محرك تاني. الأرقام دي فيها الفريمات المكمّلة بالاستيفاء، اللي بتروح لـ MMAction ومبتترسمش، فالتغطية المرسومة في الفيديو أقل بحوالي 5–10%.</p>
+</section>
+
+<section>
+  <div class="sec-head"><h2>حاجات لازم تتعرف قبل ما تختار</h2></div>
+  <div class="notes">
+    <div class="note"><h3>ميزة القدم مش بتفرق دلوقتي</h3><p>MMAction شغال بـ COCO-17، ومفيهوش قدم. فمفاصل القدم في RTMPose وOpenPose بتتشال قبل ما تدخل الموديل. هتفرق بس لو دربنا موديل بيستخدم الـ 26 مفصل.</p></div>
+    <div class="note"><h3>اتقاس صح الاسم، مش دقة المفاصل</h3><p>الـ 720 لقطة اتراجعت عشان نعرف هل Player 1 مكتوب على الشخص الصح، مش هل الكوع في مكانه بالظبط. عشان نعرف مين أدق في الكيك السريع، محتاجين نعلّم مفاصل بإيدينا على شوية فريمات ونقارن.</p></div>
+    <div class="note"><h3>ليه التلاتة صفر غلط في الأسماء</h3><p>لأن تحديد اللاعبين ومتابعتهم نفس الكود للتلاتة، وهو اللي بيمنع الغلط. المحرك بيأثر على قد إيه اللاعب بيتسمّى، مش على إذا كان بيتسمّى غلط.</p></div>
+    <div class="note"><h3>اتجرب على نوع واحد من الفيديوهات</h3><p>الـ 5 فيديوهات فعلياً 3 ماتشات، في نفس الصالة، ونفس الفريقين، ونفس طريقة التصوير. بطولة رسمية (جي أبيض للاتنين والحكم في النص) أو بث تلفزيوني لسه متجربوش.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><h2>الترشيح</h2></div>
+  <div class="rec">
+    <div class="rec-row"><div class="who yolo">YOLO11 <span class="verdict go">الأساسي</span></div><p>للاستخدام العادي وللايف. الأسرع، وأعلى تغطية، والتتبع جزء منه، وأخف على اللابتوب.</p></div>
+    <div class="rec-row"><div class="who rtm">RTMPose <span class="verdict alt">بديل</span></div><p>لو قياس دقة المفاصل طلّعه أدق في الحركات السريعة، أو لو هندرّب موديل بيستخدم القدم.</p></div>
+    <div class="rec-row"><div class="who op">OpenPose <span class="verdict no">مش للداتا سيت</span></div><p>أبطأ من YOLO، وأقل تغطية، وأتقل على الجهاز، ومرتبط بقفلات اللابتوب.</p></div>
+    <div class="rec-row"><div class="who">للداتا سيت</div><p>اثبت على محرك واحد في التدريب والاستخدام. لو دربت على هياكل محرك واستخدمت محرك تاني وقت التشغيل، الدقة هتقع.</p></div>
+  </div>
+</section>
+
+</div>
+
+</body></html>

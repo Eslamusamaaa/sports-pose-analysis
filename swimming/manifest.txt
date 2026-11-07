@@ -1,0 +1,5 @@
+Backstroke_labels.zip 1614046741 md5:ce4e42113ec83771fab55badfccc07aa https://zenodo.org/api/records/8399376/files/Backstroke_labels.zip/content
+smpl_swimming_motions.zip 57858835 md5:fb7dae1a873de3930c86d49e4ebd91e9 https://zenodo.org/api/records/8399376/files/smpl_swimming_motions.zip/content
+Freestyle_labels.zip 1670951490 md5:5d29cb71c14d45621b69603b137ef5db https://zenodo.org/api/records/8399376/files/Freestyle_labels.zip/content
+Butterfly_labels.zip 1668506079 md5:85c13c657c71fe2973f2d8996143a5dd https://zenodo.org/api/records/8399376/files/Butterfly_labels.zip/content
+Breaststroke_labels.zip 1652091704 md5:44b1cad3ecdfb5951cafca127c5c73c7 https://zenodo.org/api/records/8399376/files/Breaststroke_labels.zip/content

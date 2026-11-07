@@ -1,0 +1,43 @@
+  backstroke: 250/2880 sequences
+  backstroke: 500/2880 sequences
+  backstroke: 750/2880 sequences
+  backstroke: 1000/2880 sequences
+  backstroke: 1250/2880 sequences
+  backstroke: 1500/2880 sequences
+  backstroke: 1750/2880 sequences
+  backstroke: 2000/2880 sequences
+  backstroke: 2250/2880 sequences
+  backstroke: 2500/2880 sequences
+  backstroke: 2750/2880 sequences
+backstroke: done, 5157 windows
+{
+  "windows": 5157,
+  "stats": {
+    "dropped_out_of_frame": 3482,
+    "backstroke": 5157,
+    "view:Aerial": 1011,
+    "view:Front": 1312,
+    "view:Side_above_water": 1259,
+    "view:Side_underwater": 728,
+    "view:Side_water_level": 847
+  },
+  "sequences": 2880,
+  "distinct_motions": 102,
+  "shared_motion_groups": 101,
+  "window_frames": 60,
+  "stride_frames": 45,
+  "fps": 30,
+  "img_shape": [
+    1080,
+    1920
+  ],
+  "classes": [
+    "freestyle",
+    "backstroke",
+    "breaststroke",
+    "butterfly"
+  ],
+  "strokes_converted": [
+    "backstroke"
+  ]
+}

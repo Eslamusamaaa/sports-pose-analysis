@@ -1,0 +1,436 @@
+09/26 16:06:59 - mmengine - INFO - 
+------------------------------------------------------------
+System environment:
+    sys.platform: win32
+    Python: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+    CUDA available: True
+    MUSA available: False
+    numpy_random_seed: 77478008
+    GPU 0: NVIDIA GeForce RTX 3050 Laptop GPU
+    CUDA_HOME: None
+    GCC: n/a
+    PyTorch: 2.1.0+cu118
+    PyTorch compiling details: PyTorch built with:
+  - C++ Version: 199711
+  - MSVC 192930151
+  - Intel(R) Math Kernel Library Version 2020.0.2 Product Build 20200624 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v3.1.1 (Git Hash 64f6bcbcbab628e96f33a62c3e975f8535a7bde4)
+  - OpenMP 2019
+  - LAPACK is enabled (usually provided by MKL)
+  - CPU capability usage: AVX512
+  - CUDA Runtime 11.8
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_61,code=sm_61;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_90,code=sm_90;-gencode;arch=compute_37,code=compute_37
+  - CuDNN 8.7
+  - Magma 2.5.4
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=11.8, CUDNN_VERSION=8.7.0, CXX_COMPILER=C:/actions-runner/_work/pytorch/pytorch/builder/windows/tmp_bin/sccache-cl.exe, CXX_FLAGS=/DWIN32 /D_WINDOWS /GR /EHsc /bigobj /FS -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DUSE_FBGEMM -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE /utf-8 /wd4624 /wd4068 /wd4067 /wd4267 /wd4661 /wd4717 /wd4244 /wd4804 /wd4273, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_DISABLE_GPU_ASSERTS=OFF, TORCH_VERSION=2.1.0, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON, USE_ROCM=OFF, 
+
+    TorchVision: 0.16.0+cu118
+    OpenCV: 4.10.0
+    MMEngine: 0.10.7
+
+Runtime environment:
+    cudnn_benchmark: False
+    mp_cfg: {'mp_start_method': 'fork', 'opencv_num_threads': 0}
+    dist_cfg: {'backend': 'nccl'}
+    seed: 77478008
+    diff_rank_seed: False
+    deterministic: False
+    Distributed launcher: none
+    Distributed training: False
+    GPU number: 1
+------------------------------------------------------------
+
+09/26 16:07:00 - mmengine - INFO - Config:
+CLIP = 60
+ann_file = 'D:/Users/karate-training/datasets/swimxyz/swimxyz_coco17_split.pkl'
+auto_scale_lr = dict(base_batch_size=128, enable=False)
+custom_imports = dict(
+    allow_failed_imports=False, imports=[
+        'swim_transforms',
+    ])
+dataset_type = 'PoseDataset'
+default_hooks = dict(
+    checkpoint=dict(
+        interval=1,
+        max_keep_ckpts=2,
+        rule='greater',
+        save_best='acc/top1',
+        type='CheckpointHook'),
+    logger=dict(ignore_last=False, interval=100, type='LoggerHook'),
+    param_scheduler=dict(type='ParamSchedulerHook'),
+    runtime_info=dict(type='RuntimeInfoHook'),
+    sampler_seed=dict(type='DistSamplerSeedHook'),
+    sync_buffers=dict(type='SyncBuffersHook'),
+    timer=dict(type='IterTimerHook'))
+default_scope = 'mmaction'
+env_cfg = dict(
+    cudnn_benchmark=False,
+    dist_cfg=dict(backend='nccl'),
+    mp_cfg=dict(mp_start_method='fork', opencv_num_threads=0))
+launcher = 'none'
+load_from = 'C:/Users/Laptop World/Downloads/Body_Pose-20260924T150348Z-1-001/Body_Pose/karate-ai-web/models/mmaction/stgcn_8xb16-joint-u100-80e_ntu60-xsub-keypoint-2d_20221129-484a394a.pth'
+log_level = 'INFO'
+log_processor = dict(by_epoch=True, type='LogProcessor', window_size=20)
+model = dict(
+    backbone=dict(
+        graph_cfg=dict(layout='coco', mode='stgcn_spatial'), type='STGCN'),
+    cls_head=dict(in_channels=256, num_classes=4, type='GCNHead'),
+    type='RecognizerGCN')
+optim_wrapper = dict(
+    optimizer=dict(
+        lr=0.05, momentum=0.9, nesterov=True, type='SGD', weight_decay=0.0005))
+param_scheduler = [
+    dict(
+        begin=0,
+        by_epoch=True,
+        convert_to_iter_based=True,
+        end=1,
+        start_factor=0.1,
+        type='LinearLR'),
+    dict(
+        T_max=14,
+        begin=1,
+        by_epoch=True,
+        convert_to_iter_based=True,
+        end=15,
+        eta_min=0,
+        type='CosineAnnealingLR'),
+]
+randomness = dict(deterministic=False, diff_rank_seed=False, seed=None)
+resume = False
+test_cfg = dict(type='TestLoop')
+test_dataloader = dict(
+    batch_size=64,
+    dataset=dict(
+        ann_file=
+        'D:/Users/karate-training/datasets/swimxyz/swimxyz_coco17_split.pkl',
+        pipeline=[
+            dict(type='PreNormalize2D'),
+            dict(dataset='coco', feats=[
+                'j',
+            ], type='GenSkeFeat'),
+            dict(
+                clip_len=60,
+                num_clips=1,
+                test_mode=True,
+                type='UniformSampleFrames'),
+            dict(type='PoseDecode'),
+            dict(num_person=2, type='FormatGCNInput'),
+            dict(type='PackActionInputs'),
+        ],
+        split='val',
+        test_mode=True,
+        type='PoseDataset'),
+    num_workers=2,
+    persistent_workers=True,
+    sampler=dict(shuffle=False, type='DefaultSampler'))
+test_evaluator = [
+    dict(
+        metric_list=(
+            'top_k_accuracy',
+            'mean_class_accuracy',
+        ),
+        type='AccMetric'),
+]
+test_pipeline = [
+    dict(type='PreNormalize2D'),
+    dict(dataset='coco', feats=[
+        'j',
+    ], type='GenSkeFeat'),
+    dict(clip_len=60, num_clips=1, test_mode=True, type='UniformSampleFrames'),
+    dict(type='PoseDecode'),
+    dict(num_person=2, type='FormatGCNInput'),
+    dict(type='PackActionInputs'),
+]
+train_cfg = dict(
+    max_epochs=15, type='EpochBasedTrainLoop', val_begin=1, val_interval=1)
+train_dataloader = dict(
+    batch_size=32,
+    dataset=dict(
+        ann_file=
+        'D:/Users/karate-training/datasets/swimxyz/swimxyz_coco17_split.pkl',
+        pipeline=[
+            dict(type='SwimSkeletonAug'),
+            dict(type='PreNormalize2D'),
+            dict(dataset='coco', feats=[
+                'j',
+            ], type='GenSkeFeat'),
+            dict(clip_len=60, type='UniformSampleFrames'),
+            dict(type='PoseDecode'),
+            dict(num_person=2, type='FormatGCNInput'),
+            dict(type='PackActionInputs'),
+        ],
+        split='train',
+        type='PoseDataset'),
+    num_workers=2,
+    persistent_workers=True,
+    sampler=dict(shuffle=True, type='DefaultSampler'))
+train_pipeline = [
+    dict(type='SwimSkeletonAug'),
+    dict(type='PreNormalize2D'),
+    dict(dataset='coco', feats=[
+        'j',
+    ], type='GenSkeFeat'),
+    dict(clip_len=60, type='UniformSampleFrames'),
+    dict(type='PoseDecode'),
+    dict(num_person=2, type='FormatGCNInput'),
+    dict(type='PackActionInputs'),
+]
+val_cfg = dict(type='ValLoop')
+val_dataloader = dict(
+    batch_size=64,
+    dataset=dict(
+        ann_file=
+        'D:/Users/karate-training/datasets/swimxyz/swimxyz_coco17_split.pkl',
+        pipeline=[
+            dict(type='PreNormalize2D'),
+            dict(dataset='coco', feats=[
+                'j',
+            ], type='GenSkeFeat'),
+            dict(
+                clip_len=60,
+                num_clips=1,
+                test_mode=True,
+                type='UniformSampleFrames'),
+            dict(type='PoseDecode'),
+            dict(num_person=2, type='FormatGCNInput'),
+            dict(type='PackActionInputs'),
+        ],
+        split='val',
+        test_mode=True,
+        type='PoseDataset'),
+    num_workers=2,
+    persistent_workers=True,
+    sampler=dict(shuffle=False, type='DefaultSampler'))
+val_evaluator = [
+    dict(
+        metric_list=(
+            'top_k_accuracy',
+            'mean_class_accuracy',
+        ),
+        type='AccMetric'),
+]
+val_pipeline = [
+    dict(type='PreNormalize2D'),
+    dict(dataset='coco', feats=[
+        'j',
+    ], type='GenSkeFeat'),
+    dict(clip_len=60, num_clips=1, test_mode=True, type='UniformSampleFrames'),
+    dict(type='PoseDecode'),
+    dict(num_person=2, type='FormatGCNInput'),
+    dict(type='PackActionInputs'),
+]
+vis_backends = [
+    dict(type='LocalVisBackend'),
+]
+visualizer = dict(
+    type='ActionVisualizer', vis_backends=[
+        dict(type='LocalVisBackend'),
+    ])
+work_dir = 'D:/Users/karate-training/swim/work_dir'
+
+09/26 16:07:01 - mmengine - INFO - Distributed training is not used, all SyncBatchNorm (SyncBN) layers in the model will be automatically reverted to BatchNormXd layers if they are used.
+09/26 16:07:01 - mmengine - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+before_train:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) DistSamplerSeedHook                
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) SyncBuffersHook                    
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_val:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+before_val_epoch:
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) SyncBuffersHook                    
+ -------------------- 
+before_val_iter:
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_val_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+after_val:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+after_train:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_test:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+before_test_epoch:
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+before_test_iter:
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_test_iter:
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_test_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_test:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+after_run:
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+09/26 16:07:02 - mmengine - INFO - 16647 videos remain after valid thresholding
+09/26 16:07:03 - mmengine - INFO - 4197 videos remain after valid thresholding
+Loads checkpoint by local backend from path: C:/Users/Laptop World/Downloads/Body_Pose-20260924T150348Z-1-001/Body_Pose/karate-ai-web/models/mmaction/stgcn_8xb16-joint-u100-80e_ntu60-xsub-keypoint-2d_20221129-484a394a.pth
+The model and loaded state dict do not match exactly
+
+size mismatch for cls_head.fc.weight: copying a param with shape torch.Size([60, 256]) from checkpoint, the shape in current model is torch.Size([4, 256]).
+size mismatch for cls_head.fc.bias: copying a param with shape torch.Size([60]) from checkpoint, the shape in current model is torch.Size([4]).
+09/26 16:07:04 - mmengine - INFO - Load checkpoint from C:/Users/Laptop World/Downloads/Body_Pose-20260924T150348Z-1-001/Body_Pose/karate-ai-web/models/mmaction/stgcn_8xb16-joint-u100-80e_ntu60-xsub-keypoint-2d_20221129-484a394a.pth
+09/26 16:07:04 - mmengine - WARNING - "FileClient" will be deprecated in future. Please use io functions in https://mmengine.readthedocs.io/en/latest/api/fileio.html#file-io
+09/26 16:07:04 - mmengine - WARNING - "HardDiskBackend" is the alias of "LocalBackend" and the former will be deprecated in future.
+09/26 16:07:04 - mmengine - INFO - Checkpoints will be saved to D:\Users\karate-training\swim\work_dir.
+09/26 16:07:29 - mmengine - INFO - Epoch(train)  [1][100/521]  lr: 1.3567e-02  eta: 0:33:04  time: 0.1817  data_time: 0.0023  memory: 1407  loss: 0.7959  top1_acc: 0.8125  top5_acc: 1.0000  loss_cls: 0.7959
+09/26 16:07:48 - mmengine - INFO - Epoch(train)  [1][200/521]  lr: 2.2221e-02  eta: 0:27:55  time: 0.1842  data_time: 0.0055  memory: 1407  loss: 0.5496  top1_acc: 0.7812  top5_acc: 1.0000  loss_cls: 0.5496
+09/26 16:08:06 - mmengine - INFO - Epoch(train)  [1][300/521]  lr: 3.0875e-02  eta: 0:26:00  time: 0.1824  data_time: 0.0049  memory: 1407  loss: 0.3922  top1_acc: 0.8438  top5_acc: 1.0000  loss_cls: 0.3922
+09/26 16:08:25 - mmengine - INFO - Epoch(train)  [1][400/521]  lr: 3.9529e-02  eta: 0:24:57  time: 0.1868  data_time: 0.0031  memory: 1407  loss: 0.3653  top1_acc: 0.9375  top5_acc: 1.0000  loss_cls: 0.3653
+09/26 16:08:43 - mmengine - INFO - Epoch(train)  [1][500/521]  lr: 4.8183e-02  eta: 0:24:19  time: 0.1908  data_time: 0.0042  memory: 1407  loss: 0.3490  top1_acc: 0.9062  top5_acc: 1.0000  loss_cls: 0.3490
+09/26 16:08:48 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:08:48 - mmengine - INFO - Epoch(train)  [1][521/521]  lr: 5.0000e-02  eta: 0:24:12  time: 0.1921  data_time: 0.0017  memory: 1407  loss: 0.3458  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.3458
+09/26 16:08:48 - mmengine - INFO - Saving checkpoint at 1 epochs
+09/26 16:09:05 - mmengine - INFO - Epoch(val) [1][66/66]    acc/top1: 0.9566  acc/top5: 1.0000  acc/mean1: 0.9567  data_time: 0.1218  time: 0.2615
+09/26 16:09:05 - mmengine - INFO - The best checkpoint with 0.9566 acc/top1 at 1 epoch is saved to best_acc_top1_epoch_1.pth.
+09/26 16:09:24 - mmengine - INFO - Epoch(train)  [2][100/521]  lr: 4.9977e-02  eta: 0:23:40  time: 0.1905  data_time: 0.0021  memory: 1407  loss: 0.2744  top1_acc: 0.9062  top5_acc: 1.0000  loss_cls: 0.2744
+09/26 16:09:43 - mmengine - INFO - Epoch(train)  [2][200/521]  lr: 4.9908e-02  eta: 0:23:12  time: 0.1890  data_time: 0.0029  memory: 1407  loss: 0.2639  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.2639
+09/26 16:10:02 - mmengine - INFO - Epoch(train)  [2][300/521]  lr: 4.9793e-02  eta: 0:22:47  time: 0.1908  data_time: 0.0046  memory: 1407  loss: 0.1502  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.1502
+09/26 16:10:21 - mmengine - INFO - Epoch(train)  [2][400/521]  lr: 4.9632e-02  eta: 0:22:24  time: 0.1909  data_time: 0.0019  memory: 1407  loss: 0.1814  top1_acc: 0.8750  top5_acc: 1.0000  loss_cls: 0.1814
+09/26 16:10:36 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:10:40 - mmengine - INFO - Epoch(train)  [2][500/521]  lr: 4.9425e-02  eta: 0:22:01  time: 0.1908  data_time: 0.0048  memory: 1407  loss: 0.1636  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.1636
+09/26 16:10:44 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:10:44 - mmengine - INFO - Epoch(train)  [2][521/521]  lr: 4.9376e-02  eta: 0:21:56  time: 0.1860  data_time: 0.0035  memory: 1407  loss: 0.1390  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.1390
+09/26 16:10:44 - mmengine - INFO - Saving checkpoint at 2 epochs
+09/26 16:10:54 - mmengine - INFO - Epoch(val) [2][66/66]    acc/top1: 0.9788  acc/top5: 1.0000  acc/mean1: 0.9788  data_time: 0.0090  time: 0.1458
+09/26 16:10:54 - mmengine - INFO - The previous best checkpoint D:\Users\karate-training\swim\work_dir\best_acc_top1_epoch_1.pth is removed
+09/26 16:10:54 - mmengine - INFO - The best checkpoint with 0.9788 acc/top1 at 2 epoch is saved to best_acc_top1_epoch_2.pth.
+09/26 16:11:14 - mmengine - INFO - Epoch(train)  [3][100/521]  lr: 4.9114e-02  eta: 0:21:36  time: 0.1918  data_time: 0.0029  memory: 1407  loss: 0.1887  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.1887
+09/26 16:11:35 - mmengine - INFO - Epoch(train)  [3][200/521]  lr: 4.8807e-02  eta: 0:21:28  time: 0.2641  data_time: 0.0158  memory: 1407  loss: 0.1275  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.1275
+09/26 16:12:01 - mmengine - INFO - Epoch(train)  [3][300/521]  lr: 4.8457e-02  eta: 0:21:39  time: 0.2566  data_time: 0.0134  memory: 1407  loss: 0.1596  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.1596
+09/26 16:12:27 - mmengine - INFO - Epoch(train)  [3][400/521]  lr: 4.8063e-02  eta: 0:21:45  time: 0.2562  data_time: 0.0103  memory: 1407  loss: 0.1262  top1_acc: 0.9062  top5_acc: 1.0000  loss_cls: 0.1262
+09/26 16:12:53 - mmengine - INFO - Epoch(train)  [3][500/521]  lr: 4.7626e-02  eta: 0:21:45  time: 0.2568  data_time: 0.0119  memory: 1407  loss: 0.0941  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.0941
+09/26 16:12:58 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:12:58 - mmengine - INFO - Epoch(train)  [3][521/521]  lr: 4.7529e-02  eta: 0:21:45  time: 0.2503  data_time: 0.0134  memory: 1407  loss: 0.1017  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.1017
+09/26 16:12:58 - mmengine - INFO - Saving checkpoint at 3 epochs
+09/26 16:13:14 - mmengine - INFO - Epoch(val) [3][66/66]    acc/top1: 0.9831  acc/top5: 1.0000  acc/mean1: 0.9831  data_time: 0.0297  time: 0.2218
+09/26 16:13:14 - mmengine - INFO - The previous best checkpoint D:\Users\karate-training\swim\work_dir\best_acc_top1_epoch_2.pth is removed
+09/26 16:13:14 - mmengine - INFO - The best checkpoint with 0.9831 acc/top1 at 3 epoch is saved to best_acc_top1_epoch_3.pth.
+09/26 16:13:41 - mmengine - INFO - Epoch(train)  [4][100/521]  lr: 4.7041e-02  eta: 0:21:42  time: 0.2624  data_time: 0.0139  memory: 1407  loss: 0.1106  top1_acc: 0.9062  top5_acc: 1.0000  loss_cls: 0.1106
+09/26 16:14:06 - mmengine - INFO - Epoch(train)  [4][200/521]  lr: 4.6513e-02  eta: 0:21:36  time: 0.2551  data_time: 0.0108  memory: 1407  loss: 0.1181  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.1181
+09/26 16:14:32 - mmengine - INFO - Epoch(train)  [4][300/521]  lr: 4.5945e-02  eta: 0:21:28  time: 0.2564  data_time: 0.0110  memory: 1407  loss: 0.1217  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.1217
+09/26 16:14:57 - mmengine - INFO - Epoch(train)  [4][400/521]  lr: 4.5337e-02  eta: 0:21:18  time: 0.2545  data_time: 0.0124  memory: 1407  loss: 0.1572  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.1572
+09/26 16:15:07 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:15:23 - mmengine - INFO - Epoch(train)  [4][500/521]  lr: 4.4693e-02  eta: 0:21:07  time: 0.2558  data_time: 0.0128  memory: 1407  loss: 0.0695  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0695
+09/26 16:15:28 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:15:28 - mmengine - INFO - Epoch(train)  [4][521/521]  lr: 4.4552e-02  eta: 0:21:04  time: 0.2465  data_time: 0.0130  memory: 1407  loss: 0.0896  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0896
+09/26 16:15:28 - mmengine - INFO - Saving checkpoint at 4 epochs
+09/26 16:15:44 - mmengine - INFO - Epoch(val) [4][66/66]    acc/top1: 0.9840  acc/top5: 1.0000  acc/mean1: 0.9841  data_time: 0.0284  time: 0.2211
+09/26 16:15:44 - mmengine - INFO - The previous best checkpoint D:\Users\karate-training\swim\work_dir\best_acc_top1_epoch_3.pth is removed
+09/26 16:15:44 - mmengine - INFO - The best checkpoint with 0.9840 acc/top1 at 4 epoch is saved to best_acc_top1_epoch_4.pth.
+09/26 16:16:11 - mmengine - INFO - Epoch(train)  [5][100/521]  lr: 4.3864e-02  eta: 0:20:52  time: 0.2574  data_time: 0.0124  memory: 1407  loss: 0.0736  top1_acc: 0.9062  top5_acc: 1.0000  loss_cls: 0.0736
+09/26 16:16:37 - mmengine - INFO - Epoch(train)  [5][200/521]  lr: 4.3140e-02  eta: 0:20:38  time: 0.2557  data_time: 0.0133  memory: 1407  loss: 0.0696  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.0696
+09/26 16:17:02 - mmengine - INFO - Epoch(train)  [5][300/521]  lr: 4.2382e-02  eta: 0:20:23  time: 0.2581  data_time: 0.0135  memory: 1407  loss: 0.0782  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0782
+09/26 16:17:28 - mmengine - INFO - Epoch(train)  [5][400/521]  lr: 4.1592e-02  eta: 0:20:07  time: 0.2551  data_time: 0.0137  memory: 1407  loss: 0.1217  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.1217
+09/26 16:17:53 - mmengine - INFO - Epoch(train)  [5][500/521]  lr: 4.0772e-02  eta: 0:19:50  time: 0.2537  data_time: 0.0099  memory: 1407  loss: 0.0803  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.0803
+09/26 16:17:58 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:17:58 - mmengine - INFO - Epoch(train)  [5][521/521]  lr: 4.0596e-02  eta: 0:19:46  time: 0.2466  data_time: 0.0115  memory: 1407  loss: 0.0699  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0699
+09/26 16:17:58 - mmengine - INFO - Saving checkpoint at 5 epochs
+09/26 16:18:14 - mmengine - INFO - Epoch(val) [5][66/66]    acc/top1: 0.9933  acc/top5: 1.0000  acc/mean1: 0.9933  data_time: 0.0347  time: 0.2273
+09/26 16:18:14 - mmengine - INFO - The previous best checkpoint D:\Users\karate-training\swim\work_dir\best_acc_top1_epoch_4.pth is removed
+09/26 16:18:15 - mmengine - INFO - The best checkpoint with 0.9933 acc/top1 at 5 epoch is saved to best_acc_top1_epoch_5.pth.
+09/26 16:18:41 - mmengine - INFO - Epoch(train)  [6][100/521]  lr: 3.9740e-02  eta: 0:19:29  time: 0.2556  data_time: 0.0113  memory: 1407  loss: 0.0972  top1_acc: 0.9375  top5_acc: 1.0000  loss_cls: 0.0972
+09/26 16:19:07 - mmengine - INFO - Epoch(train)  [6][200/521]  lr: 3.8857e-02  eta: 0:19:11  time: 0.2556  data_time: 0.0122  memory: 1407  loss: 0.1055  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.1055
+09/26 16:19:32 - mmengine - INFO - Epoch(train)  [6][300/521]  lr: 3.7948e-02  eta: 0:18:53  time: 0.2555  data_time: 0.0124  memory: 1407  loss: 0.0676  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0676
+09/26 16:19:57 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:19:58 - mmengine - INFO - Epoch(train)  [6][400/521]  lr: 3.7015e-02  eta: 0:18:34  time: 0.2576  data_time: 0.0142  memory: 1407  loss: 0.1110  top1_acc: 0.9062  top5_acc: 1.0000  loss_cls: 0.1110
+09/26 16:20:24 - mmengine - INFO - Epoch(train)  [6][500/521]  lr: 3.6060e-02  eta: 0:18:14  time: 0.2554  data_time: 0.0105  memory: 1407  loss: 0.0396  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.0396
+09/26 16:20:29 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:20:29 - mmengine - INFO - Epoch(train)  [6][521/521]  lr: 3.5857e-02  eta: 0:18:10  time: 0.2500  data_time: 0.0135  memory: 1407  loss: 0.0919  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0919
+09/26 16:20:29 - mmengine - INFO - Saving checkpoint at 6 epochs
+09/26 16:20:45 - mmengine - INFO - Epoch(val) [6][66/66]    acc/top1: 0.9831  acc/top5: 1.0000  acc/mean1: 0.9831  data_time: 0.0300  time: 0.2212
+09/26 16:21:11 - mmengine - INFO - Epoch(train)  [7][100/521]  lr: 3.4877e-02  eta: 0:17:51  time: 0.2562  data_time: 0.0127  memory: 1407  loss: 0.0698  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.0698
+09/26 16:21:36 - mmengine - INFO - Epoch(train)  [7][200/521]  lr: 3.3879e-02  eta: 0:17:31  time: 0.2561  data_time: 0.0135  memory: 1407  loss: 0.0400  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.0400
+09/26 16:22:02 - mmengine - INFO - Epoch(train)  [7][300/521]  lr: 3.2865e-02  eta: 0:17:10  time: 0.2562  data_time: 0.0146  memory: 1407  loss: 0.0503  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0503
+09/26 16:22:28 - mmengine - INFO - Epoch(train)  [7][400/521]  lr: 3.1835e-02  eta: 0:16:49  time: 0.2556  data_time: 0.0128  memory: 1407  loss: 0.0467  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0467
+09/26 16:22:53 - mmengine - INFO - Epoch(train)  [7][500/521]  lr: 3.0794e-02  eta: 0:16:28  time: 0.2589  data_time: 0.0138  memory: 1407  loss: 0.0570  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0570
+09/26 16:22:59 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:22:59 - mmengine - INFO - Epoch(train)  [7][521/521]  lr: 3.0574e-02  eta: 0:16:24  time: 0.2539  data_time: 0.0143  memory: 1407  loss: 0.0445  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0445
+09/26 16:22:59 - mmengine - INFO - Saving checkpoint at 7 epochs
+09/26 16:23:15 - mmengine - INFO - Epoch(val) [7][66/66]    acc/top1: 0.9979  acc/top5: 1.0000  acc/mean1: 0.9979  data_time: 0.0286  time: 0.2266
+09/26 16:23:15 - mmengine - INFO - The previous best checkpoint D:\Users\karate-training\swim\work_dir\best_acc_top1_epoch_5.pth is removed
+09/26 16:23:15 - mmengine - INFO - The best checkpoint with 0.9979 acc/top1 at 7 epoch is saved to best_acc_top1_epoch_7.pth.
+09/26 16:23:50 - mmengine - INFO - Epoch(train)  [8][100/521]  lr: 2.9519e-02  eta: 0:16:12  time: 0.2552  data_time: 0.0112  memory: 1407  loss: 0.0679  top1_acc: 0.9688  top5_acc: 1.0000  loss_cls: 0.0679
+09/26 16:24:16 - mmengine - INFO - Epoch(train)  [8][200/521]  lr: 2.8456e-02  eta: 0:15:50  time: 0.2537  data_time: 0.0097  memory: 1407  loss: 0.0415  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0415
+09/26 16:24:41 - mmengine - INFO - Epoch(train)  [8][300/521]  lr: 2.7387e-02  eta: 0:15:27  time: 0.2551  data_time: 0.0156  memory: 1407  loss: 0.0275  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0275
+09/26 16:24:55 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:25:07 - mmengine - INFO - Epoch(train)  [8][400/521]  lr: 2.6313e-02  eta: 0:15:05  time: 0.2560  data_time: 0.0156  memory: 1407  loss: 0.0372  top1_acc: 0.9375  top5_acc: 1.0000  loss_cls: 0.0372
+09/26 16:25:33 - mmengine - INFO - Epoch(train)  [8][500/521]  lr: 2.5237e-02  eta: 0:14:42  time: 0.2529  data_time: 0.0141  memory: 1407  loss: 0.0483  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0483
+09/26 16:25:38 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:25:38 - mmengine - INFO - Epoch(train)  [8][521/521]  lr: 2.5011e-02  eta: 0:14:37  time: 0.2480  data_time: 0.0093  memory: 1407  loss: 0.0537  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0537
+09/26 16:25:38 - mmengine - INFO - Saving checkpoint at 8 epochs
+09/26 16:25:54 - mmengine - INFO - Epoch(val) [8][66/66]    acc/top1: 0.9950  acc/top5: 1.0000  acc/mean1: 0.9950  data_time: 0.0318  time: 0.2270
+09/26 16:26:20 - mmengine - INFO - Epoch(train)  [9][100/521]  lr: 2.3934e-02  eta: 0:14:15  time: 0.2550  data_time: 0.0132  memory: 1407  loss: 0.0290  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0290
+09/26 16:26:46 - mmengine - INFO - Epoch(train)  [9][200/521]  lr: 2.2860e-02  eta: 0:13:52  time: 0.2562  data_time: 0.0142  memory: 1407  loss: 0.0220  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0220
+09/26 16:27:11 - mmengine - INFO - Epoch(train)  [9][300/521]  lr: 2.1789e-02  eta: 0:13:29  time: 0.2576  data_time: 0.0119  memory: 1407  loss: 0.0218  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0218
+09/26 16:27:38 - mmengine - INFO - Epoch(train)  [9][400/521]  lr: 2.0725e-02  eta: 0:13:06  time: 0.2566  data_time: 0.0151  memory: 1407  loss: 0.0285  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0285
+09/26 16:28:03 - mmengine - INFO - Epoch(train)  [9][500/521]  lr: 1.9668e-02  eta: 0:12:43  time: 0.2569  data_time: 0.0133  memory: 1407  loss: 0.0334  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0334
+09/26 16:28:09 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:28:09 - mmengine - INFO - Epoch(train)  [9][521/521]  lr: 1.9447e-02  eta: 0:12:38  time: 0.2473  data_time: 0.0134  memory: 1407  loss: 0.0180  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0180
+09/26 16:28:09 - mmengine - INFO - Saving checkpoint at 9 epochs
+09/26 16:28:25 - mmengine - INFO - Epoch(val) [9][66/66]    acc/top1: 0.9993  acc/top5: 1.0000  acc/mean1: 0.9993  data_time: 0.0317  time: 0.2283
+09/26 16:28:25 - mmengine - INFO - The previous best checkpoint D:\Users\karate-training\swim\work_dir\best_acc_top1_epoch_7.pth is removed
+09/26 16:28:25 - mmengine - INFO - The best checkpoint with 0.9993 acc/top1 at 9 epoch is saved to best_acc_top1_epoch_9.pth.
+09/26 16:28:52 - mmengine - INFO - Epoch(train) [10][100/521]  lr: 1.8403e-02  eta: 0:12:15  time: 0.2564  data_time: 0.0126  memory: 1407  loss: 0.0288  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0288
+09/26 16:29:27 - mmengine - INFO - Epoch(train) [10][200/521]  lr: 1.7371e-02  eta: 0:11:57  time: 0.2694  data_time: 0.0138  memory: 1407  loss: 0.0216  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0216
+09/26 16:30:04 - mmengine - INFO - Epoch(train) [10][300/521]  lr: 1.6353e-02  eta: 0:11:39  time: 0.3027  data_time: 0.0179  memory: 1407  loss: 0.0265  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0265
+09/26 16:30:16 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:30:49 - mmengine - INFO - Epoch(train) [10][400/521]  lr: 1.5351e-02  eta: 0:11:26  time: 0.2623  data_time: 0.0175  memory: 1407  loss: 0.0191  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0191
+09/26 16:31:33 - mmengine - INFO - Epoch(train) [10][500/521]  lr: 1.4367e-02  eta: 0:11:10  time: 0.7066  data_time: 0.0224  memory: 1407  loss: 0.0265  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0265
+09/26 16:31:38 - mmengine - INFO - Exp name: stgcn_swim4_20260926_160659
+09/26 16:31:38 - mmengine - INFO - Epoch(train) [10][521/521]  lr: 1.4163e-02  eta: 0:11:05  time: 0.2563  data_time: 0.0173  memory: 1407  loss: 0.0219  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0219
+09/26 16:31:39 - mmengine - INFO - Saving checkpoint at 10 epochs
+09/26 16:31:56 - mmengine - INFO - Epoch(val) [10][66/66]    acc/top1: 0.9986  acc/top5: 1.0000  acc/mean1: 0.9986  data_time: 0.0387  time: 0.2419
+09/26 16:32:23 - mmengine - INFO - Epoch(train) [11][100/521]  lr: 1.3203e-02  eta: 0:10:40  time: 0.2616  data_time: 0.0129  memory: 1407  loss: 0.0103  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0103

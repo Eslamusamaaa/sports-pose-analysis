@@ -1,0 +1,3731 @@
+{
+ "model": "Gemma 3 4B",
+ "results": [
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a lead-hand jab, extending their front arm forward. Frame 2: Player 1 continues the jab, maintaining the extension. Frame 3: Player 1 begins a rear-hand reverse punch, rotating their hips. Frame 4: Player 1 completes the reverse punch, extending their rear arm. Frame 5: Player 1 initiates a front-leg roundhouse kick, lifting their lead knee. Frame 6: Player 1 continues the roundhouse kick, snapping their lead leg around. Frame 7: Player 1 completes the roundhouse kick, extending their lead foot towards the target. Frame 8: Player 1 maintains the roundhouse kick stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance, with no visible movement. Frame 2: Player 2 maintains a stance, with no visible movement. Frame 3: Player 2 maintains a stance, with no visible movement. Frame 4: Player 2 maintains a stance, with no visible movement. Frame 5: Player 2 maintains a stance, with no visible movement. Frame 6: Player 2 maintains a stance, with no visible movement. Frame 7: Player 2 maintains a stance, with no visible movement. Frame 8: Player 2 maintains a stance, with no visible movement.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0000_0.0s.jpg",
+   "start_s": 0.0,
+   "end_s": 1.2,
+   "seconds": 11.0
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a MOVEMENT stance. Frame 2: Player 2 maintains a MOVEMENT stance. Frame 3: Player 2 maintains a MOVEMENT stance. Frame 4: Player 2 maintains a MOVEMENT stance. Frame 5: Player 2 maintains a MOVEMENT stance. Frame 6: Player 2 maintains a MOVEMENT stance. Frame 7: Player 2 maintains a MOVEMENT stance. Frame 8: Player 2 maintains a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0001_0.8s.jpg",
+   "start_s": 0.8,
+   "end_s": 2.0,
+   "seconds": 10.9
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a neutral stance. Frame 2: Player 2 performs a MAWASHI_GERI_CHUDAN roundhouse kick. Frame 3: Player 2 maintains the roundhouse kick. Frame 4: Player 2 continues the roundhouse kick. Frame 5: Player 2 maintains the roundhouse kick. Frame 6: Player 2 continues the roundhouse kick. Frame 7: Player 2 returns to a neutral stance. Frame 8: Player 2 maintains a neutral stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.98,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0002_1.6s.jpg",
+   "start_s": 1.6,
+   "end_s": 2.8,
+   "seconds": 10.3
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a standard stance. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0003_2.4s.jpg",
+   "start_s": 2.4,
+   "end_s": 3.6,
+   "seconds": 8.8
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the right foot. Frame 2: Player 1 extends the right hand in a KIZAMI_ZUKI jab towards the opponent’s head. Frame 3: Player 1 maintains stance and balance. Frame 4: Player 1 continues to maintain stance and balance. Frame 5: Player 1 initiates a forward step with the right foot. Frame 6: Player 1 extends the right hand in a KIZAMI_ZUKI jab towards the opponent’s head. Frame 7: Player 1 maintains stance and balance. Frame 8: Player 1 maintains stance and balance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains stance and balance. Frame 2: Player 2 initiates a forward step with the right foot. Frame 3: Player 2 maintains stance and balance. Frame 4: Player 2 maintains stance and balance. Frame 5: Player 2 maintains stance and balance. Frame 6: Player 2 maintains stance and balance. Frame 7: Player 2 maintains stance and balance. Frame 8: Player 2 maintains stance and balance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0004_3.2s.jpg",
+   "start_s": 3.2,
+   "end_s": 4.4,
+   "seconds": 9.8
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab with their lead hand. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick with their rear leg. Frame 4: Player 1 continues the roundhouse kick. Frame 5: Player 1 shifts their weight and prepares for a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick. Frame 6: Player 1 continues the roundhouse kick. Frame 7: Player 1 completes the roundhouse kick. Frame 8: Player 1 maintains the stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance. Frame 2: Player 2 maintains a stance. Frame 3: Player 2 maintains a stance. Frame 4: Player 2 maintains a stance. Frame 5: Player 2 maintains a stance. Frame 6: Player 2 maintains a stance. Frame 7: Player 2 maintains a stance. Frame 8: Player 2 maintains a stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0005_4.0s.jpg",
+   "start_s": 4.0,
+   "end_s": 5.2,
+   "seconds": 10.0
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance, with a slight shift in weight. Frame 2: Player 2 maintains the stance, observing Player 1. Frame 3: Player 2 performs a MOVEMENT, stepping back slightly. Frame 4: Player 2 maintains the stance, observing Player 1. Frame 5: Player 2 performs a MOVEMENT, stepping back slightly. Frame 6: Player 2 maintains the stance, observing Player 1. Frame 7: Player 2 performs a MOVEMENT, stepping back slightly. Frame 8: Player 2 maintains the stance, observing Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0006_4.8s.jpg",
+   "start_s": 4.8,
+   "end_s": 6.0,
+   "seconds": 11.5
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick. Frame 4: Player 1 continues the roundhouse kick. Frame 5: Player 1 maintains the roundhouse kick stance. Frame 6: Player 1 continues the roundhouse kick. Frame 7: Player 1 completes the roundhouse kick. Frame 8: Player 1 maintains the roundhouse kick stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance. Frame 2: Player 2 is in a MOVEMENT stance. Frame 3: Player 2 is in a MOVEMENT stance. Frame 4: Player 2 is in a MOVEMENT stance. Frame 5: Player 2 is in a MOVEMENT stance. Frame 6: Player 2 is in a MOVEMENT stance. Frame 7: Player 2 is in a MOVEMENT stance. Frame 8: Player 2 is in a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0007_5.6s.jpg",
+   "start_s": 5.6,
+   "end_s": 6.8,
+   "seconds": 9.9
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the jab, maintaining stance. Frame 3: Player 1 begins a GYAKU_ZUKI reverse punch. Frame 4: Player 1 completes the reverse punch. Frame 5: Player 1 begins a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 6: Player 1 continues the roundhouse kick. Frame 7: Player 1 is returning to stance. Frame 8: Player 1 is returning to stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in stance. Frame 2: Player 2 is in stance. Frame 3: Player 2 is in stance. Frame 4: Player 2 is in stance. Frame 5: Player 2 is in stance. Frame 6: Player 2 is in stance. Frame 7: Player 2 is in stance. Frame 8: Player 2 is in stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0008_6.4s.jpg",
+   "start_s": 6.4,
+   "end_s": 7.61,
+   "seconds": 9.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a roundhouse kick with their rear leg. Frame 2: Player 1 continues the roundhouse kick, bringing the foot up and around. Frame 3: Player 1 maintains the roundhouse kick stance. Frame 4: Player 1 continues the roundhouse kick, bringing the foot up and around. Frame 5: Player 1 maintains the roundhouse kick stance. Frame 6: Player 1 continues the roundhouse kick, bringing the foot up and around. Frame 7: Player 1 maintains the roundhouse kick stance. Frame 8: Player 1 continues the roundhouse kick, bringing the foot up and around.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 initiates a lead-hand straight punch (jab). Frame 2: Player 2 continues the jab. Frame 3: Player 2 maintains the jab stance. Frame 4: Player 2 continues the jab. Frame 5: Player 2 maintains the jab stance. Frame 6: Player 2 continues the jab. Frame 7: Player 2 maintains the jab stance. Frame 8: Player 2 maintains the jab stance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.98,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0009_7.2s.jpg",
+   "start_s": 7.21,
+   "end_s": 8.41,
+   "seconds": 10.1
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 shifts their weight and begins to step forward with their right foot, preparing for a potential attack. Frame 2: Player 1 maintains their stance, with a slight adjustment of their posture. Frame 3: Player 1 initiates a roundhouse kick with their rear right leg, aiming for the opponent’s body. Frame 4: Player 1 continues the roundhouse kick, with the leg extended and the body rotating slightly. Frame 5: Player 1 completes the roundhouse kick, with the leg still extended and the body rotating. Frame 6: Player 1 maintains the roundhouse kick stance, with a slight adjustment of their posture. Frame 7: Player 1 maintains their stance, with a slight adjustment of their posture. Frame 8: Player 1 maintains their stance, with a slight adjustment of their posture.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains their stance, with a slight adjustment of their posture. Frame 2: Player 2 maintains their stance, with a slight adjustment of their posture. Frame 3: Player 2 maintains their stance, with a slight adjustment of their posture. Frame 4: Player 2 maintains their stance, with a slight adjustment of their posture. Frame 5: Player 2 maintains their stance, with a slight adjustment of their posture. Frame 6: Player 2 maintains their stance, with a slight adjustment of their posture. Frame 7: Player 2 maintains their stance, with a slight adjustment of their posture. Frame 8: Player 2 maintains their stance, with a slight adjustment of their posture.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0010_8.0s.jpg",
+   "start_s": 8.01,
+   "end_s": 9.21,
+   "seconds": 11.9
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the right foot, followed by a slight raise of the right hand. Frame 2: Player 1 continues the forward step and extends the right hand forward. Frame 3: Player 1 maintains the forward step and the extended right hand. Frame 4: Player 1 continues the forward step and the extended right hand. Frame 5: Player 1 begins a roundhouse kick with the right leg, lifting the knee and bringing the foot around. Frame 6: Player 1 continues the roundhouse kick with the right leg, aiming for the body. Frame 7: Player 1 maintains the roundhouse kick with the right leg. Frame 8: Player 1 completes the roundhouse kick with the right leg.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a stationary stance, with the right hand raised. Frame 2: Player 2 continues the stance with the raised right hand. Frame 3: Player 2 maintains the stance with the raised right hand. Frame 4: Player 2 maintains the stance with the raised right hand. Frame 5: Player 2 is in a stationary stance. Frame 6: Player 2 is in a stationary stance. Frame 7: Player 2 is in a stationary stance. Frame 8: Player 2 is in a stationary stance.",
+    "attack": "feint",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "FEINT",
+    "confidence": 0.8,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0011_8.8s.jpg",
+   "start_s": 8.81,
+   "end_s": 10.01,
+   "seconds": 11.0
+  },
+  {
+   "player1": {
+    "what_happened": "Both fighters maintain a stable stance throughout the clip, with minimal movement.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Both fighters maintain a stable stance throughout the clip, with minimal movement.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0012_9.6s.jpg",
+   "start_s": 9.61,
+   "end_s": 10.81,
+   "seconds": 5.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 begins a GYAKU_ZUKI reverse punch. Frame 4: Player 1 completes the GYAKU_ZUKI reverse punch. Frame 5: Player 1 initiates a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 6: Player 1 continues the KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 7: Player 1 completes the KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 8: Player 1 maintains the stance after the roundhouse kick.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance. Frame 2: Player 2 maintains a stance. Frame 3: Player 2 maintains a stance. Frame 4: Player 2 maintains a stance. Frame 5: Player 2 maintains a stance. Frame 6: Player 2 maintains a stance. Frame 7: Player 2 initiates a MAWASHI_GERI_JODAN roundhouse kick. Frame 8: Player 2 completes the MAWASHI_GERI_JODAN roundhouse kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.9,
+    "consistent": false
+   },
+   "video": "match1",
+   "image": "clips/match1/0013_10.4s.jpg",
+   "start_s": 10.41,
+   "end_s": 11.61,
+   "seconds": 11.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 shifts stance slightly. Frame 4: Player 1 maintains stance. Frame 5: Player 1 initiates a MAWASHI_GERI_CHUDAN roundhouse kick. Frame 6: Player 1 continues the roundhouse kick. Frame 7: Player 1 maintains stance. Frame 8: Player 1 maintains stance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains stance. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0014_11.2s.jpg",
+   "start_s": 11.21,
+   "end_s": 12.41,
+   "seconds": 9.3
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step and raises their rear hand in preparation for a reverse punch. Frame 2: Player 1 continues the punch, extending their rear hand towards the opponent’s head. Frame 3: Player 1 retracts their hand, returning to their stance. Frame 4: Player 1 takes a small step forward and raises their rear hand again, preparing for a roundhouse kick. Frame 5: Player 1 executes a roundhouse kick with their rear leg, aiming for the opponent’s body. Frame 6: Player 1 follows up with a small step forward and retracts their leg. Frame 7: Player 1 returns to their stance. Frame 8: Player 1 maintains their stance.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "GYAKU_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains their stance. Frame 2: Player 2 moves backward slightly. Frame 3: Player 2 maintains their stance. Frame 4: Player 2 takes a small step forward and raises their rear hand in preparation for a roundhouse kick. Frame 5: Player 2 executes a roundhouse kick with their rear leg, aiming for the opponent’s body. Frame 6: Player 2 retracts their leg. Frame 7: Player 2 maintains their stance. Frame 8: Player 2 maintains their stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.9,
+    "consistent": false
+   },
+   "video": "match1",
+   "image": "clips/match1/0015_12.0s.jpg",
+   "start_s": 12.01,
+   "end_s": 13.21,
+   "seconds": 11.2
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance, with a slight movement of the rear hand. Frame 2: Player 2 maintains a defensive stance, with a slight movement of the rear hand. Frame 3: Player 2 maintains a defensive stance, with a slight movement of the rear hand. Frame 4: Player 2 maintains a defensive stance, with a slight movement of the rear hand. Frame 5: Player 2 maintains a defensive stance, with a slight movement of the rear hand. Frame 6: Player 2 maintains a defensive stance, with a slight movement of the rear hand. Frame 7: Player 2 maintains a defensive stance, with a slight movement of the rear hand. Frame 8: Player 2 maintains a defensive stance, with a slight movement of the rear hand.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.99,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0016_12.8s.jpg",
+   "start_s": 12.81,
+   "end_s": 14.01,
+   "seconds": 12.4
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains stance. Frame 2: Player 2 initiates a forward step with the right foot. Frame 3: Player 2 maintains stance and shifts weight. Frame 4: Player 2 continues to maintain stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0017_13.6s.jpg",
+   "start_s": 13.61,
+   "end_s": 14.81,
+   "seconds": 9.9
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance, with a slight shift in weight. Frame 2: Player 2 initiates a GYAKU_ZUKI punch with the rear hand. Frame 3: Player 2 maintains a defensive stance, with a slight shift in weight. Frame 4: Player 2 maintains a defensive stance, with a slight shift in weight. Frame 5: Player 2 maintains a defensive stance, with a slight shift in weight. Frame 6: Player 2 maintains a defensive stance, with a slight shift in weight. Frame 7: Player 2 maintains a defensive stance, with a slight shift in weight. Frame 8: Player 2 returns to a neutral stance.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "none",
+    "height": "none",
+    "label": "GYAKU_ZUKI",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0018_14.4s.jpg",
+   "start_s": 14.41,
+   "end_s": 15.61,
+   "seconds": 12.3
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab with their lead hand. Frame 2: Player 1 continues the KIZAMI_ZUKI jab, maintaining the same movement. Frame 3: Player 1 begins a GYAKU_ZUKI reverse punch, rotating their hips. Frame 4: Player 1 continues the GYAKU_ZUKI punch, extending their rear arm. Frame 5: Player 1 initiates a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick with their front leg. Frame 6: Player 1 continues the roundhouse kick, maintaining the leg movement. Frame 7: Player 1 continues the roundhouse kick, bringing the foot down. Frame 8: Player 1 stands in a defensive stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 2: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 3: Player 2 initiates a MAWASHI_GERI_JODAN roundhouse kick with their rear leg. Frame 4: Player 2 continues the roundhouse kick, bringing the foot down. Frame 5: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 6: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 7: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 8: Player 2 is in a MOVEMENT stance, maintaining their stance.",
+    "attack": "none",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.9,
+    "consistent": false
+   },
+   "video": "match1",
+   "image": "clips/match1/0019_15.2s.jpg",
+   "start_s": 15.21,
+   "end_s": 16.41,
+   "seconds": 12.3
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance with both hands up, ready for a potential attack. Frame 2: Player 1 continues to maintain a stable stance. Frame 3: Player 1 initiates a roundhouse kick with the rear leg. Frame 4: Player 1 completes the roundhouse kick with the rear leg. Frame 5: Player 1 maintains a stable stance. Frame 6: Player 1 maintains a stable stance. Frame 7: Player 1 maintains a stable stance. Frame 8: Player 1 maintains a stable stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance with both hands up, ready for a potential attack. Frame 2: Player 2 continues to maintain a stable stance. Frame 3: Player 2 maintains a stable stance. Frame 4: Player 2 maintains a stable stance. Frame 5: Player 2 maintains a stable stance. Frame 6: Player 2 maintains a stable stance. Frame 7: Player 2 maintains a stable stance. Frame 8: Player 2 maintains a stable stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0020_16.0s.jpg",
+   "start_s": 16.01,
+   "end_s": 17.21,
+   "seconds": 9.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI punch, extending their lead hand forward. Frame 2: Player 1 continues the punch, maintaining the forward extension. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick with their rear leg. Frame 4: Player 1 continues the roundhouse kick, bringing the rear leg up and around. Frame 5: Player 1 completes the roundhouse kick, with the foot reaching for the body. Frame 6: Player 1 retracts their kicking leg, returning to a neutral stance. Frame 7: Player 1 begins a KIZAMI_ZUKI punch, extending their lead hand forward. Frame 8: Player 1 continues the punch, maintaining the forward extension.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 2: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 3: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 4: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 5: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 6: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 7: Player 2 is in a MOVEMENT stance, maintaining their stance. Frame 8: Player 2 is in a MOVEMENT stance, maintaining their stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0021_16.8s.jpg",
+   "start_s": 16.81,
+   "end_s": 18.01,
+   "seconds": 11.9
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance, with a slight forward lean. Frame 2: Player 1 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 1 initiates a forward step with the rear foot, preparing to launch a kick. Frame 4: Player 1 continues to step forward with the rear foot, extending the leg for a roundhouse kick. Frame 5: Player 1 completes the roundhouse kick, extending the rear leg to target the opponent’s body. Frame 6: Player 1 follows up with a slight adjustment of their stance after the kick. Frame 7: Player 1 maintains a balanced stance, ready for a potential counter-attack. Frame 8: Player 1 continues to maintain a balanced stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance, with a slight forward lean. Frame 2: Player 2 maintains a stable stance, with a slight forward lean. Frame 3: Player 2 maintains a stable stance, with a slight forward lean. Frame 4: Player 2 maintains a stable stance, with a slight forward lean. Frame 5: Player 2 maintains a stable stance, with a slight forward lean. Frame 6: Player 2 maintains a stable stance, with a slight forward lean. Frame 7: Player 2 maintains a stable stance, with a slight forward lean. Frame 8: Player 2 maintains a stable stance, with a slight forward lean.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0022_17.6s.jpg",
+   "start_s": 17.61,
+   "end_s": 18.81,
+   "seconds": 11.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the right foot, followed by a slight shift in stance. Frame 2: Player 1 continues to shift weight and adjusts their stance. Frame 3: Player 1 begins a roundhouse kick with the rear leg. Frame 4: Player 1 continues the roundhouse kick, bringing the leg up and around. Frame 5: Player 1 completes the roundhouse kick, with the foot reaching towards the opponent’s body. Frame 6: Player 1 maintains the stance after the roundhouse kick. Frame 7: Player 1 takes a small step forward with the left foot. Frame 8: Player 1 maintains the stance after the step.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance. Frame 2: Player 2 shifts their weight slightly. Frame 3: Player 2 initiates a feint, starting a punch motion but stopping short. Frame 4: Player 2 continues to maintain their stance. Frame 5: Player 2 maintains their stance. Frame 6: Player 2 maintains their stance. Frame 7: Player 2 maintains their stance. Frame 8: Player 2 maintains their stance.",
+    "attack": "feint",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "FEINT",
+    "confidence": 0.8,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0023_18.4s.jpg",
+   "start_s": 18.41,
+   "end_s": 19.61,
+   "seconds": 10.5
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance. Frame 2: Player 1 initiates a step forward with the right foot. Frame 3: Player 1 performs a forward step with the left foot. Frame 4: Player 1 maintains a stance. Frame 5: Player 1 initiates a step forward with the right foot. Frame 6: Player 1 performs a forward step with the left foot. Frame 7: Player 1 maintains a stance. Frame 8: Player 1 performs a step forward with the right foot.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance. Frame 2: Player 2 initiates a step forward with the right foot. Frame 3: Player 2 performs a forward step with the left foot. Frame 4: Player 2 maintains a stance. Frame 5: Player 2 initiates a step forward with the right foot. Frame 6: Player 2 performs a forward step with the left foot. Frame 7: Player 2 maintains a stance. Frame 8: Player 2 performs a step forward with the right foot.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0024_19.2s.jpg",
+   "start_s": 19.21,
+   "end_s": 20.41,
+   "seconds": 9.8
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 maintains a stationary stance, guarding.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0025_20.0s.jpg",
+   "start_s": 20.01,
+   "end_s": 21.22,
+   "seconds": 5.8
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a basic stance. Frame 2: Player 2 maintains a basic stance. Frame 3: Player 2 maintains a basic stance. Frame 4: Player 2 maintains a basic stance. Frame 5: Player 2 maintains a basic stance. Frame 6: Player 2 maintains a basic stance. Frame 7: Player 2 maintains a basic stance. Frame 8: Player 2 maintains a basic stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0026_20.8s.jpg",
+   "start_s": 20.82,
+   "end_s": 22.02,
+   "seconds": 9.7
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frames 1-2: Player 2 maintains a stable stance, with no movement. Frames 3-4: Player 2 maintains a stable stance, with no movement. Frames 5-6: Player 2 maintains a stable stance, with no movement. Frames 7-8: Player 2 maintains a stable stance, with no movement.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0027_21.6s.jpg",
+   "start_s": 21.62,
+   "end_s": 22.82,
+   "seconds": 8.3
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 maintains a stable stance throughout the clip, with no discernible movement or attacks.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0028_22.4s.jpg",
+   "start_s": 22.42,
+   "end_s": 23.62,
+   "seconds": 5.9
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0029_23.2s.jpg",
+   "start_s": 23.22,
+   "end_s": 24.42,
+   "seconds": 8.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab with their lead hand. Frame 2: Player 1 continues the KIZAMI_ZUKI jab, maintaining the stance. Frame 3: Player 1 shifts their weight slightly, preparing for a potential follow-up. Frame 4: Player 1 maintains the stance, ready for a potential attack. Frame 5: Player 1 initiates a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick with their front leg. Frame 6: Player 1 continues the roundhouse kick, bringing the foot down towards the target. Frame 7: Player 1 completes the roundhouse kick, retracting the leg. Frame 8: Player 1 returns to their original stance.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a MOVEMENT stance, shifting their weight. Frame 2: Player 2 maintains a MOVEMENT stance, shifting their weight. Frame 3: Player 2 initiates a GYAKU_ZUKI reverse punch with their rear hand. Frame 4: Player 2 continues the GYAKU_ZUKI reverse punch, maintaining the stance. Frame 5: Player 2 maintains a MOVEMENT stance, shifting their weight. Frame 6: Player 2 maintains a MOVEMENT stance, shifting their weight. Frame 7: Player 2 maintains a MOVEMENT stance, shifting their weight. Frame 8: Player 2 maintains a MOVEMENT stance, shifting their weight.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "none",
+    "height": "none",
+    "label": "GYAKU_ZUKI",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0030_24.0s.jpg",
+   "start_s": 24.02,
+   "end_s": 25.22,
+   "seconds": 11.8
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 shifts their weight and prepares a front leg roundhouse kick. Frame 2: Player 1 continues the roundhouse kick, extending the lead leg. Frame 3: Player 1 maintains the roundhouse kick stance. Frame 4: Player 1 continues the roundhouse kick, extending the lead leg. Frame 5: Player 1 maintains the roundhouse kick stance. Frame 6: Player 1 continues the roundhouse kick, extending the lead leg. Frame 7: Player 1 completes the roundhouse kick, retracting the lead leg. Frame 8: Player 1 returns to a neutral stance.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a neutral stance. Frame 2: Player 2 maintains a neutral stance. Frame 3: Player 2 maintains a neutral stance. Frame 4: Player 2 maintains a neutral stance. Frame 5: Player 2 maintains a neutral stance. Frame 6: Player 2 maintains a neutral stance. Frame 7: Player 2 maintains a neutral stance. Frame 8: Player 2 maintains a neutral stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0031_24.8s.jpg",
+   "start_s": 24.82,
+   "end_s": 26.02,
+   "seconds": 10.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the right leg, preparing for a potential roundhouse kick. Frame 2: Player 1 continues to step forward, maintaining a balanced stance. Frame 3: Player 1 begins to raise the right leg in preparation for a roundhouse kick. Frame 4: Player 1 completes the roundhouse kick, extending the right leg towards the opponent’s body. Frame 5: Player 1 follows through with a slight adjustment of the stance after the kick. Frame 6: Player 1 maintains a stable stance, recovering from the kick. Frame 7: Player 1 takes a small step back, maintaining a defensive posture. Frame 8: Player 1 continues to maintain a defensive stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance, with a slight forward lean. Frame 2: Player 2 maintains a stable stance, with a slight forward lean. Frame 3: Player 2 maintains a stable stance, with a slight forward lean. Frame 4: Player 2 maintains a stable stance, with a slight forward lean. Frame 5: Player 2 maintains a stable stance, with a slight forward lean. Frame 6: Player 2 maintains a stable stance, with a slight forward lean. Frame 7: Player 2 maintains a stable stance, with a slight forward lean. Frame 8: Player 2 maintains a stable stance, with a slight forward lean.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0032_25.6s.jpg",
+   "start_s": 25.62,
+   "end_s": 26.82,
+   "seconds": 11.6
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 maintains a stable stance, with slight adjustments in balance and posture throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 initiates a roundhouse kick with the rear leg, aiming for the opponent’s body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0033_26.4s.jpg",
+   "start_s": 26.42,
+   "end_s": 27.62,
+   "seconds": 6.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the lead leg, followed by a KIZAMI_ZUKI jab. Frame 2: Player 1 maintains the jab, with a slight adjustment of the lead hand. Frame 3: Player 1 takes a step back, maintaining a defensive stance. Frame 4: Player 1 prepares for a potential attack, shifting weight and raising the lead arm. Frame 5: Player 1 initiates a MAWASHI_GERI_CHUDAN roundhouse kick with the rear leg. Frame 6: Player 1 follows through with the roundhouse kick, maintaining balance. Frame 7: Player 1 takes a step back, maintaining a defensive stance. Frame 8: Player 1 maintains a defensive stance, preparing for a potential attack.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance, with a slight shift in weight. Frame 2: Player 2 maintains a defensive stance, with a slight shift in weight. Frame 3: Player 2 takes a step back, maintaining a defensive stance. Frame 4: Player 2 prepares for a potential attack, shifting weight and raising the rear arm. Frame 5: Player 2 maintains a defensive stance. Frame 6: Player 2 maintains a defensive stance. Frame 7: Player 2 takes a step back, maintaining a defensive stance. Frame 8: Player 2 maintains a defensive stance, preparing for a potential attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.8,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0034_27.2s.jpg",
+   "start_s": 27.22,
+   "end_s": 28.42,
+   "seconds": 11.3
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 shifts their weight and prepares a front-hand punch. Frame 2: Player 1 continues the punch, extending their lead arm forward. Frame 3: Player 1 maintains their stance, with a slight shift in weight. Frame 4: Player 1 continues to maintain their stance. Frame 5: Player 1 initiates a roundhouse kick with their rear leg. Frame 6: Player 1 continues the roundhouse kick, with the rear leg extended. Frame 7: Player 1 retracts their rear leg and returns to their stance. Frame 8: Player 1 returns to their stance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains their stance. Frame 2: Player 2 shifts their weight and prepares a rear-hand punch. Frame 3: Player 2 continues the punch, extending their rear arm forward. Frame 4: Player 2 continues to maintain their stance. Frame 5: Player 2 maintains their stance. Frame 6: Player 2 maintains their stance. Frame 7: Player 2 retracts their rear leg and returns to their stance. Frame 8: Player 2 returns to their stance.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "none",
+    "height": "none",
+    "label": "GYAKU_ZUKI",
+    "confidence": 0.85,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0035_28.0s.jpg",
+   "start_s": 28.02,
+   "end_s": 29.22,
+   "seconds": 10.6
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance, with a slight forward lean. Frame 2: Player 1 initiates a forward step with the rear foot, preparing for a potential attack. Frame 3: Player 1 maintains stance. Frame 4: Player 1 shifts weight and prepares to move forward. Frame 5: Player 1 initiates a roundhouse kick with the rear leg. Frame 6: Player 1 continues the roundhouse kick, bringing the foot down. Frame 7: Player 1 maintains stance. Frame 8: Player 1 maintains stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance, with a slight forward lean. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0036_28.8s.jpg",
+   "start_s": 28.82,
+   "end_s": 30.02,
+   "seconds": 9.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 shifts weight and prepares a front-hand punch. Frame 2: Player 1 continues to prepare the punch, stance remains stable. Frame 3: Player 1 initiates a rear-hand reverse punch. Frame 4: Player 1 completes the reverse punch. Frame 5: Player 1 shifts weight and prepares a front-leg roundhouse kick. Frame 6: Player 1 continues to prepare the roundhouse kick. Frame 7: Player 1 executes a front-leg roundhouse kick. Frame 8: Player 1 maintains stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance. Frame 2: Player 2 maintains a stable stance. Frame 3: Player 2 maintains a stable stance. Frame 4: Player 2 maintains a stable stance. Frame 5: Player 2 maintains a stable stance. Frame 6: Player 2 maintains a stable stance. Frame 7: Player 2 maintains a stable stance. Frame 8: Player 2 maintains a stable stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0037_29.6s.jpg",
+   "start_s": 29.62,
+   "end_s": 30.82,
+   "seconds": 10.0
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 begins a GYAKU_ZUKI reverse punch. Frame 4: Player 1 completes the GYAKU_ZUKI reverse punch. Frame 5: Player 1 prepares for a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 6: Player 1 executes the KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 7: Player 1 maintains stance. Frame 8: Player 1 maintains stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains stance. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0038_30.4s.jpg",
+   "start_s": 30.42,
+   "end_s": 31.62,
+   "seconds": 10.0
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 initiates a roundhouse kick with their rear leg, followed by a step forward and a preparatory stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 maintains a defensive stance, with a slight shift in weight and a preparatory movement for a potential counter attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.8,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0039_31.2s.jpg",
+   "start_s": 31.22,
+   "end_s": 32.42,
+   "seconds": 6.5
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a roundhouse kick with their rear leg. Frame 2: The kick continues, with the leg extending horizontally. Frame 3: Player 1 begins a rear-hand reverse punch. Frame 4: The punch extends fully. Frame 5: Player 1 begins a roundhouse kick with their front leg. Frame 6: The kick continues, with the leg extending horizontally. Frame 7: Player 1 initiates a roundhouse kick with their front leg. Frame 8: The kick continues, with the leg extending horizontally.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a stance. Frame 2: Player 2 initiates a rear-hand reverse punch. Frame 3: Player 2 is in a stance. Frame 4: Player 2 is in a stance. Frame 5: Player 2 is in a stance. Frame 6: Player 2 is in a stance. Frame 7: Player 2 is in a stance. Frame 8: Player 2 is in a stance.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "none",
+    "height": "none",
+    "label": "GYAKU_ZUKI",
+    "confidence": 0.8,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0040_32.0s.jpg",
+   "start_s": 32.02,
+   "end_s": 33.22,
+   "seconds": 9.9
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stance, with a slight shift of weight. Frame 2: Player 1 initiates a forward step with the rear foot, preparing for a potential attack. Frame 3: Player 1 continues to step forward, maintaining the stance. Frame 4: Player 1 performs a roundhouse kick with the rear leg, targeting the opponent’s body. Frame 5: Player 1 maintains the stance after the kick. Frame 6: Player 1 continues to maintain the stance. Frame 7: Player 1 performs a forward step with the rear foot, preparing for a potential attack. Frame 8: Player 1 maintains a stance, with a slight shift of weight.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance, with a slight shift of weight. Frame 2: Player 2 maintains a stance. Frame 3: Player 2 maintains a stance. Frame 4: Player 2 maintains a stance. Frame 5: Player 2 maintains a stance. Frame 6: Player 2 maintains a stance. Frame 7: Player 2 maintains a stance. Frame 8: Player 2 maintains a stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0041_32.8s.jpg",
+   "start_s": 32.82,
+   "end_s": 34.02,
+   "seconds": 10.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 shifts their weight slightly, preparing a potential roundhouse kick. Frame 2: Player 1 continues to shift weight, maintaining the stance. Frame 3: Player 1 takes a small step forward with the back foot, setting up a potential roundhouse. Frame 4: Player 1 maintains the stance, ready to attack. Frame 5: Player 1 initiates a roundhouse kick with the rear leg, lifting the back knee and extending the leg horizontally. Frame 6: Player 1 continues the roundhouse kick, with the foot snapping around to target the body. Frame 7: Player 1 completes the roundhouse kick, with the foot reaching stomach height. Frame 8: Player 1 maintains the stance after the roundhouse kick.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance, with no apparent movement. Frame 2: Player 2 maintains a stable stance, with no apparent movement. Frame 3: Player 2 maintains a stable stance, with no apparent movement. Frame 4: Player 2 maintains a stable stance, with no apparent movement. Frame 5: Player 2 maintains a stable stance, with no apparent movement. Frame 6: Player 2 maintains a stable stance, with no apparent movement. Frame 7: Player 2 maintains a stable stance, with no apparent movement. Frame 8: Player 2 maintains a stable stance, with no apparent movement.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.99,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0042_33.6s.jpg",
+   "start_s": 33.62,
+   "end_s": 34.83,
+   "seconds": 11.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance. Frame 2: Player 1 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 1 maintains stance. Frame 4: Player 1 shifts weight slightly and prepares for a potential attack. Frame 5: Player 1 maintains stance. Frame 6: Player 1 maintains stance. Frame 7: Player 1 initiates a roundhouse kick with the front leg. Frame 8: Player 1 follows through with the roundhouse kick.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0043_34.4s.jpg",
+   "start_s": 34.43,
+   "end_s": 35.63,
+   "seconds": 9.5
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab, extending their lead hand forward. Frame 2: Player 1 continues the KIZAMI_ZUKI jab, maintaining the forward extension. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick with their rear leg. Frame 4: Player 1 continues the roundhouse kick, bringing the rear leg up and around. Frame 5: Player 1 completes the roundhouse kick, with the rear foot reaching for the body. Frame 6: Player 1 follows up with a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick, aiming for the head. Frame 7: Player 1 maintains the stance and prepares for a potential follow-up. Frame 8: Player 1 continues to maintain the stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a MOVEMENT stance, stepping back slightly. Frame 2: Player 2 maintains a MOVEMENT stance, stepping back slightly. Frame 3: Player 2 maintains a MOVEMENT stance, stepping back slightly. Frame 4: Player 2 maintains a MOVEMENT stance, stepping back slightly. Frame 5: Player 2 maintains a MOVEMENT stance, stepping back slightly. Frame 6: Player 2 maintains a MOVEMENT stance, stepping back slightly. Frame 7: Player 2 maintains a MOVEMENT stance, stepping back slightly. Frame 8: Player 2 maintains a MOVEMENT stance, stepping back slightly.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0044_35.2s.jpg",
+   "start_s": 35.23,
+   "end_s": 36.43,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward jab with their lead hand. Frame 2: Player 1 continues the jab, maintaining a stance. Frame 3: Player 1 begins a rear-hand reverse punch, pivoting their body. Frame 4: Player 1 completes the reverse punch, bringing their arm forward. Frame 5: Player 1 shifts their weight and prepares for a roundhouse kick with their rear leg. Frame 6: Player 1 executes the roundhouse kick, aiming for the body. Frame 7: Player 1 maintains their stance, ready for a potential follow-up. Frame 8: Player 1 continues to maintain their stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance, observing Player 1. Frame 2: Player 2 maintains a defensive stance, observing Player 1. Frame 3: Player 2 maintains a defensive stance, observing Player 1. Frame 4: Player 2 maintains a defensive stance, observing Player 1. Frame 5: Player 2 maintains a defensive stance, observing Player 1. Frame 6: Player 2 maintains a defensive stance, observing Player 1. Frame 7: Player 2 maintains a defensive stance, observing Player 1. Frame 8: Player 2 maintains a defensive stance, observing Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0045_36.0s.jpg",
+   "start_s": 36.03,
+   "end_s": 37.23,
+   "seconds": 11.4
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance with both hands up. Frame 2: Player 1 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 1 initiates a roundhouse kick with their rear leg. Frame 4: Player 1 continues the roundhouse kick, bringing the foot towards the opponent’s body. Frame 5: Player 1 maintains the roundhouse kick stance. Frame 6: Player 1 continues the roundhouse kick, bringing the foot towards the opponent’s body. Frame 7: Player 1 retracts their kicking leg, returning to a stable stance. Frame 8: Player 1 maintains a stable stance with both hands up.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance with both hands up. Frame 2: Player 2 maintains a stable stance with both hands up. Frame 3: Player 2 maintains a stable stance with both hands up. Frame 4: Player 2 maintains a stable stance with both hands up. Frame 5: Player 2 maintains a stable stance with both hands up. Frame 6: Player 2 maintains a stable stance with both hands up. Frame 7: Player 2 maintains a stable stance with both hands up. Frame 8: Player 2 maintains a stable stance with both hands up.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.99,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0046_36.8s.jpg",
+   "start_s": 36.83,
+   "end_s": 38.03,
+   "seconds": 11.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 maintains a stable stance, with slight adjustments in balance and posture throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 initiates a roundhouse kick with the rear leg, aiming for the opponent’s body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0047_37.6s.jpg",
+   "start_s": 37.63,
+   "end_s": 38.83,
+   "seconds": 6.4
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 maintains the KIZAMI_ZUKI jab. Frame 4: Player 1 continues the KIZAMI_ZUKI jab. Frame 5: Player 1 initiates a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 6: Player 1 continues the KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 7: Player 1 maintains the KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 8: Player 1 maintains the KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a MOVEMENT stance. Frame 2: Player 2 maintains a MOVEMENT stance. Frame 3: Player 2 maintains a MOVEMENT stance. Frame 4: Player 2 maintains a MOVEMENT stance. Frame 5: Player 2 maintains a MOVEMENT stance. Frame 6: Player 2 maintains a MOVEMENT stance. Frame 7: Player 2 maintains a MOVEMENT stance. Frame 8: Player 2 maintains a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0048_38.4s.jpg",
+   "start_s": 38.43,
+   "end_s": 39.63,
+   "seconds": 11.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab with their lead hand. Frame 2: Player 1 continues the KIZAMI_ZUKI jab, maintaining the forward extension. Frame 3: Player 1 begins a GYAKU_ZUKI reverse punch, rotating their hips. Frame 4: Player 1 completes the GYAKU_ZUKI reverse punch, extending their rear arm. Frame 5: Player 1 prepares for a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 6: Player 1 executes the KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick to the body. Frame 7: Player 1 maintains the stance after the kick. Frame 8: Player 1 continues to maintain the stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a MOVEMENT stance. Frame 2: Player 2 maintains a MOVEMENT stance. Frame 3: Player 2 maintains a MOVEMENT stance. Frame 4: Player 2 maintains a MOVEMENT stance. Frame 5: Player 2 maintains a MOVEMENT stance. Frame 6: Player 2 maintains a MOVEMENT stance. Frame 7: Player 2 maintains a MOVEMENT stance. Frame 8: Player 2 maintains a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0049_39.2s.jpg",
+   "start_s": 39.23,
+   "end_s": 40.43,
+   "seconds": 11.4
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance with both hands up. Frame 2: Player 1 shifts weight slightly and prepares for a potential punch. Frame 3: Player 1 initiates a lead-hand jab, extending the arm forward. Frame 4: Player 1 follows up with a rear-hand reverse punch, rotating the hips. Frame 5: Player 1 maintains a defensive stance, hands up. Frame 6: Player 1 continues to maintain a defensive stance. Frame 7: Player 1 initiates a front-leg roundhouse kick towards the opponent’s head. Frame 8: Player 1 completes the roundhouse kick, bringing the leg back to the stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance with both hands up. Frame 2: Player 2 shifts weight slightly and prepares for a potential punch. Frame 3: Player 2 maintains a defensive stance, hands up. Frame 4: Player 2 continues to maintain a defensive stance. Frame 5: Player 2 maintains a defensive stance, hands up. Frame 6: Player 2 continues to maintain a defensive stance. Frame 7: Player 2 maintains a defensive stance, hands up. Frame 8: Player 2 maintains a defensive stance, hands up.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0050_40.0s.jpg",
+   "start_s": 40.03,
+   "end_s": 41.23,
+   "seconds": 11.1
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the jab, maintaining stance. Frame 3: Player 1 begins a GYAKU_ZUKI reverse punch. Frame 4: Player 1 completes the reverse punch. Frame 5: Player 1 maintains a defensive stance. Frame 6: Player 1 maintains a defensive stance. Frame 7: Player 1 prepares for a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 8: Player 1 completes the roundhouse kick.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance. Frame 2: Player 2 maintains a defensive stance. Frame 3: Player 2 maintains a defensive stance. Frame 4: Player 2 maintains a defensive stance. Frame 5: Player 2 maintains a defensive stance. Frame 6: Player 2 maintains a defensive stance. Frame 7: Player 2 maintains a defensive stance. Frame 8: Player 2 maintains a defensive stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0051_40.8s.jpg",
+   "start_s": 40.83,
+   "end_s": 42.03,
+   "seconds": 10.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance with both hands up. Frame 2: Player 1 initiates a forward step with the rear foot, preparing for a potential attack. Frame 3: Player 1 continues to step forward with the rear foot, maintaining the stance. Frame 4: Player 1 completes the forward step and begins to rotate their hips, setting up a roundhouse kick. Frame 5: Player 1 extends their rear leg in a roundhouse kick motion, aiming for the opponent’s body. Frame 6: Player 1 completes the roundhouse kick, with the rear leg extended and the foot impacting the target. Frame 7: Player 1 maintains the stance after the kick, with a slight recovery movement. Frame 8: Player 1 continues to maintain the stance, ready for a potential counter-attack.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance with both hands up. Frame 2: Player 2 maintains a stable stance with both hands up. Frame 3: Player 2 maintains a stable stance with both hands up. Frame 4: Player 2 maintains a stable stance with both hands up. Frame 5: Player 2 maintains a stable stance with both hands up. Frame 6: Player 2 maintains a stable stance with both hands up. Frame 7: Player 2 maintains a stable stance with both hands up. Frame 8: Player 2 maintains a stable stance with both hands up.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0052_41.6s.jpg",
+   "start_s": 41.63,
+   "end_s": 42.83,
+   "seconds": 11.8
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stance with both hands up. Frame 2: Player 1 initiates a KIZAMI_ZUKI jab with their lead hand. Frame 3: Player 1 continues to maintain stance. Frame 4: Player 1 continues to maintain stance. Frame 5: Player 1 initiates a MAWASHI_GERI_CHUDAN roundhouse kick with their rear leg. Frame 6: Player 1 continues to maintain stance. Frame 7: Player 1 continues to maintain stance. Frame 8: Player 1 continues to maintain stance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance with both hands up. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0053_42.4s.jpg",
+   "start_s": 42.43,
+   "end_s": 43.63,
+   "seconds": 10.0
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick. Frame 4: Player 1 continues the roundhouse kick. Frame 5: Player 1 maintains the roundhouse kick stance. Frame 6: Player 1 continues the roundhouse kick. Frame 7: Player 1 completes the roundhouse kick. Frame 8: Player 1 returns to a neutral stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance. Frame 2: Player 2 is in a MOVEMENT stance. Frame 3: Player 2 is in a MOVEMENT stance. Frame 4: Player 2 is in a MOVEMENT stance. Frame 5: Player 2 is in a MOVEMENT stance. Frame 6: Player 2 is in a MOVEMENT stance. Frame 7: Player 2 is in a MOVEMENT stance. Frame 8: Player 2 is in a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0054_43.2s.jpg",
+   "start_s": 43.23,
+   "end_s": 44.43,
+   "seconds": 10.3
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 maintains the jab stance. Frame 3: Player 1 initiates a KIZAMI_ZUKI jab. Frame 4: Player 1 maintains the jab stance. Frame 5: Player 1 initiates a MAWASHI_GERI_CHUDAN roundhouse kick. Frame 6: Player 1 continues the roundhouse kick. Frame 7: Player 1 maintains the roundhouse kick stance. Frame 8: Player 1 maintains the roundhouse kick stance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a MOVEMENT stance. Frame 2: Player 2 maintains a MOVEMENT stance. Frame 3: Player 2 maintains a MOVEMENT stance. Frame 4: Player 2 maintains a MOVEMENT stance. Frame 5: Player 2 maintains a MOVEMENT stance. Frame 6: Player 2 maintains a MOVEMENT stance. Frame 7: Player 2 maintains a MOVEMENT stance. Frame 8: Player 2 maintains a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0055_44.0s.jpg",
+   "start_s": 44.03,
+   "end_s": 45.23,
+   "seconds": 10.4
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance with both hands up. Frame 2: Player 1 initiates a KIZAMI_ZUKI punch, extending their lead hand forward. Frame 3: Player 1 continues the KIZAMI_ZUKI punch, maintaining the extension. Frame 4: Player 1 completes the KIZAMI_ZUKI punch, retracting their hand. Frame 5: Player 1 maintains a stable stance. Frame 6: Player 1 maintains a stable stance. Frame 7: Player 1 maintains a stable stance. Frame 8: Player 1 maintains a stable stance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance with both hands up. Frame 2: Player 2 maintains a stable stance. Frame 3: Player 2 maintains a stable stance. Frame 4: Player 2 maintains a stable stance. Frame 5: Player 2 maintains a stable stance. Frame 6: Player 2 maintains a stable stance. Frame 7: Player 2 maintains a stable stance. Frame 8: Player 2 maintains a stable stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0056_44.8s.jpg",
+   "start_s": 44.83,
+   "end_s": 46.03,
+   "seconds": 10.1
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 initiates a series of movements, including a roundhouse kick and a feint.",
+    "attack": "feint",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "FEINT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 performs a roundhouse kick to the body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0057_45.6s.jpg",
+   "start_s": 45.63,
+   "end_s": 46.83,
+   "seconds": 6.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 initiates a series of movements, starting with a preparatory stance and culminating in a roundhouse kick.",
+    "attack": "none",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Player 2 maintains a defensive stance, exhibiting movement and guarding.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0058_46.4s.jpg",
+   "start_s": 46.43,
+   "end_s": 47.63,
+   "seconds": 6.1
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the jab, maintaining the same stance. Frame 3: Player 1 begins a GYAKU_ZUKI reverse punch. Frame 4: Player 1 completes the reverse punch. Frame 5: Player 1 maintains a stance. Frame 6: Player 1 maintains a stance. Frame 7: Player 1 maintains a stance. Frame 8: Player 1 maintains a stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance. Frame 2: Player 2 maintains a stance. Frame 3: Player 2 maintains a stance. Frame 4: Player 2 maintains a stance. Frame 5: Player 2 maintains a stance. Frame 6: Player 2 maintains a stance. Frame 7: Player 2 maintains a stance. Frame 8: Player 2 maintains a stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0059_47.2s.jpg",
+   "start_s": 47.23,
+   "end_s": 48.44,
+   "seconds": 9.6
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a balanced stance, with slight movement of the arms. Frame 2: Player 1 maintains a balanced stance, with slight movement of the arms. Frame 3: Player 1 initiates a forward step with the rear foot, preparing for a kick. Frame 4: Player 1 continues to step forward with the rear foot, extending the leg. Frame 5: Player 1 completes the roundhouse kick, with the rear leg extended and the foot reaching for the opponent’s body. Frame 6: Player 1 maintains a balanced stance after the kick. Frame 7: Player 1 maintains a balanced stance, with slight movement of the arms. Frame 8: Player 1 maintains a balanced stance, with slight movement of the arms.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a balanced stance, with slight movement of the arms. Frame 2: Player 2 maintains a balanced stance, with slight movement of the arms. Frame 3: Player 2 maintains a balanced stance, with slight movement of the arms. Frame 4: Player 2 maintains a balanced stance, with slight movement of the arms. Frame 5: Player 2 maintains a balanced stance, with slight movement of the arms. Frame 6: Player 2 maintains a balanced stance, with slight movement of the arms. Frame 7: Player 2 maintains a balanced stance, with slight movement of the arms. Frame 8: Player 2 maintains a balanced stance, with slight movement of the arms.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0060_48.0s.jpg",
+   "start_s": 48.04,
+   "end_s": 49.24,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab with their lead hand. Frame 2: Player 1 continues the KIZAMI_ZUKI jab, maintaining the stance. Frame 3: Player 1 begins a GYAKU_ZUKI reverse punch, lunging forward. Frame 4: Player 1 completes the GYAKU_ZUKI punch, ending the attack. Frame 5: Player 1 begins a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick with their front leg. Frame 6: Player 1 continues the roundhouse kick, bringing the foot up. Frame 7: Player 1 completes the roundhouse kick, ending the attack. Frame 8: Player 1 is in a defensive MOVEMENT, guarding.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT, maintaining stance. Frame 2: Player 2 is in a MOVEMENT, maintaining stance. Frame 3: Player 2 is in a MOVEMENT, maintaining stance. Frame 4: Player 2 is in a MOVEMENT, maintaining stance. Frame 5: Player 2 is in a MOVEMENT, maintaining stance. Frame 6: Player 2 is in a MOVEMENT, maintaining stance. Frame 7: Player 2 is in a MOVEMENT, maintaining stance. Frame 8: Player 2 is in a MOVEMENT, maintaining stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0061_48.8s.jpg",
+   "start_s": 48.84,
+   "end_s": 50.04,
+   "seconds": 11.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 shifts weight and prepares a rear-leg roundhouse kick. Frame 2: Player 1 continues the roundhouse kick, bringing the foot up and around. Frame 3: Player 1 maintains the roundhouse kick stance, ready to deliver. Frame 4: Player 1 continues the roundhouse kick, extending the leg forward. Frame 5: Player 1 completes the roundhouse kick, with the foot reaching towards the opponent’s head. Frame 6: Player 1 maintains the roundhouse kick stance, ready to deliver. Frame 7: Player 1 begins to retract the kicking leg, returning to the starting stance. Frame 8: Player 1 completes the retraction, returning to the starting stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a defensive stance, maintaining balance. Frame 2: Player 2 shifts weight and prepares a rear-leg roundhouse kick. Frame 3: Player 2 continues the roundhouse kick, bringing the foot up and around. Frame 4: Player 2 maintains the roundhouse kick stance, ready to deliver. Frame 5: Player 2 completes the roundhouse kick, with the foot reaching towards the opponent’s head. Frame 6: Player 2 maintains the roundhouse kick stance, ready to deliver. Frame 7: Player 2 begins to retract the kicking leg, returning to the starting stance. Frame 8: Player 2 completes the retraction, returning to the starting stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0062_49.6s.jpg",
+   "start_s": 49.64,
+   "end_s": 50.84,
+   "seconds": 12.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the right foot, followed by a slight raise of the right arm. Frame 2: Player 1 continues the forward step and raises the right arm further, preparing for a punch. Frame 3: Player 1 maintains a stance, with a slight shift of weight and a raised right arm. Frame 4: Player 1 continues to maintain stance, with a slight shift of weight and a raised right arm. Frame 5: Player 1 initiates a roundhouse kick with the right leg, aiming for the opponent’s body. Frame 6: Player 1 completes the roundhouse kick with the right leg. Frame 7: Player 1 maintains stance, with a slight shift of weight and a raised right arm. Frame 8: Player 1 maintains stance, with a slight shift of weight and a raised right arm.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance, with a slight shift of weight and a raised right arm. Frame 2: Player 2 maintains a stance, with a slight shift of weight and a raised right arm. Frame 3: Player 2 maintains a stance, with a slight shift of weight and a raised right arm. Frame 4: Player 2 maintains a stance, with a slight shift of weight and a raised right arm. Frame 5: Player 2 maintains a stance, with a slight shift of weight and a raised right arm. Frame 6: Player 2 maintains a stance, with a slight shift of weight and a raised right arm. Frame 7: Player 2 maintains a stance, with a slight shift of weight and a raised right arm. Frame 8: Player 2 maintains a stance, with a slight shift of weight and a raised right arm.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0063_50.4s.jpg",
+   "start_s": 50.44,
+   "end_s": 51.64,
+   "seconds": 12.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab, extending their lead hand forward. Frame 2: Player 1 continues the KIZAMI_ZUKI jab, maintaining the extension. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick with their rear leg, initiating the hip rotation. Frame 4: Player 1 continues the roundhouse kick, extending the leg. Frame 5: Player 1 completes the roundhouse kick, with the foot reaching stomach height. Frame 6: Player 1 maintains the stance, with no further action. Frame 7: Player 1 initiates a KIZAMI_ZUKI jab, extending their lead hand forward. Frame 8: Player 1 continues the KIZAMI_ZUKI jab, maintaining the extension.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 2: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 3: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 4: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 5: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 6: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 7: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 8: Player 2 is in a MOVEMENT stance, maintaining their guard.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0064_51.2s.jpg",
+   "start_s": 51.24,
+   "end_s": 52.44,
+   "seconds": 12.0
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 shifts their weight and prepares a front-hand punch. Frame 2: Player 1 extends their lead hand in a straight jab towards the opponent’s head. Frame 3: Player 1 maintains their stance, with no movement. Frame 4: Player 1 shifts their weight and prepares a rear-hand reverse punch. Frame 5: Player 1 extends their rear hand in a straight reverse punch towards the opponent’s head. Frame 6: Player 1 maintains their stance, with no movement. Frame 7: Player 1 shifts their weight and prepares a front-hand roundhouse kick. Frame 8: Player 1 extends their lead leg in a roundhouse kick towards the opponent’s head.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "GYAKU_ZUKI",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains their stance, with no movement. Frame 2: Player 2 shifts their weight and prepares a front-hand straight punch. Frame 3: Player 2 maintains their stance, with no movement. Frame 4: Player 2 extends their lead hand in a straight jab towards the opponent’s head. Frame 5: Player 2 maintains their stance, with no movement. Frame 6: Player 2 shifts their weight and prepares a rear-hand reverse punch. Frame 7: Player 2 extends their rear hand in a straight reverse punch towards the opponent’s head. Frame 8: Player 2 maintains their stance, with no movement.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "none",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0065_52.0s.jpg",
+   "start_s": 52.04,
+   "end_s": 53.24,
+   "seconds": 11.8
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 begins a KIZAMI_GYAKU_COMBINATION, a lead-hand jab followed by a rear-hand reverse punch. Frame 4: Player 1 continues the KIZAMI_GYAKU_COMBINATION. Frame 5: Player 1 prepares for a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 6: Player 1 executes the KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 7: Player 1 follows up with a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick to the head. Frame 8: Player 1 completes the KIZAMI_MAWASHI_GERI_JODAN roundhouse kick.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 1,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance. Frame 2: Player 2 is in a MOVEMENT stance. Frame 3: Player 2 is in a MOVEMENT stance. Frame 4: Player 2 is in a MOVEMENT stance. Frame 5: Player 2 is in a MOVEMENT stance. Frame 6: Player 2 is in a MOVEMENT stance. Frame 7: Player 2 is in a MOVEMENT stance. Frame 8: Player 2 is in a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0066_52.8s.jpg",
+   "start_s": 52.84,
+   "end_s": 54.04,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab with their lead hand. Frame 2: Player 1 continues the KIZAMI_ZUKI jab, maintaining the same stance. Frame 3: Player 1 performs a GYAKU_ZUKI reverse punch with their rear hand. Frame 4: Player 1 continues the GYAKU_ZUKI reverse punch, maintaining the same stance. Frame 5: Player 1 initiates a MAWASHI_GERI_CHUDAN roundhouse kick with their rear leg. Frame 6: Player 1 continues the MAWASHI_GERI_CHUDAN roundhouse kick, maintaining the same stance. Frame 7: Player 1 initiates a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick with their front leg. Frame 8: Player 1 continues the KIZAMI_MAWASHI_GERI_JODAN roundhouse kick, maintaining the same stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 performs a MOVEMENT, stepping back. Frame 2: Player 2 performs a MOVEMENT, stepping back. Frame 3: Player 2 performs a MOVEMENT, stepping back. Frame 4: Player 2 performs a MOVEMENT, stepping back. Frame 5: Player 2 performs a MAWASHI_GERI_JODAN roundhouse kick with their rear leg. Frame 6: Player 2 performs a MOVEMENT, stepping back. Frame 7: Player 2 performs a MOVEMENT, stepping back. Frame 8: Player 2 performs a MOVEMENT, stepping back.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.9,
+    "consistent": false
+   },
+   "video": "match1",
+   "image": "clips/match1/0067_53.6s.jpg",
+   "start_s": 53.64,
+   "end_s": 54.84,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step and raises their rear hand in preparation for a reverse punch. Frame 2: Player 1 continues the punch, extending their rear arm forward. Frame 3: Player 1 shifts their weight and begins a roundhouse kick with their rear leg. Frame 4: Player 1 continues the roundhouse kick, bringing their foot down towards the opponent’s body. Frame 5: Player 1 maintains the roundhouse kick stance, preparing for a follow-up. Frame 6: Player 1 shifts their weight and begins a roundhouse kick with their front leg. Frame 7: Player 1 continues the roundhouse kick, bringing their foot down towards the opponent’s body. Frame 8: Player 1 maintains the roundhouse kick stance, ready to continue.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance, with their hands up. Frame 2: Player 2 maintains a defensive stance, with their hands up. Frame 3: Player 2 maintains a defensive stance, with their hands up. Frame 4: Player 2 maintains a defensive stance, with their hands up. Frame 5: Player 2 maintains a defensive stance, with their hands up. Frame 6: Player 2 maintains a defensive stance, with their hands up. Frame 7: Player 2 maintains a defensive stance, with their hands up. Frame 8: Player 2 maintains a defensive stance, with their hands up.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0068_54.4s.jpg",
+   "start_s": 54.44,
+   "end_s": 55.64,
+   "seconds": 11.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 maintains a stable stance, with slight adjustments in balance and posture throughout the frames.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 maintains a stable stance, with slight adjustments in balance and posture throughout the frames.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0069_55.2s.jpg",
+   "start_s": 55.24,
+   "end_s": 56.44,
+   "seconds": 6.0
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab with their lead hand. Frame 2: Player 1 continues the KIZAMI_ZUKI jab, stepping forward slightly. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick with their rear leg. Frame 4: Player 1 continues the roundhouse kick, bringing their rear leg up and around. Frame 5: Player 1 completes the roundhouse kick, with the rear foot reaching for the body. Frame 6: Player 1 maintains the roundhouse kick stance. Frame 7: Player 1 shifts their weight and prepares for a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick. Frame 8: Player 1 completes the roundhouse kick with their front leg, aiming for the head.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 2: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 3: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 4: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 5: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 6: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 7: Player 2 is in a MOVEMENT stance, maintaining their guard. Frame 8: Player 2 is in a MOVEMENT stance, maintaining their guard.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0070_56.0s.jpg",
+   "start_s": 56.04,
+   "end_s": 57.24,
+   "seconds": 11.9
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance with both hands up. Frame 2: Player 1 shifts weight slightly and prepares for a potential attack. Frame 3: Player 1 initiates a roundhouse kick with the rear leg. Frame 4: Player 1 continues to maintain the roundhouse kick. Frame 5: Player 1 completes the roundhouse kick with the rear leg. Frame 6: Player 1 maintains the stance after the roundhouse kick. Frame 7: Player 1 maintains a stable stance with both hands up. Frame 8: Player 1 maintains a stable stance with both hands up.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance with both hands up. Frame 2: Player 2 maintains a stable stance with both hands up. Frame 3: Player 2 maintains a stable stance with both hands up. Frame 4: Player 2 maintains a stable stance with both hands up. Frame 5: Player 2 maintains a stable stance with both hands up. Frame 6: Player 2 maintains a stable stance with both hands up. Frame 7: Player 2 maintains a stable stance with both hands up. Frame 8: Player 2 maintains a stable stance with both hands up.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0071_56.8s.jpg",
+   "start_s": 56.84,
+   "end_s": 58.04,
+   "seconds": 10.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 maintains a standard stance, with slight adjustments in posture and balance throughout the frames.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 initiates a roundhouse kick with the rear leg, aiming for the opponent's body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0072_57.6s.jpg",
+   "start_s": 57.64,
+   "end_s": 58.84,
+   "seconds": 6.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a roundhouse kick with their rear leg. Frame 2: The kick continues, with the leg extending horizontally. Frame 3: Player 1 maintains their stance, stepping slightly. Frame 4: Player 1 performs a roundhouse kick with their rear leg, aiming for the opponent’s body. Frame 5: Player 1 executes a front-leg roundhouse kick, targeting the opponent’s head. Frame 6: Player 1 retracts their kicking leg, returning to their stance. Frame 7: Player 1 performs a roundhouse kick with their rear leg. Frame 8: Player 1 completes the roundhouse kick with their rear leg.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 initiates a roundhouse kick with their rear leg. Frame 2: The kick continues, with the leg extending horizontally. Frame 3: Player 2 maintains their stance, stepping slightly. Frame 4: Player 2 performs a roundhouse kick with their rear leg, aiming for the opponent’s body. Frame 5: Player 2 executes a front-leg roundhouse kick, targeting the opponent’s head. Frame 6: Player 2 retracts their kicking leg, returning to their stance. Frame 7: Player 2 performs a roundhouse kick with their rear leg. Frame 8: Player 2 completes the roundhouse kick with their rear leg.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0073_58.4s.jpg",
+   "start_s": 58.44,
+   "end_s": 59.64,
+   "seconds": 11.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the right leg, followed by a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the jab, maintaining the lead-hand extension. Frame 3: Player 1 shifts weight and prepares for a GYAKU_ZUKI reverse punch. Frame 4: Player 1 executes the GYAKU_ZUKI punch, rotating the hips. Frame 5: Player 1 takes a step back and prepares for a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 6: Player 1 completes the roundhouse kick to the body. Frame 7: Player 1 maintains stance and prepares for a Yoko_Geri_Chudan side kick. Frame 8: Player 1 completes the side kick to the body.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a stable stance. Frame 2: Player 2 is in a stable stance. Frame 3: Player 2 initiates a forward step with the right leg, followed by a GYAKU_ZUKI reverse punch. Frame 4: Player 2 continues the reverse punch, maintaining the rear-hand extension. Frame 5: Player 2 takes a step back and prepares for a MAWASHI_GERI_JODAN roundhouse kick. Frame 6: Player 2 completes the roundhouse kick to the head. Frame 7: Player 2 maintains stance and prepares for a Yoko_Geri_Jodan side kick. Frame 8: Player 2 completes the side kick to the head.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "GYAKU_ZUKI",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0074_59.2s.jpg",
+   "start_s": 59.24,
+   "end_s": 60.44,
+   "seconds": 12.5
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the jab, maintaining stance. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick. Frame 4: Player 1 continues the roundhouse kick, bringing the leg around. Frame 5: Player 1 maintains stance. Frame 6: Player 1 maintains stance. Frame 7: Player 1 initiates a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick to the head. Frame 8: Player 1 completes the roundhouse kick, ending the action.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains stance. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0075_60.0s.jpg",
+   "start_s": 60.04,
+   "end_s": 61.24,
+   "seconds": 10.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the lead leg, followed by a KIZAMI_ZUKI jab. Frame 2: Player 1 maintains the jab, with a slight adjustment of the lead hand. Frame 3: Player 1 initiates a GYAKU_ZUKI reverse punch, lunging forward. Frame 4: Player 1 continues the GYAKU_ZUKI punch, with a slight adjustment of the rear hand. Frame 5: Player 1 performs a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick with the front leg to the body. Frame 6: Player 1 completes the roundhouse kick, with the foot reaching stomach height. Frame 7: Player 1 performs a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick with the front leg to the head. Frame 8: Player 1 finishes the roundhouse kick, with the foot reaching head height.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance with a slight movement of the rear hand. Frame 2: Player 2 maintains a stance with a slight movement of the rear hand. Frame 3: Player 2 performs a MAWASHI_GERI_CHUDAN roundhouse kick with the rear leg to the body. Frame 4: Player 2 completes the roundhouse kick, with the foot reaching stomach height. Frame 5: Player 2 maintains a stance with a slight movement of the rear hand. Frame 6: Player 2 maintains a stance with a slight movement of the rear hand. Frame 7: Player 2 performs a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick with the front leg to the head. Frame 8: Player 2 finishes the roundhouse kick, with the foot reaching head height.",
+    "attack": "none",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.8,
+    "consistent": false
+   },
+   "video": "match1",
+   "image": "clips/match1/0076_60.8s.jpg",
+   "start_s": 60.84,
+   "end_s": 62.05,
+   "seconds": 13.4
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stance. Frame 2: Player 1 initiates a KIZAMI_ZUKI punch, extending their lead hand forward. Frame 3: Player 1 continues to maintain stance. Frame 4: Player 1 continues to maintain stance. Frame 5: Player 1 initiates a MAWASHI_GERI_CHUDAN kick with their rear leg, aiming for the body. Frame 6: Player 1 continues to maintain stance. Frame 7: Player 1 continues to maintain stance. Frame 8: Player 1 maintains stance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0077_61.6s.jpg",
+   "start_s": 61.65,
+   "end_s": 62.85,
+   "seconds": 9.9
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the rear foot, preparing for a potential attack. Frame 2: Player 1 maintains a stance, with no distinct movement. Frame 3: Player 1 shifts weight slightly, preparing for a potential movement. Frame 4: Player 1 maintains a stance, with no distinct movement. Frame 5: Player 1 initiates a forward step with the rear foot, preparing for a potential attack. Frame 6: Player 1 maintains a stance, with no distinct movement. Frame 7: Player 1 initiates a forward step with the rear foot, preparing for a potential attack. Frame 8: Player 1 maintains a stance, with no distinct movement.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance, with no distinct movement. Frame 2: Player 2 maintains a stance, with no distinct movement. Frame 3: Player 2 maintains a stance, with no distinct movement. Frame 4: Player 2 maintains a stance, with no distinct movement. Frame 5: Player 2 maintains a stance, with no distinct movement. Frame 6: Player 2 maintains a stance, with no distinct movement. Frame 7: Player 2 maintains a stance, with no distinct movement. Frame 8: Player 2 maintains a stance, with no distinct movement.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0078_62.5s.jpg",
+   "start_s": 62.45,
+   "end_s": 63.65,
+   "seconds": 10.9
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance, with hands up in a defensive guard. Frame 2: Player 1 maintains a stable stance, with hands up in a defensive guard. Frame 3: Player 1 maintains a stable stance, with hands up in a defensive guard. Frame 4: Player 1 maintains a stable stance, with hands up in a defensive guard. Frame 5: Player 1 initiates a roundhouse kick with the rear leg. Frame 6: Player 1 continues the roundhouse kick with the rear leg. Frame 7: Player 1 maintains a stable stance, with hands up in a defensive guard. Frame 8: Player 1 maintains a stable stance, with hands up in a defensive guard.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance, with hands up in a defensive guard. Frame 2: Player 2 maintains a stable stance, with hands up in a defensive guard. Frame 3: Player 2 maintains a stable stance, with hands up in a defensive guard. Frame 4: Player 2 maintains a stable stance, with hands up in a defensive guard. Frame 5: Player 2 maintains a stable stance, with hands up in a defensive guard. Frame 6: Player 2 maintains a stable stance, with hands up in a defensive guard. Frame 7: Player 2 maintains a stable stance, with hands up in a defensive guard. Frame 8: Player 2 maintains a stable stance, with hands up in a defensive guard.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0079_63.2s.jpg",
+   "start_s": 63.25,
+   "end_s": 64.45,
+   "seconds": 24.4
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a lead-hand jab, extending their front arm forward. Frame 2: Player 1 continues the jab, maintaining the extension. Frame 3: Player 1 begins a rear-hand reverse punch, rotating their hips. Frame 4: Player 1 completes the reverse punch, extending their rear arm. Frame 5: Player 1 initiates a front-leg roundhouse kick, lifting their lead knee. Frame 6: Player 1 continues the roundhouse kick, extending their leg. Frame 7: Player 1 completes the roundhouse kick, with the foot reaching for the target. Frame 8: Player 1 is in a defensive stance, maintaining their guard.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a defensive stance, maintaining their guard. Frame 2: Player 2 is in a defensive stance, maintaining their guard. Frame 3: Player 2 initiates a rear-leg roundhouse kick, lifting their rear knee. Frame 4: Player 2 continues the roundhouse kick, extending their leg. Frame 5: Player 2 is in a defensive stance, maintaining their guard. Frame 6: Player 2 is in a defensive stance, maintaining their guard. Frame 7: Player 2 completes the roundhouse kick, with the foot reaching for the target. Frame 8: Player 2 is in a defensive stance, maintaining their guard.",
+    "attack": "none",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.9,
+    "consistent": false
+   },
+   "video": "match1",
+   "image": "clips/match1/0080_64.0s.jpg",
+   "start_s": 64.05,
+   "end_s": 65.25,
+   "seconds": 23.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 initiates a roundhouse kick with their rear leg, followed by a preparatory stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 maintains a defensive stance, with no observable attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.99,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0081_64.8s.jpg",
+   "start_s": 64.85,
+   "end_s": 66.05,
+   "seconds": 11.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance. Frame 2: Player 2 is in a MOVEMENT stance. Frame 3: Player 2 is in a MOVEMENT stance. Frame 4: Player 2 is in a MOVEMENT stance. Frame 5: Player 2 is in a MOVEMENT stance. Frame 6: Player 2 is in a MOVEMENT stance. Frame 7: Player 2 is in a MOVEMENT stance. Frame 8: Player 2 is in a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0082_65.7s.jpg",
+   "start_s": 65.65,
+   "end_s": 66.85,
+   "seconds": 11.1
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step and raises their right arm in a preparatory position for a punch. Frame 2: Player 1 continues the forward step and extends their right arm forward, initiating a KIZAMI_ZUKI punch. Frame 3: Player 1 maintains the KIZAMI_ZUKI punch, with the arm extended. Frame 4: Player 1 continues the punch, with the arm still extended. Frame 5: Player 1 begins to retract their right arm, preparing for a follow-up. Frame 6: Player 1 completes the retraction of their right arm. Frame 7: Player 1 takes a small step back, maintaining a defensive stance. Frame 8: Player 1 maintains a defensive stance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stationary stance. Frame 2: Player 2 initiates a forward step and raises their right arm in a preparatory position for a punch. Frame 3: Player 2 continues the forward step and extends their right arm forward, initiating a GYAKU_ZUKI punch. Frame 4: Player 2 continues the punch, with the arm still extended. Frame 5: Player 2 begins to retract their right arm, preparing for a follow-up. Frame 6: Player 2 completes the retraction of their right arm. Frame 7: Player 2 takes a small step back, maintaining a defensive stance. Frame 8: Player 2 maintains a defensive stance.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "GYAKU_ZUKI",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0083_66.5s.jpg",
+   "start_s": 66.45,
+   "end_s": 67.65,
+   "seconds": 22.6
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 extends their right arm in a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 shifts their weight and prepares for a GYAKU_ZUKI. Frame 4: Player 1 executes a GYAKU_ZUKI punch. Frame 5: Player 1 maintains the GYAKU_ZUKI stance. Frame 6: Player 1 shifts their weight and prepares for a KIZAMI_MAWASHI_GERI_CHUDAN. Frame 7: Player 1 executes a KIZAMI_MAWASHI_GERI_CHUDAN kick. Frame 8: Player 1 maintains the KIZAMI_MAWASHI_GERI_CHUDAN stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance. Frame 2: Player 2 is in a MOVEMENT stance. Frame 3: Player 2 is in a MOVEMENT stance. Frame 4: Player 2 is in a MOVEMENT stance. Frame 5: Player 2 is in a MOVEMENT stance. Frame 6: Player 2 is in a MOVEMENT stance. Frame 7: Player 2 is in a MOVEMENT stance. Frame 8: Player 2 is in a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0084_67.2s.jpg",
+   "start_s": 67.25,
+   "end_s": 68.45,
+   "seconds": 21.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 steps forward with a slight shift of weight. Frame 2: Player 1 maintains a balanced stance, feet shoulder-width apart, with a slight lean forward. Frame 3: Player 1 initiates a step forward with the right foot, preparing for a potential attack. Frame 4: Player 1 continues to maintain a balanced stance. Frame 5: Player 1 shifts their weight and begins to rotate their hips, preparing for a roundhouse kick. Frame 6: Player 1 completes the roundhouse kick, extending the rear leg to target the opponent’s body. Frame 7: Player 1 retracts their leg, returning to a balanced stance. Frame 8: Player 1 maintains a balanced stance, feet shoulder-width apart, with a slight lean forward.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a balanced stance, feet shoulder-width apart, with a slight lean forward. Frame 2: Player 2 maintains a balanced stance, feet shoulder-width apart, with a slight lean forward. Frame 3: Player 2 maintains a balanced stance, feet shoulder-width apart, with a slight lean forward. Frame 4: Player 2 maintains a balanced stance, feet shoulder-width apart, with a slight lean forward. Frame 5: Player 2 maintains a balanced stance, feet shoulder-width apart, with a slight lean forward. Frame 6: Player 2 maintains a balanced stance, feet shoulder-width apart, with a slight lean forward. Frame 7: Player 2 maintains a balanced stance, feet shoulder-width apart, with a slight lean forward. Frame 8: Player 2 maintains a balanced stance, feet shoulder-width apart, with a slight lean forward.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.99,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0085_68.0s.jpg",
+   "start_s": 68.05,
+   "end_s": 69.25,
+   "seconds": 12.7
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 maintains a stable stance, with slight adjustments in foot position, throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 initiates a roundhouse kick with their rear leg, aiming for the opponent's body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0086_68.8s.jpg",
+   "start_s": 68.85,
+   "end_s": 70.05,
+   "seconds": 9.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI punch, extending their lead hand forward. Frame 2: Player 1 continues the KIZAMI_ZUKI punch, maintaining the extension. Frame 3: Player 1 shifts their stance slightly, preparing for a potential follow-up. Frame 4: Player 1 maintains the stance, ready for a potential attack. Frame 5: Player 1 initiates a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick with their front leg. Frame 6: Player 1 continues the roundhouse kick, completing the movement. Frame 7: Player 1 returns to a neutral stance. Frame 8: Player 1 maintains a neutral stance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a neutral stance. Frame 2: Player 2 initiates a GYAKU_ZUKI punch, extending their rear hand forward. Frame 3: Player 2 continues the GYAKU_ZUKI punch, maintaining the extension. Frame 4: Player 2 maintains the stance, ready for a potential attack. Frame 5: Player 2 maintains a neutral stance. Frame 6: Player 2 maintains a neutral stance. Frame 7: Player 2 maintains a neutral stance. Frame 8: Player 2 maintains a neutral stance.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "none",
+    "height": "none",
+    "label": "GYAKU_ZUKI",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0087_69.7s.jpg",
+   "start_s": 69.65,
+   "end_s": 70.85,
+   "seconds": 10.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a balanced stance, with both arms extended forward in a ready position. Frame 2: Player 1 initiates a KIZAMI_ZUKI, extending their lead hand in a straight jab towards the opponent’s head. Frame 3: Player 1 continues the KIZAMI_ZUKI, maintaining the jab. Frame 4: Player 1 completes the KIZAMI_ZUKI, retracting their lead hand. Frame 5: Player 1 shifts their weight slightly and prepares for a MAWASHI_GERI_CHUDAN. Frame 6: Player 1 executes a MAWASHI_GERI_CHUDAN, delivering a roundhouse kick to the opponent’s body. Frame 7: Player 1 maintains a defensive stance, guarding against a potential follow-up attack. Frame 8: Player 1 continues to maintain a defensive stance, with a slight shift in weight.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a balanced stance, with both arms extended forward in a ready position. Frame 2: Player 2 maintains a balanced stance, with both arms extended forward in a ready position. Frame 3: Player 2 maintains a balanced stance, with both arms extended forward in a ready position. Frame 4: Player 2 maintains a balanced stance, with both arms extended forward in a ready position. Frame 5: Player 2 maintains a balanced stance, with both arms extended forward in a ready position. Frame 6: Player 2 maintains a balanced stance, with both arms extended forward in a ready position. Frame 7: Player 2 maintains a balanced stance, with both arms extended forward in a ready position. Frame 8: Player 2 maintains a balanced stance, with both arms extended forward in a ready position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0088_70.5s.jpg",
+   "start_s": 70.45,
+   "end_s": 71.65,
+   "seconds": 12.8
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a roundhouse kick with the rear leg. Frame 2: Player 1 continues the roundhouse kick, bringing the foot up and around. Frame 3: Player 1 completes the roundhouse kick, aiming for the opponent’s body. Frame 4: Player 1 maintains the roundhouse kick stance. Frame 5: Player 1 begins to retract the roundhouse kick. Frame 6: Player 1 continues to retract the roundhouse kick. Frame 7: Player 1 returns to a neutral stance. Frame 8: Player 1 returns to a neutral stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a neutral stance. Frame 2: Player 2 initiates a feint, starting a punch but stopping short. Frame 3: Player 2 is in a neutral stance. Frame 4: Player 2 is in a neutral stance. Frame 5: Player 2 is in a neutral stance. Frame 6: Player 2 is in a neutral stance. Frame 7: Player 2 is in a neutral stance. Frame 8: Player 2 is in a neutral stance.",
+    "attack": "feint",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "FEINT",
+    "confidence": 0.8,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0089_71.2s.jpg",
+   "start_s": 71.25,
+   "end_s": 72.45,
+   "seconds": 10.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick. Frame 4: Player 1 continues the roundhouse kick. Frame 5: Player 1 completes the roundhouse kick. Frame 6: Player 1 maintains the stance. Frame 7: Player 1 initiates a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick. Frame 8: Player 1 maintains the stance.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance. Frame 2: Player 2 maintains a stance. Frame 3: Player 2 maintains a stance. Frame 4: Player 2 maintains a stance. Frame 5: Player 2 maintains a stance. Frame 6: Player 2 maintains a stance. Frame 7: Player 2 maintains a stance. Frame 8: Player 2 maintains a stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0090_72.0s.jpg",
+   "start_s": 72.05,
+   "end_s": 73.25,
+   "seconds": 9.9
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 begins a GYAKU_ZUKI reverse punch. Frame 4: Player 1 completes the GYAKU_ZUKI reverse punch. Frame 5: Player 1 begins a KIZAMI_MAWASHI_GERI_CHUDAN roundhouse kick. Frame 6: Player 1 continues the roundhouse kick. Frame 7: Player 1 completes the roundhouse kick. Frame 8: Player 1 maintains the stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a MOVEMENT stance. Frame 2: Player 2 maintains a MOVEMENT stance. Frame 3: Player 2 maintains a MOVEMENT stance. Frame 4: Player 2 maintains a MOVEMENT stance. Frame 5: Player 2 maintains a MOVEMENT stance. Frame 6: Player 2 maintains a MOVEMENT stance. Frame 7: Player 2 maintains a MOVEMENT stance. Frame 8: Player 2 maintains a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0091_72.8s.jpg",
+   "start_s": 72.85,
+   "end_s": 74.05,
+   "seconds": 10.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a roundhouse kick with the rear leg, raising the back knee and extending the leg horizontally. Frame 2: Player 1 continues the roundhouse kick, bringing the foot towards the opponent’s stomach. Frame 3: Player 1 shifts stance, preparing for a potential attack. Frame 4: Player 1 maintains a defensive stance, with a slight forward lean. Frame 5: Player 1 initiates a roundhouse kick with the front leg, lifting the lead knee and extending the leg horizontally. Frame 6: Player 1 continues the roundhouse kick, bringing the foot towards the opponent’s stomach. Frame 7: Player 1 maintains a defensive stance, with a slight forward lean. Frame 8: Player 1 maintains a defensive stance, with a slight forward lean.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance, with a slight forward lean. Frame 2: Player 2 maintains a defensive stance, with a slight forward lean. Frame 3: Player 2 shifts stance, preparing for a potential attack. Frame 4: Player 2 maintains a defensive stance, with a slight forward lean. Frame 5: Player 2 maintains a defensive stance, with a slight forward lean. Frame 6: Player 2 maintains a defensive stance, with a slight forward lean. Frame 7: Player 2 maintains a defensive stance, with a slight forward lean. Frame 8: Player 2 maintains a defensive stance, with a slight forward lean.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0092_73.7s.jpg",
+   "start_s": 73.65,
+   "end_s": 74.85,
+   "seconds": 11.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance with both hands up. Frame 2: Player 1 shifts weight slightly and prepares for a punch. Frame 3: Player 1 initiates a lead-hand jab, extending the arm forward. Frame 4: Player 1 continues the jab, maintaining the arm extension. Frame 5: Player 1 shifts weight and prepares for a roundhouse kick. Frame 6: Player 1 executes a roundhouse kick with the rear leg, targeting the body. Frame 7: Player 1 follows up with a lead-hand straight punch. Frame 8: Player 1 completes the punch, retracting the arm.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance with both hands up. Frame 2: Player 2 shifts weight slightly and prepares for a punch. Frame 3: Player 2 initiates a rear-hand reverse punch, extending the arm forward. Frame 4: Player 2 continues the reverse punch, maintaining the arm extension. Frame 5: Player 2 maintains a stable stance. Frame 6: Player 2 maintains a stable stance. Frame 7: Player 2 maintains a stable stance. Frame 8: Player 2 maintains a stable stance.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "none",
+    "height": "none",
+    "label": "GYAKU_ZUKI",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0093_74.5s.jpg",
+   "start_s": 74.45,
+   "end_s": 75.66,
+   "seconds": 10.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance, with no visible attack. Frame 2: Player 2 maintains a defensive stance, with no visible attack. Frame 3: Player 2 maintains a defensive stance, with no visible attack. Frame 4: Player 2 maintains a defensive stance, with no visible attack. Frame 5: Player 2 maintains a defensive stance, with no visible attack. Frame 6: Player 2 maintains a defensive stance, with no visible attack. Frame 7: Player 2 maintains a defensive stance, with no visible attack. Frame 8: Player 2 maintains a defensive stance, with no visible attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0094_75.3s.jpg",
+   "start_s": 75.26,
+   "end_s": 76.46,
+   "seconds": 11.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance, with a slight shift to the right. Frame 2: Player 2 moves slightly to the right, maintaining a defensive posture. Frame 3: Player 2 initiates a roundhouse kick with the rear leg. Frame 4: Player 2 completes the roundhouse kick, aiming for the opponent’s body. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 takes a step back, maintaining stance. Frame 8: Player 2 returns to stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0095_76.1s.jpg",
+   "start_s": 76.06,
+   "end_s": 77.26,
+   "seconds": 11.3
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance with both hands up in a defensive posture. Frame 2: Player 2 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 2 initiates a forward step with their right foot, setting up a potential attack. Frame 4: Player 2 continues to maintain their stance, ready for a counter. Frame 5: Player 2 maintains a stable stance with both hands up in a defensive posture. Frame 6: Player 2 shifts their weight slightly and prepares for a potential attack. Frame 7: Player 2 maintains a stable stance with both hands up in a defensive posture. Frame 8: Player 2 maintains a stable stance with both hands up in a defensive posture.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0096_76.9s.jpg",
+   "start_s": 76.86,
+   "end_s": 78.06,
+   "seconds": 11.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance. Frame 2: Player 2 maintains a stable stance. Frame 3: Player 2 maintains a stable stance. Frame 4: Player 2 maintains a stable stance. Frame 5: Player 2 maintains a stable stance. Frame 6: Player 2 maintains a stable stance. Frame 7: Player 2 maintains a stable stance. Frame 8: Player 2 maintains a stable stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0097_77.7s.jpg",
+   "start_s": 77.66,
+   "end_s": 78.86,
+   "seconds": 9.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 maintains a stable stance, with slight adjustments in balance and posture throughout the frames.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0098_78.5s.jpg",
+   "start_s": 78.46,
+   "end_s": 79.66,
+   "seconds": 6.0
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a basic stance. Frame 2: Player 2 maintains a basic stance. Frame 3: Player 2 maintains a basic stance. Frame 4: Player 2 maintains a basic stance. Frame 5: Player 2 maintains a basic stance. Frame 6: Player 2 maintains a basic stance. Frame 7: Player 2 maintains a basic stance. Frame 8: Player 2 maintains a basic stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0099_79.3s.jpg",
+   "start_s": 79.26,
+   "end_s": 80.46,
+   "seconds": 9.5
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 shifts their weight and raises their right arm in a preparatory stance. Frame 2: Player 1 continues to maintain a defensive stance, with a slight forward lean. Frame 3: Player 1 takes a small step forward with their left foot, maintaining a balanced stance. Frame 4: Player 1 extends their right arm forward in a straight punch. Frame 5: Player 1 maintains the punch, with a slight bend in the elbow. Frame 6: Player 1 retracts their right arm, returning to a defensive stance. Frame 7: Player 1 shifts their weight and raises their right arm in a preparatory stance. Frame 8: Player 1 continues to maintain a defensive stance, with a slight forward lean.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance, with a slight forward lean. Frame 2: Player 2 continues to maintain a defensive stance, with a slight forward lean. Frame 3: Player 2 takes a small step forward with their left foot, maintaining a balanced stance. Frame 4: Player 2 extends their right arm forward in a straight punch. Frame 5: Player 2 maintains the punch, with a slight bend in the elbow. Frame 6: Player 2 retracts their right arm, returning to a defensive stance. Frame 7: Player 2 shifts their weight and raises their right arm in a preparatory stance. Frame 8: Player 2 continues to maintain a defensive stance, with a slight forward lean.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0100_80.1s.jpg",
+   "start_s": 80.06,
+   "end_s": 81.26,
+   "seconds": 11.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 maintains a stable stance, with slight adjustments in balance and posture throughout the frames.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 maintains a stable stance, with slight adjustments in balance and posture throughout the frames.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0101_80.9s.jpg",
+   "start_s": 80.86,
+   "end_s": 82.06,
+   "seconds": 6.0
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance. Frame 2: Player 1 shifts weight slightly and prepares for a potential attack. Frame 3: Player 1 initiates a roundhouse kick with the rear leg. Frame 4: Player 1 continues the roundhouse kick, bringing the foot up and around. Frame 5: Player 1 completes the roundhouse kick, with the foot aimed at the opponent’s body. Frame 6: Player 1 follows up with a slight adjustment of their stance. Frame 7: Player 1 maintains a defensive stance, ready to respond. Frame 8: Player 1 continues to maintain a defensive stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance. Frame 2: Player 2 maintains a stable stance. Frame 3: Player 2 maintains a stable stance. Frame 4: Player 2 maintains a stable stance. Frame 5: Player 2 maintains a stable stance. Frame 6: Player 2 maintains a stable stance. Frame 7: Player 2 maintains a stable stance. Frame 8: Player 2 maintains a stable stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0102_81.7s.jpg",
+   "start_s": 81.66,
+   "end_s": 82.86,
+   "seconds": 10.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab with their lead hand. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 shifts their stance slightly. Frame 4: Player 1 maintains their stance. Frame 5: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick with their rear leg. Frame 6: Player 1 continues the roundhouse kick. Frame 7: Player 1 completes the roundhouse kick. Frame 8: Player 1 maintains their stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance. Frame 2: Player 2 is in a MOVEMENT stance. Frame 3: Player 2 is in a MOVEMENT stance. Frame 4: Player 2 is in a MOVEMENT stance. Frame 5: Player 2 is in a MOVEMENT stance. Frame 6: Player 2 is in a MOVEMENT stance. Frame 7: Player 2 is in a MOVEMENT stance. Frame 8: Player 2 is in a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0103_82.5s.jpg",
+   "start_s": 82.46,
+   "end_s": 83.66,
+   "seconds": 10.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab, extending their lead hand forward. Frame 2: Player 1 continues the KIZAMI_ZUKI jab, maintaining the forward extension. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick with their rear leg, initiating the hip rotation. Frame 4: Player 1 continues the roundhouse kick, extending the rear leg and bringing the foot down towards the target. Frame 5: Player 1 maintains the roundhouse kick, with the rear leg extended and the foot positioned for impact. Frame 6: Player 1 completes the roundhouse kick, retracting the rear leg. Frame 7: Player 1 begins a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick with their front leg, initiating the knee lift. Frame 8: Player 1 continues the roundhouse kick, extending the front leg and bringing the foot down towards the target.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance, maintaining their stance and balance. Frame 2: Player 2 is in a MOVEMENT stance, maintaining their stance and balance. Frame 3: Player 2 is in a MOVEMENT stance, maintaining their stance and balance. Frame 4: Player 2 is in a MOVEMENT stance, maintaining their stance and balance. Frame 5: Player 2 is in a MOVEMENT stance, maintaining their stance and balance. Frame 6: Player 2 is in a MOVEMENT stance, maintaining their stance and balance. Frame 7: Player 2 is in a MOVEMENT stance, maintaining their stance and balance. Frame 8: Player 2 is in a MOVEMENT stance, maintaining their stance and balance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0104_83.3s.jpg",
+   "start_s": 83.26,
+   "end_s": 84.46,
+   "seconds": 12.9
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab, stepping forward slightly. Frame 3: Player 1 maintains the KIZAMI_ZUKI jab. Frame 4: Player 1 continues the KIZAMI_ZUKI jab, with a slight shift in stance. Frame 5: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick. Frame 6: Player 1 completes the MAWASHI_GERI_CHUDAN roundhouse kick, bringing the leg back. Frame 7: Player 1 maintains the stance after the kick. Frame 8: Player 1 maintains the stance after the kick.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a MOVEMENT stance. Frame 2: Player 2 maintains a MOVEMENT stance. Frame 3: Player 2 maintains a MOVEMENT stance. Frame 4: Player 2 maintains a MOVEMENT stance. Frame 5: Player 2 maintains a MOVEMENT stance. Frame 6: Player 2 maintains a MOVEMENT stance. Frame 7: Player 2 maintains a MOVEMENT stance. Frame 8: Player 2 maintains a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0105_84.1s.jpg",
+   "start_s": 84.06,
+   "end_s": 85.26,
+   "seconds": 11.0
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues to move forward with the jab. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick. Frame 4: Player 1 continues the roundhouse kick. Frame 5: Player 1 completes the roundhouse kick. Frame 6: Player 1 follows up with a KIZAMI_ZUKI punch. Frame 7: Player 1 continues to move forward with the punch. Frame 8: Player 1 finishes the punch.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance. Frame 2: Player 2 is in a MOVEMENT stance. Frame 3: Player 2 is in a MOVEMENT stance. Frame 4: Player 2 is in a MOVEMENT stance. Frame 5: Player 2 is in a MOVEMENT stance. Frame 6: Player 2 is in a MOVEMENT stance. Frame 7: Player 2 is in a MOVEMENT stance. Frame 8: Player 2 is in a MOVEMENT stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0106_84.9s.jpg",
+   "start_s": 84.86,
+   "end_s": 86.06,
+   "seconds": 10.6
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance. Frame 2: Player 1 shifts their weight slightly and prepares to move forward. Frame 3: Player 1 initiates a step forward with the rear foot. Frame 4: Player 1 continues the step forward with the rear foot, maintaining balance. Frame 5: Player 1 maintains a stable stance. Frame 6: Player 1 shifts their weight slightly and prepares to move forward. Frame 7: Player 1 initiates a step forward with the rear foot. Frame 8: Player 1 continues the step forward with the rear foot, maintaining balance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance. Frame 2: Player 2 shifts their weight slightly and prepares to move forward. Frame 3: Player 2 initiates a step forward with the rear foot. Frame 4: Player 2 continues the step forward with the rear foot, maintaining balance. Frame 5: Player 2 maintains a stable stance. Frame 6: Player 2 shifts their weight slightly and prepares to move forward. Frame 7: Player 2 initiates a step forward with the rear foot. Frame 8: Player 2 continues the step forward with the rear foot, maintaining balance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0107_85.7s.jpg",
+   "start_s": 85.66,
+   "end_s": 86.86,
+   "seconds": 10.5
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the right foot, maintaining a balanced stance. Frame 2: Player 1 continues the forward step, preparing for a potential attack. Frame 3: Player 1 extends their right hand in a KIZAMI_ZUKI jab towards the opponent’s head. Frame 4: Player 1 follows through with a GYAKU_ZUKI reverse punch, rotating their hips and extending their rear arm. Frame 5: Player 1 maintains the GYAKU_ZUKI punch, with the rear arm extended. Frame 6: Player 1 retracts their rear arm, returning to a neutral stance. Frame 7: Player 1 takes a small step forward, maintaining a defensive posture. Frame 8: Player 1 shifts their weight and takes a step back, returning to a balanced stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a balanced stance, observing Player 1. Frame 2: Player 2 takes a small step back, maintaining a defensive posture. Frame 3: Player 2 extends their right hand in a MAWASHI_GERI_CHUDAN roundhouse kick towards Player 1’s body. Frame 4: Player 2 continues the roundhouse kick, with the rear leg extended. Frame 5: Player 2 retracts their leg, returning to a neutral stance. Frame 6: Player 2 maintains the roundhouse kick, with the rear leg extended. Frame 7: Player 2 takes a small step forward, maintaining a defensive posture. Frame 8: Player 2 shifts their weight and takes a step back, returning to a balanced stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.98,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0108_86.5s.jpg",
+   "start_s": 86.46,
+   "end_s": 87.66,
+   "seconds": 12.6
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the right leg, preparing for a potential roundhouse kick. Frame 2: Player 1 continues the forward step, extending the right leg further. Frame 3: Player 1 maintains the stance, with a slight shift of weight. Frame 4: Player 1 maintains the stance, with a slight shift of weight. Frame 5: Player 1 initiates a forward step with the right leg, preparing for a potential roundhouse kick. Frame 6: Player 1 maintains the stance, with a slight shift of weight. Frame 7: Player 1 extends the right leg forward, initiating a roundhouse kick. Frame 8: Player 1 completes the roundhouse kick, with the foot reaching for the opponent’s body.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance, with a slight shift of weight. Frame 2: Player 2 maintains a stable stance, with a slight shift of weight. Frame 3: Player 2 maintains a stable stance, with a slight shift of weight. Frame 4: Player 2 maintains a stable stance, with a slight shift of weight. Frame 5: Player 2 maintains a stable stance, with a slight shift of weight. Frame 6: Player 2 maintains a stable stance, with a slight shift of weight. Frame 7: Player 2 maintains a stable stance, with a slight shift of weight. Frame 8: Player 2 maintains a stable stance, with a slight shift of weight.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0109_87.3s.jpg",
+   "start_s": 87.26,
+   "end_s": 88.46,
+   "seconds": 12.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a standard karate stance, with both hands relaxed. Frame 2: Player 1 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 1 initiates a KIZAMI_ZUKI, extending their lead hand in a straight jab towards the opponent’s head. Frame 4: Player 1 continues the KIZAMI_ZUKI, maintaining the jab. Frame 5: Player 1 maintains their stance, with no attack. Frame 6: Player 1 maintains their stance, with no attack. Frame 7: Player 1 maintains their stance, with no attack. Frame 8: Player 1 maintains their stance, with no attack.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a standard karate stance, with both hands relaxed. Frame 2: Player 2 maintains their stance, with no attack. Frame 3: Player 2 maintains their stance, with no attack. Frame 4: Player 2 maintains their stance, with no attack. Frame 5: Player 2 maintains their stance, with no attack. Frame 6: Player 2 maintains their stance, with no attack. Frame 7: Player 2 maintains their stance, with no attack. Frame 8: Player 2 maintains their stance, with no attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0110_88.1s.jpg",
+   "start_s": 88.06,
+   "end_s": 89.27,
+   "seconds": 10.9
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 takes a small step forward with the right foot, maintaining a balanced stance. Frame 2: Player 1 maintains the stance, with a slight shift of weight. Frame 3: Player 1 takes a small step forward with the right foot, maintaining a balanced stance. Frame 4: Player 1 maintains the stance, with a slight shift of weight. Frame 5: Player 1 initiates a roundhouse kick with the rear right leg, aiming for the opponent’s body. Frame 6: Player 1 continues the roundhouse kick with the rear right leg. Frame 7: Player 1 completes the roundhouse kick with the rear right leg. Frame 8: Player 1 maintains the stance, with a slight shift of weight.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a balanced stance, with a slight shift of weight. Frame 2: Player 2 maintains the stance, with a slight shift of weight. Frame 3: Player 2 maintains a balanced stance, with a slight shift of weight. Frame 4: Player 2 maintains the stance, with a slight shift of weight. Frame 5: Player 2 maintains a balanced stance, with a slight shift of weight. Frame 6: Player 2 maintains a balanced stance, with a slight shift of weight. Frame 7: Player 2 maintains a balanced stance, with a slight shift of weight. Frame 8: Player 2 maintains a balanced stance, with a slight shift of weight.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0111_88.9s.jpg",
+   "start_s": 88.87,
+   "end_s": 90.07,
+   "seconds": 12.0
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the right foot. Frame 2: Player 1 extends the right hand in a lead-hand straight punch (jab) towards the opponent’s head. Frame 3: Player 1 shifts their weight and prepares for a rear-hand reverse punch. Frame 4: Player 1 executes a rear-hand reverse punch with a lunge forward. Frame 5: Player 1 initiates a roundhouse kick with the rear leg, aiming for the body. Frame 6: Player 1 continues the roundhouse kick with the rear leg, maintaining the same target. Frame 7: Player 1 prepares for a roundhouse kick with the front leg, lifting the lead knee. Frame 8: Player 1 completes the roundhouse kick with the front leg, aiming for the head.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": false
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance with a slight movement of the right foot. Frame 2: Player 2 maintains a stance with a slight movement of the right foot. Frame 3: Player 2 initiates a forward step with the right foot. Frame 4: Player 2 executes a rear-hand reverse punch with a lunge forward. Frame 5: Player 2 maintains a stance with a slight movement of the right foot. Frame 6: Player 2 maintains a stance with a slight movement of the right foot. Frame 7: Player 2 maintains a stance with a slight movement of the right foot. Frame 8: Player 2 maintains a stance with a slight movement of the right foot.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "none",
+    "height": "none",
+    "label": "GYAKU_ZUKI",
+    "confidence": 0.8,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0112_89.7s.jpg",
+   "start_s": 89.67,
+   "end_s": 90.87,
+   "seconds": 12.4
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance with both hands up. Frame 2: Player 1 shifts their weight slightly and begins to rotate their hips, preparing for a potential attack. Frame 3: Player 1 continues to rotate their hips, bringing their lead hand forward in a preparatory jab. Frame 4: Player 1 completes the jab with their lead hand, retracting it back to the chin. Frame 5: Player 1 shifts their weight and begins to rotate their hips, preparing for a potential attack. Frame 6: Player 1 continues to rotate their hips, bringing their rear leg forward in a preparatory step. Frame 7: Player 1 completes the step with their rear leg, retracting it back to the stance. Frame 8: Player 1 maintains a stable stance with both hands up.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance with both hands up. Frame 2: Player 2 shifts their weight slightly and begins to rotate their hips, preparing for a potential attack. Frame 3: Player 2 continues to rotate their hips, bringing their lead hand forward in a preparatory jab. Frame 4: Player 2 completes the jab with their lead hand, retracting it back to the chin. Frame 5: Player 2 shifts their weight and begins to rotate their hips, preparing for a potential attack. Frame 6: Player 2 continues to rotate their hips, bringing their rear leg forward in a preparatory step. Frame 7: Player 2 completes the step with their rear leg, retracting it back to the stance. Frame 8: Player 2 maintains a stable stance with both hands up.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0113_90.5s.jpg",
+   "start_s": 90.47,
+   "end_s": 91.67,
+   "seconds": 12.6
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance, with a slight forward lean. Frame 2: Player 1 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 1 initiates a roundhouse kick with their rear leg. Frame 4: Player 1 continues the roundhouse kick, bringing the foot up and around. Frame 5: Player 1 completes the roundhouse kick, aiming for the opponent’s body. Frame 6: Player 1 maintains their stance after the kick. Frame 7: Player 1 shifts their weight and prepares for a potential attack. Frame 8: Player 1 maintains a stable stance, with a slight forward lean.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance, with a slight forward lean. Frame 2: Player 2 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 2 maintains their stance. Frame 4: Player 2 maintains their stance. Frame 5: Player 2 maintains their stance. Frame 6: Player 2 maintains their stance. Frame 7: Player 2 maintains their stance. Frame 8: Player 2 maintains their stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0114_91.3s.jpg",
+   "start_s": 91.27,
+   "end_s": 92.47,
+   "seconds": 10.6
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab, maintaining the stance. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick. Frame 4: Player 1 completes the roundhouse kick, bringing the leg across. Frame 5: Player 1 shifts weight and prepares for a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick. Frame 6: Player 1 extends the roundhouse kick towards the opponent’s head. Frame 7: Player 1 maintains the roundhouse kick stance. Frame 8: Player 1 completes the roundhouse kick, bringing the leg back to the starting position.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance, maintaining his guard. Frame 2: Player 2 is in a MOVEMENT stance, maintaining his guard. Frame 3: Player 2 is in a MOVEMENT stance, maintaining his guard. Frame 4: Player 2 is in a MOVEMENT stance, maintaining his guard. Frame 5: Player 2 is in a MOVEMENT stance, maintaining his guard. Frame 6: Player 2 is in a MOVEMENT stance, maintaining his guard. Frame 7: Player 2 is in a MOVEMENT stance, maintaining his guard. Frame 8: Player 2 is in a MOVEMENT stance, maintaining his guard.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0115_92.1s.jpg",
+   "start_s": 92.07,
+   "end_s": 93.27,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick. Frame 4: Player 1 completes the roundhouse kick. Frame 5: Player 1 initiates a KIZAMI_MAWASHI_GERI_JODAN roundhouse kick. Frame 6: Player 1 continues the roundhouse kick. Frame 7: Player 1 initiates a Yoko_Geri_Chudan side kick. Frame 8: Player 1 continues the side kick.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a MOVEMENT stance. Frame 2: Player 2 is in a MOVEMENT stance. Frame 3: Player 2 initiates a MAWASHI_GERI_JODAN roundhouse kick. Frame 4: Player 2 completes the roundhouse kick. Frame 5: Player 2 is in a MOVEMENT stance. Frame 6: Player 2 is in a MOVEMENT stance. Frame 7: Player 2 is in a MOVEMENT stance. Frame 8: Player 2 is in a MOVEMENT stance.",
+    "attack": "none",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.85,
+    "consistent": false
+   },
+   "video": "match1",
+   "image": "clips/match1/0116_92.9s.jpg",
+   "start_s": 92.87,
+   "end_s": 94.07,
+   "seconds": 11.2
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the right foot, followed by a slight raise of the right hand. Frame 2: Player 1 continues the forward step with the right foot, maintaining the raised right hand. Frame 3: Player 1 shifts weight to the right foot, bringing the right hand down slightly. Frame 4: Player 1 maintains a balanced stance with the right hand raised. Frame 5: Player 1 initiates a roundhouse kick with the right leg, aiming for the opponent’s body. Frame 6: Player 1 continues the roundhouse kick with the right leg, maintaining the leg extension. Frame 7: Player 1 retracts the right leg, returning to a balanced stance. Frame 8: Player 1 takes a small step back, maintaining a defensive stance.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a balanced stance with the left hand raised. Frame 2: Player 2 shifts weight to the left foot, bringing the left hand down slightly. Frame 3: Player 2 maintains a balanced stance with the left hand raised. Frame 4: Player 2 initiates a roundhouse kick with the left leg, aiming for the opponent’s body. Frame 5: Player 2 continues the roundhouse kick with the left leg, maintaining the leg extension. Frame 6: Player 2 retracts the left leg, returning to a balanced stance. Frame 7: Player 2 takes a small step back, maintaining a defensive stance. Frame 8: Player 2 maintains a balanced stance with the left hand raised.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0117_93.7s.jpg",
+   "start_s": 93.67,
+   "end_s": 94.87,
+   "seconds": 12.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a forward step with the right foot. Frame 2: Player 1 continues the forward step, maintaining a balanced stance. Frame 3: Player 1 shifts weight slightly to the left, preparing for a potential attack. Frame 4: Player 1 maintains a balanced stance, ready to respond. Frame 5: Player 1 initiates a step forward with the left foot. Frame 6: Player 1 continues the step forward, maintaining balance. Frame 7: Player 1 is in a balanced stance, ready to attack. Frame 8: Player 1 is in a balanced stance, ready to attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a balanced stance. Frame 2: Player 2 initiates a forward step with the right foot. Frame 3: Player 2 maintains a balanced stance, ready to respond. Frame 4: Player 2 maintains a balanced stance, ready to respond. Frame 5: Player 2 maintains a balanced stance. Frame 6: Player 2 maintains a balanced stance. Frame 7: Player 2 maintains a balanced stance. Frame 8: Player 2 maintains a balanced stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0118_94.5s.jpg",
+   "start_s": 94.47,
+   "end_s": 95.67,
+   "seconds": 10.3
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 initiates a movement, stepping forward and then back, maintaining a defensive stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 moves forward, stepping with the rear foot, preparing for a potential attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0119_95.3s.jpg",
+   "start_s": 95.27,
+   "end_s": 96.47,
+   "seconds": 6.0
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance, with both hands at the chin. Frame 2: Player 1 initiates a KIZAMI_ZUKI jab, extending the lead hand forward. Frame 3: Player 1 continues to maintain stance. Frame 4: Player 1 initiates a GYAKU_ZUKI reverse punch, extending the rear hand forward. Frame 5: Player 1 maintains stance. Frame 6: Player 1 maintains stance. Frame 7: Player 1 maintains stance. Frame 8: Player 1 maintains stance.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance, with both hands at the chin. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0120_96.1s.jpg",
+   "start_s": 96.07,
+   "end_s": 97.27,
+   "seconds": 9.7
+  },
+  {
+   "player1": {
+    "what_happened": "Frames 1-2: Player 1 maintains a stable stance with minimal movement. Frames 3-4: Player 1 shifts slightly to the right, maintaining stance. Frames 5-6: Player 1 initiates a roundhouse kick with the rear leg. Frames 7-8: Player 1 maintains stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frames 1-2: Player 2 maintains a stable stance with minimal movement. Frames 3-4: Player 2 maintains stance. Frames 5-6: Player 2 maintains stance. Frames 7-8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0121_96.9s.jpg",
+   "start_s": 96.87,
+   "end_s": 98.07,
+   "seconds": 8.0
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 maintains a stable stance, with slight adjustments in foot position, while Player 2 initiates an attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 initiates a roundhouse kick with the rear leg targeting the opponent’s head.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0122_97.7s.jpg",
+   "start_s": 97.67,
+   "end_s": 98.87,
+   "seconds": 6.3
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance with both feet planted. Frame 2: Player 1 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 1 maintains stance. Frame 4: Player 1 shifts their weight slightly and prepares for a potential attack. Frame 5: Player 1 maintains stance. Frame 6: Player 1 maintains stance. Frame 7: Player 1 initiates a roundhouse kick with their front leg. Frame 8: Player 1 maintains stance.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance with both feet planted. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0123_98.5s.jpg",
+   "start_s": 98.47,
+   "end_s": 99.67,
+   "seconds": 9.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a balanced stance, ready for a potential attack. Frame 2: Player 2 performs a forward step with the rear foot, initiating a lunge. Frame 3: Player 2 continues to lunge forward with the rear foot. Frame 4: Player 2 maintains a balanced stance, ready for a potential attack. Frame 5: Player 2 performs a forward step with the rear foot, preparing for a potential attack. Frame 6: Player 2 maintains a balanced stance, ready for a potential attack. Frame 7: Player 2 maintains a balanced stance, ready for a potential attack. Frame 8: Player 2 performs a forward step with the rear foot, maintaining a balanced stance.",
+    "attack": "feint",
+    "side": "rear",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "FEINT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0124_99.3s.jpg",
+   "start_s": 99.27,
+   "end_s": 100.47,
+   "seconds": 11.8
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 initiates a roundhouse kick with the rear leg, targeting the opponent’s body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0125_100.1s.jpg",
+   "start_s": 100.07,
+   "end_s": 101.27,
+   "seconds": 6.4
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a defensive stance, with no visible attack. Frame 2: Player 2 maintains a defensive stance, with no visible attack. Frame 3: Player 2 maintains a defensive stance, with no visible attack. Frame 4: Player 2 maintains a defensive stance, with no visible attack. Frame 5: Player 2 maintains a defensive stance, with no visible attack. Frame 6: Player 2 maintains a defensive stance, with no visible attack. Frame 7: Player 2 maintains a defensive stance, with no visible attack. Frame 8: Player 2 maintains a defensive stance, with no visible attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0126_100.9s.jpg",
+   "start_s": 100.87,
+   "end_s": 102.07,
+   "seconds": 12.2
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains their stance and footwork. Frame 2: Player 2 maintains their stance and footwork. Frame 3: Player 2 maintains their stance and footwork. Frame 4: Player 2 maintains their stance and footwork. Frame 5: Player 2 maintains their stance and footwork. Frame 6: Player 2 maintains their stance and footwork. Frame 7: Player 2 maintains their stance and footwork. Frame 8: Player 2 maintains their stance and footwork.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0127_101.7s.jpg",
+   "start_s": 101.67,
+   "end_s": 102.88,
+   "seconds": 10.6
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance. Frame 2: Player 1 shifts weight slightly and prepares for a potential attack. Frame 3: Player 1 takes a small step forward with the rear foot. Frame 4: Player 1 maintains stance. Frame 5: Player 1 shifts weight slightly and prepares for a potential attack. Frame 6: Player 1 maintains stance. Frame 7: Player 1 takes a small step forward with the rear foot. Frame 8: Player 1 maintains stance.",
+    "attack": "feint",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "FEINT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0128_102.5s.jpg",
+   "start_s": 102.48,
+   "end_s": 103.68,
+   "seconds": 9.4
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 initiates a KIZAMI_ZUKI jab with their lead hand. Frame 2: Player 1 continues the KIZAMI_ZUKI jab. Frame 3: Player 1 begins a MAWASHI_GERI_CHUDAN roundhouse kick with their rear leg. Frame 4: Player 1 continues the roundhouse kick. Frame 5: Player 1 maintains the roundhouse kick stance. Frame 6: Player 1 continues to hold the roundhouse kick stance. Frame 7: Player 1 completes the roundhouse kick. Frame 8: Player 1 returns to a neutral stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 is in a neutral stance. Frame 2: Player 2 is in a neutral stance. Frame 3: Player 2 is in a neutral stance. Frame 4: Player 2 is in a neutral stance. Frame 5: Player 2 is in a neutral stance. Frame 6: Player 2 is in a neutral stance. Frame 7: Player 2 is in a neutral stance. Frame 8: Player 2 is in a neutral stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0129_103.3s.jpg",
+   "start_s": 103.28,
+   "end_s": 104.48,
+   "seconds": 10.5
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 initiates a series of movements, starting with a lead-hand jab and then a rear-hand reverse punch, followed by a front-leg roundhouse kick to the body.",
+    "attack": "punch",
+    "side": "lead_then_rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_GYAKU_COMBINATION",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 is primarily in a defensive stance, exhibiting movement and guarding, with no clear attack initiated.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.98,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0130_104.1s.jpg",
+   "start_s": 104.08,
+   "end_s": 105.28,
+   "seconds": 6.9
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance, with a slight forward lean. Frame 2: Player 1 shifts their weight slightly and prepares for a roundhouse kick. Frame 3: Player 1 continues to prepare for a roundhouse kick, maintaining the same stance. Frame 4: Player 1 continues to prepare for a roundhouse kick, maintaining the same stance. Frame 5: Player 1 maintains a stable stance, with a slight forward lean. Frame 6: Player 1 maintains a stable stance, with a slight forward lean. Frame 7: Player 1 maintains a stable stance, with a slight forward lean. Frame 8: Player 1 maintains a stable stance, with a slight forward lean.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance, with a slight forward lean. Frame 2: Player 2 maintains a stable stance, with a slight forward lean. Frame 3: Player 2 maintains a stable stance, with a slight forward lean. Frame 4: Player 2 maintains a stable stance, with a slight forward lean. Frame 5: Player 2 maintains a stable stance, with a slight forward lean. Frame 6: Player 2 maintains a stable stance, with a slight forward lean. Frame 7: Player 2 maintains a stable stance, with a slight forward lean. Frame 8: Player 2 maintains a stable stance, with a slight forward lean.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0131_104.9s.jpg",
+   "start_s": 104.88,
+   "end_s": 106.08,
+   "seconds": 11.5
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance with both hands up. Frame 2: Player 1 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 1 takes a small step forward with the rear foot, maintaining stance. Frame 4: Player 1 continues to maintain stance. Frame 5: Player 1 shifts their weight slightly and prepares for a potential attack. Frame 6: Player 1 continues to maintain stance. Frame 7: Player 1 takes a small step forward with the rear foot, maintaining stance. Frame 8: Player 1 maintains a stable stance with both hands up.",
+    "attack": "feint",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "FEINT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance with both hands up. Frame 2: Player 2 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 2 takes a small step forward with the rear foot, maintaining stance. Frame 4: Player 2 continues to maintain stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 takes a small step forward with the rear foot, maintaining stance. Frame 8: Player 2 maintains a stable stance with both hands up.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0132_105.7s.jpg",
+   "start_s": 105.68,
+   "end_s": 106.88,
+   "seconds": 10.6
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance, with hands at the chin. Frame 2: Player 1 initiates a forward step with the rear foot, preparing for a potential attack. Frame 3: Player 1 maintains stance. Frame 4: Player 1 continues to maintain stance. Frame 5: Player 1 initiates a forward step with the rear foot, preparing for a potential attack. Frame 6: Player 1 maintains stance. Frame 7: Player 1 initiates a forward step with the rear foot, preparing for a potential attack. Frame 8: Player 1 maintains stance.",
+    "attack": "feint",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "FEINT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance, with hands at the chin. Frame 2: Player 2 initiates a forward step with the rear foot, preparing for a potential attack. Frame 3: Player 2 maintains stance. Frame 4: Player 2 continues to maintain stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0133_106.5s.jpg",
+   "start_s": 106.48,
+   "end_s": 107.68,
+   "seconds": 10.1
+  },
+  {
+   "player1": {
+    "what_happened": "Frame 1: Player 1 maintains a stable stance. Frame 2: Player 1 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 1 maintains stance. Frame 4: Player 1 maintains stance. Frame 5: Player 1 maintains stance. Frame 6: Player 1 maintains stance. Frame 7: Player 1 maintains stance. Frame 8: Player 1 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0134_107.3s.jpg",
+   "start_s": 107.28,
+   "end_s": 108.48,
+   "seconds": 8.8
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stable stance, with hands up. Frame 2: Player 2 shifts their weight slightly and prepares for a potential attack. Frame 3: Player 2 maintains stance. Frame 4: Player 2 shifts their weight slightly and prepares for a potential attack. Frame 5: Player 2 maintains stance. Frame 6: Player 2 shifts their weight slightly and prepares for a potential attack. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0135_108.1s.jpg",
+   "start_s": 108.08,
+   "end_s": 109.28,
+   "seconds": 9.9
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frame 1: Player 2 maintains a stance, with a slight forward lean. Frame 2: Player 2 maintains stance. Frame 3: Player 2 maintains stance. Frame 4: Player 2 maintains stance. Frame 5: Player 2 maintains stance. Frame 6: Player 2 maintains stance. Frame 7: Player 2 maintains stance. Frame 8: Player 2 maintains stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0136_108.9s.jpg",
+   "start_s": 108.88,
+   "end_s": 110.08,
+   "seconds": 9.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Frames 1-4 show both fighters maintaining a stationary stance, with no movement. Frames 5-8 show player 2 maintaining a stationary stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0137_109.7s.jpg",
+   "start_s": 109.68,
+   "end_s": 110.88,
+   "seconds": 6.9
+  }
+ ]
+}

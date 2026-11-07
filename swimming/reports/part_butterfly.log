@@ -1,0 +1,43 @@
+  butterfly: 250/2880 sequences
+  butterfly: 500/2880 sequences
+  butterfly: 750/2880 sequences
+  butterfly: 1000/2880 sequences
+  butterfly: 1250/2880 sequences
+  butterfly: 1500/2880 sequences
+  butterfly: 1750/2880 sequences
+  butterfly: 2000/2880 sequences
+  butterfly: 2250/2880 sequences
+  butterfly: 2500/2880 sequences
+  butterfly: 2750/2880 sequences
+butterfly: done, 5279 windows
+{
+  "windows": 5279,
+  "stats": {
+    "butterfly": 5279,
+    "view:Aerial": 1026,
+    "dropped_out_of_frame": 3359,
+    "view:Front": 1338,
+    "view:Side_above_water": 1300,
+    "view:Side_underwater": 723,
+    "view:Side_water_level": 892
+  },
+  "sequences": 2880,
+  "distinct_motions": 2880,
+  "shared_motion_groups": 0,
+  "window_frames": 60,
+  "stride_frames": 45,
+  "fps": 30,
+  "img_shape": [
+    1080,
+    1920
+  ],
+  "classes": [
+    "freestyle",
+    "backstroke",
+    "breaststroke",
+    "butterfly"
+  ],
+  "strokes_converted": [
+    "butterfly"
+  ]
+}

@@ -1,0 +1,3731 @@
+{
+ "model": "Qwen3.5-4B",
+ "results": [
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a defensive stance, shifting weight and moving feet slightly to adjust position relative to Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance, shifting weight and moving feet slightly to adjust position relative to Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0000_0.0s.jpg",
+   "start_s": 0.0,
+   "end_s": 1.2,
+   "seconds": 11.1
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box is in a fighting stance, shifting his weight and moving his feet slightly, but does not launch any punch or kick toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0001_0.8s.jpg",
+   "start_s": 0.8,
+   "end_s": 2.0,
+   "seconds": 9.6
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is initially standing still in a fighting stance. In frames 5-6, he begins to move forward, stepping towards Player 1. In frames 7-8, he continues to advance, shifting his weight forward, but his hands remain in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0002_1.6s.jpg",
+   "start_s": 1.6,
+   "end_s": 2.8,
+   "seconds": 10.9
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is standing in a fighting stance, facing Player 1. Throughout the 8 frames, Player 2 remains stationary, maintaining a defensive posture with hands up. No significant movement or attack is observed.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0003_2.4s.jpg",
+   "start_s": 2.4,
+   "end_s": 3.6,
+   "seconds": 11.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0004_3.2s.jpg",
+   "start_s": 3.2,
+   "end_s": 4.4,
+   "seconds": 9.5
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a standing guard position, shifting weight slightly between frames but not launching any limb toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance, shifting weight and moving his feet slightly, but his hands remain in a guard position and no limb extends toward Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0005_4.0s.jpg",
+   "start_s": 4.0,
+   "end_s": 5.2,
+   "seconds": 9.2
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance facing Player 1. Throughout the 8 frames, Player 2 maintains a static defensive posture with hands up, showing no offensive movement or significant footwork.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0006_4.8s.jpg",
+   "start_s": 4.8,
+   "end_s": 6.0,
+   "seconds": 10.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a fighting stance facing Player 2. In frames 7 and 8, Player 1 executes a quick, low kick with the lead leg (right leg) towards Player 2's body.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance facing Player 1. Throughout the clip, Player 2 remains in a static stance, hands up in a guard position, and does not launch any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0007_5.6s.jpg",
+   "start_s": 5.6,
+   "end_s": 6.8,
+   "seconds": 10.7
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a forward stance, shifting weight forward and extending his right hand in a straight punch toward Player 2's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a defensive stance, moving his feet slightly to maintain distance and absorbing the incoming punch.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0008_6.4s.jpg",
+   "start_s": 6.4,
+   "end_s": 7.61,
+   "seconds": 10.7
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a fighting stance, bouncing slightly on the balls of his feet and shifting his weight between legs while facing Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a fighting stance, bouncing slightly on the balls of his feet and shifting his weight between legs while facing Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0009_7.2s.jpg",
+   "start_s": 7.21,
+   "end_s": 8.41,
+   "seconds": 11.6
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a forward stance, shifting weight and moving slightly forward and backward, but his hands remain in a guard position with no extension toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a forward stance, shifting weight and moving slightly forward and backward, but his hands remain in a guard position with no extension toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0010_8.0s.jpg",
+   "start_s": 8.01,
+   "end_s": 9.21,
+   "seconds": 12.7
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a fighting stance, shifting weight slightly between frames but keeping hands up in a guard position throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance, shifting weight slightly between frames but keeping hands up in a guard position throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0011_8.8s.jpg",
+   "start_s": 8.81,
+   "end_s": 10.01,
+   "seconds": 12.5
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a stance, then in frames 5-6 throws a straight punch with his lead hand, followed by a kick with his rear leg in frames 7-8.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a defensive stance, blocking the punch, and then in frames 7-8 throws a roundhouse kick with his rear leg.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0012_9.6s.jpg",
+   "start_s": 9.61,
+   "end_s": 10.81,
+   "seconds": 13.5
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) initiates a kick with the rear leg, lifting the knee and snapping the foot around horizontally toward Player 2's body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) maintains a defensive stance, hands up, and does not launch any attack during the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0013_10.4s.jpg",
+   "start_s": 10.41,
+   "end_s": 11.61,
+   "seconds": 17.4
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a forward stance facing Player 2. In frames 1-4, he is stationary, bouncing slightly in his stance. In frames 5-8, he steps forward with his lead leg and throws a straight punch with his lead hand toward Player 2's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a forward stance facing Player 1. In frames 1-4, he is stationary, bouncing slightly in his stance. In frames 5-8, he is stationary, bouncing slightly in his stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0014_11.2s.jpg",
+   "start_s": 11.21,
+   "end_s": 12.41,
+   "seconds": 19.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a fighting stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0015_12.0s.jpg",
+   "start_s": 12.01,
+   "end_s": 13.21,
+   "seconds": 16.7
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, shifting his weight slightly between frames but not launching any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0016_12.8s.jpg",
+   "start_s": 12.81,
+   "end_s": 14.01,
+   "seconds": 14.9
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) is in a fighting stance, bouncing slightly on the balls of his feet and shifting his weight between legs while facing Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0017_13.6s.jpg",
+   "start_s": 13.61,
+   "end_s": 14.81,
+   "seconds": 15.0
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) is in a forward stance, shifting his weight and moving his feet slightly, but his hands remain in a guard position with no extension toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0018_14.4s.jpg",
+   "start_s": 14.41,
+   "end_s": 15.61,
+   "seconds": 14.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a right-sided stance. In frames 1-2, he is in a ready stance. In frames 3-4, he throws a straight punch with his right hand (lead hand) toward the opponent's head. In frames 5-6, the punch is fully extended and held. In frames 7-8, he retracts the punch and returns to a ready stance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a left-sided stance. In frames 1-2, he is in a ready stance. In frames 3-4, he is in a ready stance. In frames 5-6, he is in a ready stance. In frames 7-8, he is in a ready stance. He does not throw any punches or kicks.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0019_15.2s.jpg",
+   "start_s": 15.21,
+   "end_s": 16.41,
+   "seconds": 13.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a stance, then in frames 7-8 extends his right hand forward in a straight punch toward Player 2's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a stance, facing Player 1, and remains stationary throughout the clip, with hands up in a guard.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0020_16.0s.jpg",
+   "start_s": 16.01,
+   "end_s": 17.21,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a stance, then throws a right hand straight punch toward Player 2's head, extending the arm fully in frames 5-6 before retracting.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a stance, then throws a left hand straight punch toward Player 1's head, extending the arm fully in frames 5-6 before retracting.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0021_16.8s.jpg",
+   "start_s": 16.81,
+   "end_s": 18.01,
+   "seconds": 12.5
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a fighting stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0022_17.6s.jpg",
+   "start_s": 17.61,
+   "end_s": 18.81,
+   "seconds": 11.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is standing in a fighting stance, facing away from the camera, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is facing Player 1. In frames 1-4, he is in a stance. In frames 5-6, he performs a kick with his rear leg (right leg) towards Player 1's body. In frames 7-8, he lands the kick and follows through.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0023_18.4s.jpg",
+   "start_s": 18.41,
+   "end_s": 19.61,
+   "seconds": 12.6
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue shirt (Player 1) is standing in a fighting stance, facing away from the camera, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange shirt (Player 2) is facing the camera, performing a series of movements. In frames 1-2, he is in a stance. In frames 3-4, he performs a quick step forward with his right leg and extends his right arm forward in a jabbing motion. In frames 5-8, he returns to a neutral stance.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0024_19.2s.jpg",
+   "start_s": 19.21,
+   "end_s": 20.41,
+   "seconds": 11.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is standing in a fighting stance facing away from the camera, with hands up in a guard position, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0025_20.0s.jpg",
+   "start_s": 20.01,
+   "end_s": 21.22,
+   "seconds": 9.6
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter (Player 2) is standing in a fighting stance, facing away from the camera, with hands held up in a guard position and no significant movement of hands or legs toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0026_20.8s.jpg",
+   "start_s": 20.82,
+   "end_s": 22.02,
+   "seconds": 9.9
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is visible in frames 7 and 8, standing in a fighting stance facing Player 1. He remains stationary in these frames, with no punches or kicks launched.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0027_21.6s.jpg",
+   "start_s": 21.62,
+   "end_s": 22.82,
+   "seconds": 10.0
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange shirt stands in a fighting stance, facing the blue fighter, and remains stationary throughout the 8 frames.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0028_22.4s.jpg",
+   "start_s": 22.42,
+   "end_s": 23.62,
+   "seconds": 9.2
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is facing the camera, standing in a fighting stance, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0029_23.2s.jpg",
+   "start_s": 23.22,
+   "end_s": 24.42,
+   "seconds": 9.3
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is standing in a relaxed stance, shifting weight slightly between frames but not initiating any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is standing in a relaxed stance, shifting weight slightly between frames but not initiating any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0030_24.0s.jpg",
+   "start_s": 24.02,
+   "end_s": 25.22,
+   "seconds": 10.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a fighting stance, shifting weight and moving his feet slightly, but his hands remain in a guard position with no extension toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a fighting stance, shifting his weight and moving his feet slightly, but his hands remain in a guard position with no extension toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0031_24.8s.jpg",
+   "start_s": 24.82,
+   "end_s": 26.02,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a standing guard stance, shifting weight slightly between frames but keeping hands up in a defensive position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance, shifting his weight and moving his feet slightly, but his hands remain in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0032_25.6s.jpg",
+   "start_s": 25.62,
+   "end_s": 26.82,
+   "seconds": 11.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a forward stance, shifting his weight and moving his feet slightly forward and backward, but his hands remain in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a forward stance, shifting his weight and moving his feet slightly forward and backward, but his hands remain in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0033_26.4s.jpg",
+   "start_s": 26.42,
+   "end_s": 27.62,
+   "seconds": 11.0
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a forward stance, shifting weight forward and extending his lead arm (right hand) in a straight jab toward Player 2's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a forward stance, shifting weight forward and extending his lead arm (right hand) in a straight jab toward Player 1's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0034_27.2s.jpg",
+   "start_s": 27.22,
+   "end_s": 28.42,
+   "seconds": 11.7
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a forward stance, shifting weight forward and extending the lead arm toward the opponent's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a forward stance, shifting weight forward and extending the lead arm toward the opponent's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0035_28.0s.jpg",
+   "start_s": 28.02,
+   "end_s": 29.22,
+   "seconds": 11.3
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) maintains a static fighting stance, shifting weight slightly but not launching any punch or kick toward Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) maintains a static fighting stance, shifting weight slightly but not launching any punch or kick toward Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0036_28.8s.jpg",
+   "start_s": 28.82,
+   "end_s": 30.02,
+   "seconds": 17.3
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a forward stance, shifting weight slightly forward and back, with hands up in a guard position, but does not launch any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a forward stance, shifting weight slightly forward and back, with hands up in a guard position, but does not launch any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0037_29.6s.jpg",
+   "start_s": 29.62,
+   "end_s": 30.82,
+   "seconds": 19.1
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a stance, then in frames 5-8 lifts their lead leg and extends it forward and across the body to strike the opponent's head.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) remains in a defensive stance, raising their hands to guard their head and torso throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0038_30.4s.jpg",
+   "start_s": 30.42,
+   "end_s": 31.62,
+   "seconds": 19.7
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) executes a roundhouse kick with the rear leg, lifting the knee and snapping the leg around horizontally toward Player 2's body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a defensive stance, absorbing the kick and moving slightly backward to evade contact.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0039_31.2s.jpg",
+   "start_s": 31.22,
+   "end_s": 32.42,
+   "seconds": 17.5
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) initiates a kick with the rear leg, lifting the knee and snapping the foot around horizontally toward the opponent's body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a defensive stance, absorbing the kick and moving backward slightly.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0040_32.0s.jpg",
+   "start_s": 32.02,
+   "end_s": 33.22,
+   "seconds": 17.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a fighting stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a fighting stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0041_32.8s.jpg",
+   "start_s": 32.82,
+   "end_s": 34.02,
+   "seconds": 18.0
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a right-front stance. In frames 1-4, he is standing still or making very small adjustments. In frames 5-8, he steps forward with his right foot and throws a right-hand straight punch toward Player 2's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a left-front stance. He is standing still in frames 1-4. In frames 5-8, he is standing still, observing Player 1's attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0042_33.6s.jpg",
+   "start_s": 33.62,
+   "end_s": 34.83,
+   "seconds": 12.7
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue box) is standing in a fighting stance, shifting weight slightly and moving feet to adjust position, but does not launch any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange box) is standing in a fighting stance, shifting weight and moving feet to adjust position, but does not launch any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0043_34.4s.jpg",
+   "start_s": 34.43,
+   "end_s": 35.63,
+   "seconds": 11.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue box) is standing in a fighting stance, shifting weight slightly between frames but not launching any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange box) is standing in a fighting stance, shifting weight slightly between frames but not launching any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0044_35.2s.jpg",
+   "start_s": 35.23,
+   "end_s": 36.43,
+   "seconds": 10.7
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box (Player 1) is standing in a fighting stance, facing forward, with hands up in a guard position and feet planted on the mat. He remains stationary throughout the 8 frames, showing no signs of punching, kicking, or significant movement.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, facing away from the camera, with hands up in a guard position and feet planted on the mat. He remains stationary throughout the 8 frames, showing no signs of punching, kicking, or significant movement.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0045_36.0s.jpg",
+   "start_s": 36.03,
+   "end_s": 37.23,
+   "seconds": 11.9
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box stands in a ready stance, shifting his weight slightly between frames but keeping his hands up in a guard position with no extension toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box stands in a ready stance, facing away from the camera, with his hands in a guard position and no movement toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0046_36.8s.jpg",
+   "start_s": 36.83,
+   "end_s": 38.03,
+   "seconds": 10.6
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a neutral stance, shifts weight to the lead leg, and executes a right-front leg roundhouse kick to the opponent's head height.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) stands in a neutral stance, shifts weight to the lead leg, and executes a left-front leg roundhouse kick to the opponent's head height.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0047_37.6s.jpg",
+   "start_s": 37.63,
+   "end_s": 38.83,
+   "seconds": 11.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a forward stance, bouncing slightly on the balls of his feet and shifting his weight forward and back while facing Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a forward stance, bouncing slightly on the balls of his feet and shifting his weight forward and back while facing Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0048_38.4s.jpg",
+   "start_s": 38.43,
+   "end_s": 39.63,
+   "seconds": 10.6
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue) is in a forward stance, hands up in a guard, and shifts his weight slightly forward and back but does not launch any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) is in a forward stance, hands up in a guard, and shifts his weight slightly forward and back but does not launch any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0049_39.2s.jpg",
+   "start_s": 39.23,
+   "end_s": 40.43,
+   "seconds": 10.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue) is in a fighting stance, shifting weight slightly and moving his hands up and down in a guard position throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) is in a fighting stance, shifting his weight and moving his hands up and down in a guard position throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0050_40.0s.jpg",
+   "start_s": 40.03,
+   "end_s": 41.23,
+   "seconds": 11.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a forward stance, hands up in a guard, and remains stationary throughout the clip, occasionally shifting weight slightly.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a forward stance, hands up in a guard, and remains stationary throughout the clip, occasionally shifting weight slightly.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0051_40.8s.jpg",
+   "start_s": 40.83,
+   "end_s": 42.03,
+   "seconds": 11.0
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) maintains a static fighting stance with hands up in a guard position throughout the entire clip, showing no significant movement or attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) maintains a static fighting stance with hands up in a guard position throughout the entire clip, showing no significant movement or attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0052_41.6s.jpg",
+   "start_s": 41.63,
+   "end_s": 42.83,
+   "seconds": 11.4
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a stance, then in frames 7-8 executes a rapid forward movement with the lead leg, extending the lead arm straight toward the opponent's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) remains in a static guard stance throughout the clip, absorbing the incoming attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0053_42.4s.jpg",
+   "start_s": 42.43,
+   "end_s": 43.63,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) starts in a stance, then lifts their rear leg and swings it in a circular motion around their body, extending the foot toward the opponent's head height.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "hook",
+    "height": "jodan",
+    "label": "URA_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) remains in a defensive stance, hands up, observing Player 1's movement throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0054_43.2s.jpg",
+   "start_s": 43.23,
+   "end_s": 44.43,
+   "seconds": 18.7
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue box) is in a forward stance. In frames 1-6, he is standing still or making very small adjustments. In frame 7, he lifts his lead leg and extends it forward in a straight line. In frame 8, the leg is fully extended and the foot is pointed.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "side",
+    "height": "chudan",
+    "label": "YOKO_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange box) is in a forward stance. In frames 1-6, he is standing still or making very small adjustments. In frame 7, he lifts his lead leg and extends it forward in a straight line. In frame 8, the leg is fully extended and the foot is pointed.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "side",
+    "height": "chudan",
+    "label": "YOKO_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0055_44.0s.jpg",
+   "start_s": 44.03,
+   "end_s": 45.23,
+   "seconds": 22.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a fighting stance, shifting weight slightly between frames but keeping hands up in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance, shifting weight slightly between frames but keeping hands up in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0056_44.8s.jpg",
+   "start_s": 44.83,
+   "end_s": 46.03,
+   "seconds": 18.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a fighting stance, shifting weight slightly and moving his hands in a guard position, but does not launch any punch or kick toward Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance, shifting his weight and moving his hands in a guard position, but does not launch any punch or kick toward Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0057_45.6s.jpg",
+   "start_s": 45.63,
+   "end_s": 46.83,
+   "seconds": 18.5
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) shifts his weight forward and throws a straight punch with his lead (left) hand toward Player 2's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) remains in a static guard stance, shifting his weight slightly but not launching any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0058_46.4s.jpg",
+   "start_s": 46.43,
+   "end_s": 47.63,
+   "seconds": 15.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) maintains a static fighting stance with hands up in guard, shifting weight slightly but not launching any limb toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) maintains a static fighting stance with hands up in guard, shifting weight slightly but not launching any limb toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0059_47.2s.jpg",
+   "start_s": 47.23,
+   "end_s": 48.44,
+   "seconds": 10.6
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) maintains a static fighting stance with hands up in guard, shifting weight slightly but not advancing or retreating.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) maintains a static fighting stance with hands up in guard, shifting weight slightly but not advancing or retreating.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0060_48.0s.jpg",
+   "start_s": 48.04,
+   "end_s": 49.24,
+   "seconds": 10.7
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a stance, then pivots his hips and drives his lead leg forward to execute a roundhouse kick toward Player 2's head.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) remains in a defensive stance, raising his hands to guard his head and torso while observing the incoming kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0061_48.8s.jpg",
+   "start_s": 48.84,
+   "end_s": 50.04,
+   "seconds": 11.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) starts in a stance, then lifts their rear leg and swings it in a horizontal arc around their body, extending the foot toward Player 2's torso.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) remains in a defensive stance, shifting weight slightly and moving their hands up to guard their head and chest as Player 1 kicks.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0062_49.6s.jpg",
+   "start_s": 49.64,
+   "end_s": 50.84,
+   "seconds": 12.6
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a stance, then in frames 5-6 lifts their rear leg and swings it across their body in a hook motion toward Player 2's head, followed by a return to stance.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "hook",
+    "height": "jodan",
+    "label": "URA_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) remains in a defensive stance throughout the clip, shifting weight slightly but not launching any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0063_50.4s.jpg",
+   "start_s": 50.44,
+   "end_s": 51.64,
+   "seconds": 12.6
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) starts in a stance, then lifts their rear leg and swings it in a circular motion around their body, extending the foot toward Player 2's head height.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) remains in a defensive stance, moving slightly backward and raising their hands to guard their head and body as Player 1 kicks.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0064_51.2s.jpg",
+   "start_s": 51.24,
+   "end_s": 52.44,
+   "seconds": 11.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a wide stance facing away from the camera. In frames 5-6, he performs a sharp, quick movement where his right arm extends forward and his left arm retracts, but the arm stops short of the opponent's face. In frames 7-8, he returns to his original stance, and the arm is retracted.",
+    "attack": "feint",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "FEINT",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a standard fighting stance facing the camera. Throughout the 8 frames, he remains stationary, shifting his weight slightly but not launching any punches or kicks. His hands are held up in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0065_52.0s.jpg",
+   "start_s": 52.04,
+   "end_s": 53.24,
+   "seconds": 12.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a fighting stance, facing Player 2. In frames 1-4, the player is stationary, shifting weight slightly but not launching any limb. In frames 5-8, the player remains in the same stance, with no extension of the arm or leg toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a fighting stance facing Player 1. In frames 1-4, the player is stationary, hands up in a guard position. In frames 5-8, the player remains in the same stance, hands up, with no extension of the arm or leg toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0066_52.8s.jpg",
+   "start_s": 52.84,
+   "end_s": 54.04,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a wide stance facing away from the camera, with hands up in a guard position, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a fighting stance facing Player 1. In frames 1-4, the player extends their right arm forward in a straight punch motion toward the opponent's head. In frames 5-8, the arm retracts back to the guard position.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0067_53.6s.jpg",
+   "start_s": 53.64,
+   "end_s": 54.84,
+   "seconds": 12.7
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box (Player 1) is standing in a fighting stance, facing Player 2, with no significant movement or attack observed across the frames.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, facing Player 1, with no significant movement or attack observed across the frames.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0068_54.4s.jpg",
+   "start_s": 54.44,
+   "end_s": 55.64,
+   "seconds": 12.0
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a defensive stance, shifting weight and moving feet slightly but keeping hands up in a guard position throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance, shifting weight and moving feet slightly but keeping hands up in a guard position throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0069_55.2s.jpg",
+   "start_s": 55.24,
+   "end_s": 56.44,
+   "seconds": 11.6
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a stance, then in frames 5-8, the lead leg (right) lifts and the rear leg (left) pivots, snapping the lead leg across the body to strike the opponent's head.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "hook",
+    "height": "jodan",
+    "label": "KIZAMI_URA_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) remains in a static fighting stance throughout the clip, with hands up in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0070_56.0s.jpg",
+   "start_s": 56.04,
+   "end_s": 57.24,
+   "seconds": 12.0
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a wide stance facing right. In frames 1-6, he is in a static guard position, shifting his weight slightly but not launching any attack. In frame 7, he throws a right hand punch toward the opponent's head. In frame 8, the punch is fully extended and the opponent is blocking it.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a standard stance facing left. In frames 1-6, he is in a static guard position, watching Player 1. In frame 7, he raises his left hand to block the incoming punch. In frame 8, he maintains the block and absorbs the impact.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0071_56.8s.jpg",
+   "start_s": 56.84,
+   "end_s": 58.04,
+   "seconds": 12.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a stance, then in frames 7-8 executes a rapid kick with the rear leg, lifting the knee and snapping the foot across the body toward the opponent's head.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "hook",
+    "height": "jodan",
+    "label": "URA_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) remains in a defensive stance throughout the clip, moving slightly but not launching any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0072_57.6s.jpg",
+   "start_s": 57.64,
+   "end_s": 58.84,
+   "seconds": 11.3
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) starts in a stance, then pivots their hips and drives their rear leg forward in a roundhouse motion, extending the foot toward the opponent's body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) remains in a defensive stance, moving slightly backward and raising their hands to guard their head and body throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0073_58.4s.jpg",
+   "start_s": 58.44,
+   "end_s": 59.64,
+   "seconds": 17.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue) starts in a stance, then in frames 5-6 executes a rapid forward lunge with the lead leg while extending the lead hand straight toward the opponent's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) is mostly stationary or moving slightly backward, maintaining a defensive stance and blocking the incoming attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.98,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0074_59.2s.jpg",
+   "start_s": 59.24,
+   "end_s": 60.44,
+   "seconds": 18.7
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box (Player 1) is standing in a fighting stance, bouncing slightly on the balls of his feet and shifting his weight between legs while facing the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, bouncing slightly on the balls of his feet and shifting his weight between legs while facing the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0075_60.0s.jpg",
+   "start_s": 60.04,
+   "end_s": 61.24,
+   "seconds": 18.3
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Orange) is standing in a fighting stance, facing Player 2. In frames 1-4, he is stationary. In frames 5-6, he performs a quick step forward with his lead leg and throws a straight punch with his lead hand. In frames 7-8, he is moving away from the opponent.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "chudan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Blue) is standing in a fighting stance, facing Player 1. In frames 1-4, he is stationary. In frames 5-6, he is moving backward and away from Player 1. In frames 7-8, he is still moving backward.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0076_60.8s.jpg",
+   "start_s": 60.84,
+   "end_s": 62.05,
+   "seconds": 21.3
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box (Player 1) is standing in a fighting stance, facing away from the camera, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, facing away from the camera, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0077_61.6s.jpg",
+   "start_s": 61.65,
+   "end_s": 62.85,
+   "seconds": 16.0
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box is standing in a fighting stance, facing the opponent, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box is standing in a fighting stance, facing the opponent, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0078_62.5s.jpg",
+   "start_s": 62.45,
+   "end_s": 63.65,
+   "seconds": 9.9
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box (Player 1) is standing in a fighting stance, facing the opponent. In frames 1-6, he is stationary or making very small adjustments. In frame 7, he begins to lift his right leg (the lead leg) and swing it around in a circular motion towards the opponent's head. In frame 8, the leg is extended high, completing a hook kick.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "hook",
+    "height": "jodan",
+    "label": "KIZAMI_URA_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, facing the opponent. Throughout the 8 frames, he remains in a static or slightly shifting stance, observing the opponent. He does not launch any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0079_63.2s.jpg",
+   "start_s": 63.25,
+   "end_s": 64.45,
+   "seconds": 12.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) starts in a stance, then in frames 5-8 executes a rapid front-leg roundhouse kick to the opponent's head, extending the lead knee and snapping the foot around.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "KIZAMI_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a defensive stance, moving slightly backward and raising the hands to guard the head as Player 1 kicks.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0080_64.0s.jpg",
+   "start_s": 64.05,
+   "end_s": 65.25,
+   "seconds": 11.4
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) starts in a stance, then performs a sharp, forward-moving punch with his right hand toward Player 2's head, followed by a step forward with his left leg.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) remains in a defensive stance, moving slightly backward and shifting his weight, but does not launch any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0081_64.8s.jpg",
+   "start_s": 64.85,
+   "end_s": 66.05,
+   "seconds": 11.9
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, facing the opponent, with hands in a guard position and no significant movement of hands or legs toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0082_65.7s.jpg",
+   "start_s": 65.65,
+   "end_s": 66.85,
+   "seconds": 10.5
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box (Player 1) is standing still, facing away from the camera, with hands in a guard position and no significant movement.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing still, facing away from the camera, with hands in a guard position and no significant movement.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0083_66.5s.jpg",
+   "start_s": 66.45,
+   "end_s": 67.65,
+   "seconds": 12.3
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is standing in a fighting stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is standing in a fighting stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0084_67.2s.jpg",
+   "start_s": 67.25,
+   "end_s": 68.45,
+   "seconds": 12.0
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box (Player 1) is standing in a fighting stance, bouncing slightly on the balls of his feet and shifting his weight between legs while facing the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, bouncing slightly on the balls of his feet and shifting his weight between legs while facing the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0085_68.0s.jpg",
+   "start_s": 68.05,
+   "end_s": 69.25,
+   "seconds": 11.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a stance, then in frames 7-8 steps forward with the lead leg and throws a roundhouse kick with the rear leg toward Player 2's body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) stands in a defensive stance, facing Player 1, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0086_68.8s.jpg",
+   "start_s": 68.85,
+   "end_s": 70.05,
+   "seconds": 12.0
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a forward stance, shifting his weight and moving his feet slightly, but his hands remain in a guard position with no extension toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a forward stance, shifting his weight and moving his feet slightly, but his hands remain in a guard position with no extension toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0087_69.7s.jpg",
+   "start_s": 69.65,
+   "end_s": 70.85,
+   "seconds": 11.4
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a fighting stance, bouncing slightly on the balls of his feet and shifting his weight between legs while facing Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance, bouncing slightly on the balls of his feet and shifting his weight between legs while facing Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0088_70.5s.jpg",
+   "start_s": 70.45,
+   "end_s": 71.65,
+   "seconds": 11.7
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) maintains a static fighting stance with hands up in a guard position throughout the entire 8-frame sequence, showing no significant movement or attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) maintains a static fighting stance with hands up in a guard position throughout the entire 8-frame sequence, showing no significant movement or attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0089_71.2s.jpg",
+   "start_s": 71.25,
+   "end_s": 72.45,
+   "seconds": 11.5
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue) maintains a static fighting stance, shifting his weight slightly but keeping his hands up in a guard position throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) maintains a static fighting stance, shifting his weight slightly but keeping his hands up in a guard position throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0090_72.0s.jpg",
+   "start_s": 72.05,
+   "end_s": 73.25,
+   "seconds": 11.4
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue) starts in a stance, then in frames 5-6 lifts their rear leg and swings it across their body in a hook motion, extending the heel toward Player 2's head.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "hook",
+    "height": "jodan",
+    "label": "URA_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) remains in a defensive stance, shifting weight slightly but not launching any attack or significant movement toward Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0091_72.8s.jpg",
+   "start_s": 72.85,
+   "end_s": 74.05,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue) is in a forward stance, shifting weight forward and extending his lead arm (left hand) in a straight punch toward Player 2's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) is in a back stance, shifting weight forward and extending his lead arm (right hand) in a straight punch toward Player 1's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0092_73.7s.jpg",
+   "start_s": 73.65,
+   "end_s": 74.85,
+   "seconds": 11.1
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a standing stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) starts in a stance, then in frames 5-8 executes a powerful kick with the rear leg, lifting the knee and snapping the foot around horizontally toward Player 1's body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0093_74.5s.jpg",
+   "start_s": 74.45,
+   "end_s": 75.66,
+   "seconds": 17.2
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a defensive stance, blocking the incoming punch, then throws a roundhouse kick with his rear (right) leg toward Player 1's body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.9,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0094_75.3s.jpg",
+   "start_s": 75.26,
+   "end_s": 76.46,
+   "seconds": 18.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a forward stance. In frames 1-4, he is in a static, ready stance. In frames 5-8, he steps back and turns his body to the side, looking away from the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0095_76.1s.jpg",
+   "start_s": 76.06,
+   "end_s": 77.26,
+   "seconds": 19.6
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) is standing in a fighting stance, facing Player 1, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0096_76.9s.jpg",
+   "start_s": 76.86,
+   "end_s": 78.06,
+   "seconds": 15.9
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is visible in the background in frames 1-4, standing still. In frames 5-8, he is obscured by the camera operator and the blue fighter, so he is not visible.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0097_77.7s.jpg",
+   "start_s": 77.66,
+   "end_s": 78.86,
+   "seconds": 17.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is standing in a fighting stance facing away from the camera, with hands up in a guard position. He remains stationary throughout the clip, occasionally shifting his weight slightly but not launching any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0098_78.5s.jpg",
+   "start_s": 78.46,
+   "end_s": 79.66,
+   "seconds": 9.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is standing in a fighting stance, facing away from the camera, with hands in a guard position and no visible leg movement or punch thrown.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0099_79.3s.jpg",
+   "start_s": 79.26,
+   "end_s": 80.46,
+   "seconds": 9.6
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box (Player 1) is standing in a relaxed stance, hands at the waist, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a relaxed stance, hands at the waist, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0100_80.1s.jpg",
+   "start_s": 80.06,
+   "end_s": 81.26,
+   "seconds": 11.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) starts in a neutral stance, then in frames 7-8 steps forward with his lead leg and throws a straight punch with his lead hand toward Player 2's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) stands in a defensive stance, facing away from the camera, and remains stationary throughout the clip, only shifting his weight slightly.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0101_80.9s.jpg",
+   "start_s": 80.86,
+   "end_s": 82.06,
+   "seconds": 11.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a fighting stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a fighting stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0102_81.7s.jpg",
+   "start_s": 81.66,
+   "end_s": 82.86,
+   "seconds": 10.5
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a forward stance, facing Player 2. He performs a sharp, quick movement where his lead leg (right leg) lifts and extends forward in a straight line, while his hips rotate to the side. His hands remain in a guard position, and the kick does not reach the opponent's body or head.",
+    "attack": "feint",
+    "side": "lead",
+    "kick_type": "side",
+    "height": "chudan",
+    "label": "FEINT",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a standard fighting stance, facing Player 1. He remains stationary throughout the clip, with his hands in a guard position and feet planted on the mat. He does not move forward or backward.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0103_82.5s.jpg",
+   "start_s": 82.46,
+   "end_s": 83.66,
+   "seconds": 11.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue) starts in a stance, then in frames 7-8, the rear leg lifts and swings across the body in a hook motion toward the opponent's head.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "hook",
+    "height": "jodan",
+    "label": "URA_MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) is in a stance, moving slightly forward and backward, but does not launch any punch or kick in the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0104_83.3s.jpg",
+   "start_s": 83.26,
+   "end_s": 84.46,
+   "seconds": 11.4
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a stance, then performs a sharp pivot turn to his right, bringing his rear hand across his body toward Player 2's head.",
+    "attack": "punch",
+    "side": "rear",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "GYAKU_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a defensive stance, slightly crouched and moving backward to evade the incoming attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0105_84.1s.jpg",
+   "start_s": 84.06,
+   "end_s": 85.26,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a forward stance, facing right. In frames 1-4, he is moving forward and slightly to the right, stepping with his lead foot. In frames 5-8, he continues to move forward and to the right, maintaining his stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a forward stance, facing left. In frames 1-4, he is moving forward and slightly to the left, stepping with his lead foot. In frames 5-8, he continues to move forward and to the left, maintaining his stance.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0106_84.9s.jpg",
+   "start_s": 84.86,
+   "end_s": 86.06,
+   "seconds": 13.3
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box is standing in a fighting stance, shifting his weight and moving his feet slightly, but his hands remain in a guard position with no punches or kicks launched toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box is standing in a fighting stance, shifting his weight and moving his feet slightly, but his hands remain in a guard position with no punches or kicks launched toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0107_85.7s.jpg",
+   "start_s": 85.66,
+   "end_s": 86.86,
+   "seconds": 12.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is walking forward and circling slightly to the right, moving closer to Player 2, with hands in a relaxed guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is standing still in a fighting stance, facing away from the camera, with hands in a relaxed guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0108_86.5s.jpg",
+   "start_s": 86.46,
+   "end_s": 87.66,
+   "seconds": 12.1
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box is standing in a fighting stance, shifting his weight slightly between frames, and then extends his right arm forward in a jabbing motion toward the opponent's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box is standing in a fighting stance, facing away from the camera, and remains relatively stationary throughout the clip, occasionally shifting his weight.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0109_87.3s.jpg",
+   "start_s": 87.26,
+   "end_s": 88.46,
+   "seconds": 12.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) stands in a fighting stance, shifting his weight slightly between frames but keeping his hands up in a guard position throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) stands in a fighting stance, facing away from the camera, and remains stationary with his hands up in a guard position throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0110_88.1s.jpg",
+   "start_s": 88.06,
+   "end_s": 89.27,
+   "seconds": 11.1
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a forward stance, bouncing slightly on the balls of his feet and shifting his weight forward and backward, but his hands remain in a guard position and he does not launch any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a forward stance, bouncing slightly on the balls of his feet and shifting his weight forward and backward, but his hands remain in a guard position and he does not launch any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0111_88.9s.jpg",
+   "start_s": 88.87,
+   "end_s": 90.07,
+   "seconds": 11.5
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a forward stance, bouncing slightly on the balls of his feet and shifting his weight forward and backward, but his hands remain in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a forward stance, bouncing slightly on the balls of his feet and shifting his weight forward and backward, but his hands remain in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0112_89.7s.jpg",
+   "start_s": 89.67,
+   "end_s": 90.87,
+   "seconds": 10.4
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a forward stance, shifting weight forward and extending his lead arm (left hand) in a straight jab toward Player 2's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a defensive stance, shifting weight back and slightly to the side, with hands up in a guard position. He does not launch any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0113_90.5s.jpg",
+   "start_s": 90.47,
+   "end_s": 91.67,
+   "seconds": 11.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is in a forward stance, shifting weight forward and extending his right hand in a straight punch toward Player 2's head.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is in a defensive stance, absorbing the punch and shifting his weight back slightly.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0114_91.3s.jpg",
+   "start_s": 91.27,
+   "end_s": 92.47,
+   "seconds": 11.1
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is in a forward stance, shifting weight forward and slightly stepping into the opponent's space while keeping hands up in a guard.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) starts in a stance, then lifts his rear leg (right leg) and swings it in a horizontal arc around his body, striking the opponent's mid-section with the instep.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0115_92.1s.jpg",
+   "start_s": 92.07,
+   "end_s": 93.27,
+   "seconds": 11.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue) starts in a stance, then in frames 5-6 extends their right arm forward in a straight punch toward Player 2's head, followed by a step forward with the right foot.",
+    "attack": "punch",
+    "side": "lead",
+    "kick_type": "none",
+    "height": "jodan",
+    "label": "KIZAMI_ZUKI",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) remains in a defensive stance, hands up near the chin, and does not launch any attack or significant movement toward Player 1 during the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0116_92.9s.jpg",
+   "start_s": 92.87,
+   "end_s": 94.07,
+   "seconds": 11.6
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) starts in a stance, then in frames 5-6 lifts their lead knee and snaps their leg around horizontally to strike the opponent's body, followed by a recovery step.",
+    "attack": "kick",
+    "side": "lead",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "KIZAMI_MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) remains in a defensive stance, moving slightly back and shifting weight, but does not launch any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0117_93.7s.jpg",
+   "start_s": 93.67,
+   "end_s": 94.87,
+   "seconds": 11.6
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is standing in a fighting stance, shifting weight slightly between frames, and then takes a step forward towards the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is standing in a fighting stance, shifting weight slightly between frames, and then takes a step forward towards the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0118_94.5s.jpg",
+   "start_s": 94.47,
+   "end_s": 95.67,
+   "seconds": 11.6
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue box) is seen walking forward and stepping into a stance, moving from left to right across the mat.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange box) is standing still in a fighting stance, facing away from the camera, with no significant movement or attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0119_95.3s.jpg",
+   "start_s": 95.27,
+   "end_s": 96.47,
+   "seconds": 17.5
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is standing in a relaxed stance, shifting weight slightly between the legs and moving his feet in place.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is standing in a relaxed stance, shifting weight slightly between the legs and moving his feet in place.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0120_96.1s.jpg",
+   "start_s": 96.07,
+   "end_s": 97.27,
+   "seconds": 17.9
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box (Player 1) is standing in a fighting stance, facing the opponent. Throughout the 8 frames, he shifts his weight slightly and adjusts his feet, but his hands remain in a guard position and he does not launch any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, facing the opponent. He remains stationary, keeping his hands in a guard position and his feet planted on the mat for the entire duration of the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0121_96.9s.jpg",
+   "start_s": 96.87,
+   "end_s": 98.07,
+   "seconds": 19.4
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is standing in a fighting stance facing Player 2, shifting weight slightly between frames but not launching any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is standing in a fighting stance facing Player 1, shifting weight slightly between frames but not launching any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0122_97.7s.jpg",
+   "start_s": 97.67,
+   "end_s": 98.87,
+   "seconds": 16.7
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box is standing in a fighting stance, facing the opponent, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box is standing in a fighting stance, facing the opponent, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0123_98.5s.jpg",
+   "start_s": 98.47,
+   "end_s": 99.67,
+   "seconds": 15.2
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is facing the opponent (Player 1). In frames 1-4, he is in a standard stance. In frames 5-8, he begins to lift his right leg (the rear leg) and swings it around in a circular motion towards the opponent's body. The leg extends fully, with the foot reaching the opponent's stomach/rib area.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0124_99.3s.jpg",
+   "start_s": 99.27,
+   "end_s": 100.47,
+   "seconds": 20.1
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is in a stance, then in frames 5-6 lifts the rear knee and snaps the rear leg across the body to strike the opponent's head, followed by a lead-hand punch.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "jodan",
+    "label": "MAWASHI_GERI_JODAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0125_100.1s.jpg",
+   "start_s": 100.07,
+   "end_s": 101.27,
+   "seconds": 13.2
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) is mostly stationary in a defensive stance, moving slightly to absorb the kick, with no offensive action launched.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0.98,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0126_100.9s.jpg",
+   "start_s": 100.87,
+   "end_s": 102.07,
+   "seconds": 8.7
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange) is in a fighting stance, shifting weight and moving feet slightly, but does not launch any punch or kick toward Player 1.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0127_101.7s.jpg",
+   "start_s": 101.67,
+   "end_s": 102.88,
+   "seconds": 9.6
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box (Player 1) is standing in a fighting stance, facing away from the camera, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, facing the opponent, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0128_102.5s.jpg",
+   "start_s": 102.48,
+   "end_s": 103.68,
+   "seconds": 10.9
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Orange) starts in a stance, shifts weight to the rear leg, and executes a roundhouse kick with the rear leg toward Player 2's body.",
+    "attack": "kick",
+    "side": "rear",
+    "kick_type": "roundhouse",
+    "height": "chudan",
+    "label": "MAWASHI_GERI_CHUDAN",
+    "confidence": 0.95,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Blue) is in a defensive stance, moving slightly backward and shifting weight to absorb the incoming kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0129_103.3s.jpg",
+   "start_s": 103.28,
+   "end_s": 104.48,
+   "seconds": 12.2
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (orange box) is standing in a fighting stance, bouncing slightly on the balls of his feet and shifting his weight between legs while facing Player 2.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (blue box) is standing in a fighting stance, bouncing slightly and shifting his weight, mirroring Player 1's readiness.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0130_104.1s.jpg",
+   "start_s": 104.08,
+   "end_s": 105.28,
+   "seconds": 12.0
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue box (Player 1) is standing in a fighting stance, shifting weight slightly between frames but not launching any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, shifting weight slightly between frames but not launching any punch or kick.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0131_104.9s.jpg",
+   "start_s": 104.88,
+   "end_s": 106.08,
+   "seconds": 12.0
+  },
+  {
+   "player1": {
+    "what_happened": "The fighter in the blue shirt (Player 1) stands in a relaxed stance, shifting his weight slightly between frames but never extending a limb toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the black/orange shirt (Player 2) shifts his weight and turns his body slightly, but his hands remain in a guard position and his feet do not move forward to launch an attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0132_105.7s.jpg",
+   "start_s": 105.68,
+   "end_s": 106.88,
+   "seconds": 11.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (blue shirt) stands in a relaxed stance, shifting his weight slightly between frames but keeping his hands down in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (orange shirt) stands in a relaxed stance, shifting his weight slightly between frames but keeping his hands down in a guard position.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0133_106.5s.jpg",
+   "start_s": 106.48,
+   "end_s": 107.68,
+   "seconds": 11.8
+  },
+  {
+   "player1": {
+    "what_happened": "Player 1 (Blue) is standing in a fighting stance, facing Player 2. He shifts his weight slightly and adjusts his position but does not throw any punches or kicks.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is standing in a fighting stance, facing Player 1. He shifts his weight slightly and adjusts his position but does not throw any punches or kicks.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0134_107.3s.jpg",
+   "start_s": 107.28,
+   "end_s": 108.48,
+   "seconds": 10.1
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "Player 2 (Orange) is standing in a fighting stance, facing Player 1. Throughout the 8 frames, he remains stationary, maintaining his guard and stance. He does not move his hands or feet to initiate any attack.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0135_108.1s.jpg",
+   "start_s": 108.08,
+   "end_s": 109.28,
+   "seconds": 10.5
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box is standing in a relaxed stance, facing slightly left, with hands down and no significant movement of the arms or legs toward the opponent.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0136_108.9s.jpg",
+   "start_s": 108.88,
+   "end_s": 110.08,
+   "seconds": 9.6
+  },
+  {
+   "player1": {
+    "what_happened": "not visible in this window",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 0,
+    "consistent": true
+   },
+   "player2": {
+    "what_happened": "The fighter in the orange box (Player 2) is standing in a fighting stance, facing away from the camera, and remains stationary throughout the clip.",
+    "attack": "none",
+    "side": "none",
+    "kick_type": "none",
+    "height": "none",
+    "label": "MOVEMENT",
+    "confidence": 1.0,
+    "consistent": true
+   },
+   "video": "match1",
+   "image": "clips/match1/0137_109.7s.jpg",
+   "start_s": 109.68,
+   "end_s": 110.88,
+   "seconds": 9.6
+  }
+ ]
+}

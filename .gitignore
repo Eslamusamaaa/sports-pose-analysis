@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+node_modules/
+dist/
+data/
+third_party/
+*.mp4
+*.mov
+*.avi
+*.zip
+*.gguf
+*.npy
+# keep the one trained model we ship
+*.pth
+!models/swimming/stgcn_swim4_best_epoch9.pth
