@@ -24,3 +24,6 @@ app/third_party/
 app/data/
 app/.env
 app/models/openpose/
+
+# local-only videos (never pushed)
+videos/
