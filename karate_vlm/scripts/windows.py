@@ -17,7 +17,8 @@ sys.path.insert(0, str(BACKEND))
 from app.services import player_follow, skeleton_service  # noqa: E402
 from app.utils.logging_utils import JobLogger  # noqa: E402
 
-JOB_DIRS = [BACKEND.parent / "data" / "jobs", Path(r"D:/Users/karate-training/karate-ai-data/jobs")]
+import os
+JOB_DIRS = [BACKEND.parent / "data" / "jobs"] + [Path(d) for d in os.environ.get("KARATE_EXTRA_JOB_DIRS", "").split(os.pathsep) if d]
 WIN_S = 1.2     # window length
 STEP_S = 0.8    # a new window every 0.8 s (0.4 s overlap, so no technique is cut in two)
 N_FRAMES = 8    # frames sent to the model per window

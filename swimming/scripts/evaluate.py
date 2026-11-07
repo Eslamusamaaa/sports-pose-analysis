@@ -62,10 +62,10 @@ def report(name, y, p, views):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--config", default=r"D:\Users\karate-training\swim\stgcn_swim4.py")
+    ap.add_argument("--config", default="swimming/scripts/stgcn_swim4.py")
     ap.add_argument("--checkpoint", required=True)
-    ap.add_argument("--data", default=r"D:\Users\karate-training\datasets\swimxyz\swimxyz_coco17_split.pkl")
-    ap.add_argument("--out", default=r"D:\Users\karate-training\swim\eval_report.json")
+    ap.add_argument("--data", default="data/swimxyz/swimxyz_coco17_split.pkl")
+    ap.add_argument("--out", default="swimming/reports/eval_report.json")
     a = ap.parse_args()
 
     import swim_transforms  # noqa: F401  registers SwimSkeletonAug

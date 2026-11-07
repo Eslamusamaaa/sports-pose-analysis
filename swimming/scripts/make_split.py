@@ -44,7 +44,7 @@ class UnionFind:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--src", nargs="+", required=True, help="one or more converted pickles")
-    ap.add_argument("--dst", default=r"D:\Users\karate-training\datasets\swimxyz\swimxyz_coco17_split.pkl")
+    ap.add_argument("--dst", default="data/swimxyz/swimxyz_coco17_split.pkl")
     ap.add_argument("--val-frac", type=float, default=0.2)
     a = ap.parse_args()
 

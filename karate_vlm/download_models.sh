@@ -1,5 +1,5 @@
 #!/bin/bash
-V=/d/Users/karate-training/vlm; cd $V
+V="$(cd "$(dirname "$0")/.." && pwd)/external/vlm"; mkdir -p "$V/llama" "$V/models"; cd "$V"
 get(){ # url dest
   for i in 1 2 3; do curl -L --fail -C - -s -o "$2" "$1" && { echo "OK $(basename "$2") $(du -m "$2" | cut -f1)MB"; return; }; sleep 5; done; echo "FAIL $2"; }
 get https://github.com/ggml-org/llama.cpp/releases/download/b11538/llama-b11538-bin-win-cuda-12.4-x64.zip llama/llama.zip

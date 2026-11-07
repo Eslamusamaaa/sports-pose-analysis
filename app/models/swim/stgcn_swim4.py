@@ -1,6 +1,6 @@
 # Inference-only config for the swimming ST-GCN (4 strokes, SwimXYZ).
 # Training config (with augmentation + data paths) lives in
-# D:/Users/karate-training/swim/stgcn_swim4.py; this copy has no custom
+# swimming/scripts/stgcn_swim4.py; this copy has no custom
 # imports so the web app's worker can load it on its own.
 default_scope = 'mmaction'
 

@@ -1,6 +1,9 @@
-# Backend API only. MMAction2 / torch / mmcv live in the separate Python 3.11
-# venv created by scripts/setup_mmaction_env.ps1 (see README).
+# Backend API (system Python 3.10-3.12). MMAction2 / torch / mmcv live in the separate
+# Python 3.11 venv created by app/scripts/setup_mmaction_env.ps1.
 fastapi>=0.110
 uvicorn[standard]>=0.27
 python-multipart>=0.0.9
 python-dotenv>=1.0
+numpy<2
+scipy>=1.10
+opencv-python>=4.8

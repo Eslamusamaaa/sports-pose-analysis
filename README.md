@@ -4,7 +4,7 @@ Skeleton-based sports analysis built around one shared pipeline, with **two spor
 (karate kumite, swimming) and **several approaches** to the labelling problem
 (pretrained skeleton models, a local VLM, synthetic data).
 
-> Arabic status report (what is finished, exactly): [`docs/STATUS_AR.md`](docs/STATUS_AR.md) ·
+> Setup from clone: [`SETUP.md`](SETUP.md) · what is finished, exactly: [`docs/STATUS.md`](docs/STATUS.md) ·
 > every karate approach in detail: [`docs/KARATE_APPROACHES.md`](docs/KARATE_APPROACHES.md) ·
 > dataset research: [`docs/DATASET_RESEARCH.md`](docs/DATASET_RESEARCH.md)
 
@@ -30,7 +30,7 @@ video ──► pose engine ──► tracking / player identity ──► BODY_
 | GPU OpenPose, 30× faster than CPU (0.071 s/frame) | **Done** | `docs/PROJECT_STATE.md` §15 |
 | Kumite player tracking (ByteTrack, re-ID, two-player follow, Viterbi swap fix) | **Done** | `app/backend/app/services/{bytetrack,players_identity,player_follow}.py` |
 | Alternative pose engines (RTMPose, YOLO11-pose) | **Done, compared** | `app/backend/app/services/pose_engine_service.py` |
-| **Swimming stroke model** (ST-GCN, 4 strokes) trained on synthetic SwimXYZ | **Trained** — 99.93 % top-1 on *held-out synthetic motions* | `swimming/`, `models/swimming/` |
+| **Swimming stroke model** (ST-GCN, 4 strokes) trained on synthetic SwimXYZ | **Trained** — 99.93 % top-1 on *held-out synthetic motions* | `swimming/`, `app/models/swim/` |
 | Swimming accuracy on **real** pool video | **Not measured** (no labelled real video) | — |
 | Karate VLM technique labelling (12 WKF labels), 3 VLMs compared | **Prototype run on 1 match, no ground truth** | `karate_vlm/` |
 | **Karate trained classifier** | **Does not exist yet.** Only out-of-domain NTU RGB+D 60 models are wired in | `docs/PROJECT_STATE.md` §2–3 |
@@ -49,7 +49,7 @@ app/              web app: FastAPI backend, React/Vite frontend, setup scripts
   scripts/                PowerShell installers (GPU OpenPose, CUDA venv, model download)
 swimming/         SwimXYZ → PoseDataset conversion, leakage-aware split, ST-GCN config, training log, evaluation
 karate_vlm/       VLM pipeline: windows → 2×4 frame grids → llama.cpp server → JSON-constrained labels → HTML reports
-models/swimming/  the trained swimming ST-GCN checkpoint (12.6 MB) + label map
+app/models/swim/ the trained swimming ST-GCN checkpoint (12.6 MB) + label map
 docs/             project state/handoff, dataset research, original PoC prompt, pose-engine comparison page
 ```
 
@@ -130,21 +130,10 @@ Swimmers are the hard case for every engine (water, splash, occlusion).
 6. **Report**: timeline per player, job browser, live webcam mode at ~10 fps.
 
 ## Reproducing
-Paths in scripts are still the original Windows paths (`D:/Users/karate-training/...`); edit the constants at the top of each script.
+Step-by-step instructions (clone → external dependencies → app → swimming training → VLM experiment) are in [`SETUP.md`](SETUP.md).
+All paths in the code are relative to the repository root or configurable through `app/.env` / environment variables; nothing is tied to the original machine.
 
-```powershell
-# app
-cd app ; Copy-Item .env.example .env
-powershell -ExecutionPolicy Bypass -File scripts/setup_mmaction_env.ps1
-powershell -ExecutionPolicy Bypass -File scripts/setup_openpose_gpu.ps1
-powershell -ExecutionPolicy Bypass -File scripts/download_models.ps1
-cd backend ; python -m uvicorn app.main:app --port 8000
-cd ../frontend ; npm install ; npm run dev
-```
-
-Swimming data: **SwimXYZ** — <https://zenodo.org/records/8399376> (CC-BY 4.0). `swimming/download.sh` + `swimming/manifest.txt` fetch the four `*_labels.zip` (~6.6 GB) with md5 sums. Then
-`convert_swimxyz.py` → `make_split.py` → MMAction2 `train.py` with `stgcn_swim4.py` → `evaluate.py`.
-VLM models: `karate_vlm/download_models.sh` (llama.cpp + GGUF files from Hugging Face).
+Swimming data: **SwimXYZ** — <https://zenodo.org/records/8399376> (CC-BY 4.0). `swimming/download.sh` + `swimming/manifest.txt` fetch the four `*_labels.zip` (~6.6 GB) with md5 sums.
 
 ## What is deliberately NOT in this repo
 - Input videos (match footage, swimming clips) — rights unclear; see `docs/DATASET_RESEARCH.md` §8.

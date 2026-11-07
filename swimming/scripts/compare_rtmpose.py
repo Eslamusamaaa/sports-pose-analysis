@@ -16,13 +16,14 @@ import cv2
 import numpy as np
 import torch
 
-LIBS = r"D:\Users\karate-training\swim\pose-libs"
+ROOT = Path(__file__).resolve().parents[2]
+LIBS = str(ROOT / "external" / "pose-libs")
 sys.path.insert(0, LIBS)
 from mmdet.apis import inference_detector, init_detector  # noqa: E402
 from mmpose.apis import inference_topdown, init_model  # noqa: E402
 from mmpose.utils import adapt_mmdet_pipeline  # noqa: E402
 
-M = Path(r"D:\Users\karate-training\swim\pose-models")
+M = ROOT / "external" / "pose-models"
 DET_CFG = Path(LIBS) / "mmpose/.mim/demo/mmdetection_cfg/rtmdet_m_640-8xb32_coco-person.py"
 DET_W = M / "rtmdet_m_8xb32-100e_coco-obj365-person-235e8209.pth"
 POSE_CFG = Path(LIBS) / "mmpose/.mim/configs/body_2d_keypoint/rtmpose/body8/rtmpose-m_8xb512-700e_body8-halpe26-256x192.py"

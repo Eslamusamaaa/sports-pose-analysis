@@ -16,7 +16,8 @@ import urllib.request
 from pathlib import Path
 
 HERE = Path(__file__).parent
-VLM = Path(r"D:/Users/karate-training/vlm")
+import os
+VLM = Path(os.environ.get("KARATE_VLM_DIR", HERE.parents[1] / "external" / "vlm"))
 SERVER = VLM / "llama" / "llama-server.exe"
 PORT = 8090
 

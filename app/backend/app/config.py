@@ -241,19 +241,19 @@ class Settings:
     # venv that MMAction2 depends on is never modified; pose_extract.py puts
     # these folders on sys.path itself.
     pose_libs_dir: Path = field(
-        default_factory=lambda: _path("POSE_LIBS_DIR", Path(r"D:/Users/karate-training/swim/pose-libs"))
+        default_factory=lambda: _path("POSE_LIBS_DIR", PROJECT_ROOT.parent / "external" / "pose-libs")
     )
     yolo_libs_dir: Path = field(
-        default_factory=lambda: _path("YOLO_LIBS_DIR", Path(r"D:/Users/karate-training/yolo-libs"))
+        default_factory=lambda: _path("YOLO_LIBS_DIR", PROJECT_ROOT.parent / "external" / "yolo-libs")
     )
     pose_models_dir: Path = field(
-        default_factory=lambda: _path("POSE_MODELS_DIR", Path(r"D:/Users/karate-training/swim/pose-models"))
+        default_factory=lambda: _path("POSE_MODELS_DIR", PROJECT_ROOT.parent / "external" / "pose-models")
     )
 
     # Person re-identification (OSNet-AIN x1.0, MSMT17; MIT). Keeps "Player 1"
     # on the same fighter by appearance when the tracker swaps or loses ids.
     reid_dir: Path = field(
-        default_factory=lambda: _path("REID_DIR", Path(r"D:/Users/karate-training/reid"))
+        default_factory=lambda: _path("REID_DIR", BACKEND_DIR / "reid")
     )
 
     @property

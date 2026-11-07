@@ -4,7 +4,8 @@
 # Windows are 60 contiguous frames at 30 fps (2 s) - the web app's swimming
 # timeline sends exactly this, so UniformSampleFrames(clip_len=60) is an
 # identity at inference and never time-compresses the stroke.
-_base_ = r'C:/Users/Laptop World/Downloads/Body_Pose-20260924T150348Z-1-001/Body_Pose/mmaction2-main/configs/_base_/default_runtime.py'
+# paths are relative to the repo root: run training from there
+_base_ = '../../mmaction2-main/configs/_base_/default_runtime.py'
 
 custom_imports = dict(imports=['swim_transforms'], allow_failed_imports=False)
 
@@ -14,7 +15,7 @@ model = dict(
     cls_head=dict(type='GCNHead', num_classes=4, in_channels=256))
 
 dataset_type = 'PoseDataset'
-ann_file = r'D:/Users/karate-training/datasets/swimxyz/swimxyz_coco17_split.pkl'
+ann_file = 'data/swimxyz/swimxyz_coco17_split.pkl'
 CLIP = 60
 
 train_pipeline = [
@@ -72,6 +73,6 @@ default_hooks = dict(
     checkpoint=dict(interval=1, max_keep_ckpts=2, save_best='acc/top1', rule='greater'),
     logger=dict(interval=100))
 
-load_from = r'C:/Users/Laptop World/Downloads/Body_Pose-20260924T150348Z-1-001/Body_Pose/karate-ai-web/models/mmaction/stgcn_8xb16-joint-u100-80e_ntu60-xsub-keypoint-2d_20221129-484a394a.pth'
-work_dir = r'D:/Users/karate-training/swim/work_dir'
+load_from = 'app/models/mmaction/stgcn_8xb16-joint-u100-80e_ntu60-xsub-keypoint-2d_20221129-484a394a.pth'
+work_dir = 'work_dirs/swim'
 auto_scale_lr = dict(enable=False, base_batch_size=128)

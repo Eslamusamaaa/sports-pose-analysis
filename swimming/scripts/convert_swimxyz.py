@@ -162,8 +162,8 @@ def convert(raw_dir: Path, out: Path, limit: int | None, strokes: list[str]) -> 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--raw", default=r"D:\Users\karate-training\datasets\swimxyz\raw")
-    ap.add_argument("--out", default=r"D:\Users\karate-training\datasets\swimxyz\swimxyz_coco17_all.pkl")
+    ap.add_argument("--raw", default="data/swimxyz/raw")
+    ap.add_argument("--out", default="data/swimxyz/swimxyz_coco17_all.pkl")
     ap.add_argument("--limit", type=int, default=None, help="sequences per stroke (smoke test)")
     ap.add_argument("--strokes", default=",".join(STROKES), help="comma list; labels stay fixed")
     a = ap.parse_args()
